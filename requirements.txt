@@ -1,0 +1,12 @@
+# Core dependencies for Day 7 — Agentic RAG
+torch>=2.0.0
+FlagEmbedding>=1.2.0
+transformers>=4.35.0
+qdrant-client>=1.7.0
+rank-bm25>=0.2.2
+openai>=1.12.0
+tiktoken>=0.5.0
+pydantic>=2.0.0
+pymupdf>=1.23.0
+tqdm>=4.66.0
+pytest>=7.4.0

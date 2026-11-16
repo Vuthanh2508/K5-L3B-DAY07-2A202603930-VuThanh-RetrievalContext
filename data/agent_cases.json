@@ -13,7 +13,8 @@
       }
     ],
     "filter": null,
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q02",
@@ -29,7 +30,8 @@
       }
     ],
     "filter": null,
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q03",
@@ -45,7 +47,8 @@
       }
     ],
     "filter": null,
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q04",
@@ -63,7 +66,8 @@
     "filter": {
       "section": "Notes to Consolidated Financial Statements"
     },
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q05",
@@ -79,7 +83,8 @@
       }
     ],
     "filter": null,
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q06",
@@ -95,7 +100,8 @@
       }
     ],
     "filter": null,
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q07",
@@ -111,7 +117,8 @@
       }
     ],
     "filter": null,
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q08",
@@ -127,7 +134,8 @@
       }
     ],
     "filter": null,
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q09",
@@ -145,7 +153,8 @@
     "filter": {
       "section": "Notes to Consolidated Financial Statements"
     },
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q10",
@@ -161,7 +170,8 @@
       }
     ],
     "filter": null,
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q11",
@@ -177,7 +187,8 @@
       }
     ],
     "filter": null,
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q12",
@@ -193,7 +204,8 @@
       }
     ],
     "filter": null,
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q13",
@@ -209,7 +221,8 @@
       }
     ],
     "filter": null,
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q14",
@@ -227,7 +240,8 @@
     "filter": {
       "section": "Management’s Discussion and Analysis"
     },
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q15",
@@ -243,7 +257,8 @@
       }
     ],
     "filter": null,
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q16",
@@ -259,7 +274,8 @@
       }
     ],
     "filter": null,
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q17",
@@ -275,7 +291,8 @@
       }
     ],
     "filter": null,
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q18",
@@ -293,7 +310,8 @@
     "filter": {
       "section": "Notes to Consolidated Financial Statements"
     },
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q19",
@@ -309,7 +327,8 @@
       }
     ],
     "filter": null,
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q20",
@@ -327,7 +346,8 @@
     "filter": {
       "section": "Other Information"
     },
-    "answerable": true
+    "answerable": true,
+    "expected_behavior": "search_and_answer"
   },
   {
     "id": "q_dev_unans_01",
@@ -336,7 +356,9 @@
     "question": "Kế hoạch chi tiêu vốn (Capital Expenditures) dự kiến của Netflix cho toàn bộ năm tài chính 2025 là bao nhiêu?",
     "expected_answer": "Không có thông tin trong tài liệu (tài liệu chỉ là báo cáo Q2/2023, không có dự phóng CapEx cho năm 2025).",
     "gold": [],
-    "answerable": false
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Tài liệu là báo cáo Q2/2023, không có thông tin kế hoạch CapEx dự phóng cho năm 2025."
   },
   {
     "id": "q_dev_unans_02",
@@ -345,7 +367,9 @@
     "question": "Tỷ lệ hủy đăng ký (churn rate) hàng tháng của các thuê bao Netflix tại thị trường Việt Nam trong quý 2 năm 2023 là bao nhiêu?",
     "expected_answer": "Không có thông tin trong tài liệu (Netflix không công bố số liệu tỷ lệ churn riêng cho thị trường Việt Nam).",
     "gold": [],
-    "answerable": false
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Netflix không công bố số liệu tỷ lệ churn riêng cho thị trường Việt Nam trong Form 10-Q."
   },
   {
     "id": "q_test_unans_01",
@@ -354,7 +378,9 @@
     "question": "Mức lương thưởng và thù lao chi tiết của Tổng Giám đốc điều hành (Co-CEO) Ted Sarandos trong quý 2 năm 2023 là bao nhiêu?",
     "expected_answer": "Không có thông tin trong tài liệu (thù lao ban điều hành được công bố trên Definitive Proxy Statement Form DEF 14A, không có trong 10-Q).",
     "gold": [],
-    "answerable": false
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Báo cáo Form 10-Q không công bố thù lao chi tiết của ban điều hành (chỉ công bố trên DEF 14A Proxy Statement)."
   },
   {
     "id": "q_test_unans_02",
@@ -363,6 +389,8 @@
     "question": "Doanh thu chi tiết từ gói thành viên có hỗ trợ quảng cáo (ad-supported tier) của Netflix tại thị trường Nhật Bản trong 6 tháng đầu năm 2023 là bao nhiêu?",
     "expected_answer": "Không có thông tin trong tài liệu (Netflix không bóc tách riêng doanh thu quảng cáo cho từng quốc gia cụ thể).",
     "gold": [],
-    "answerable": false
+    "answerable": false,
+    "expected_behavior": "search_and_abstain",
+    "absence_reason": "Netflix không bóc tách riêng doanh thu gói quảng cáo cho từng quốc gia cụ thể (Nhật Bản)."
   }
 ]

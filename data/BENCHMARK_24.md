@@ -10,7 +10,7 @@
 | Nhóm câu hỏi | Dev Split | Test Split | Tổng cộng |
 | :--- | :---: | :---: | :---: |
 | **Câu hỏi có đáp án (Answerable)** | 15 câu (`q01` – `q15`) | 5 câu (`q16` – `q20`) | **20 câu** |
-| **Câu hỏi thiếu bằng chứng (Unanswerable / Abstention)** | 2 câu (`q_unans_dev_01`, `q_unans_dev_02`) | 2 câu (`q_unans_test_01`, `q_unans_test_02`) | **4 câu** |
+| **Câu hỏi thiếu bằng chứng (Unanswerable / Abstention)** | 2 câu (`q_dev_unans_01`, `q_dev_unans_02`) | 2 câu (`q_test_unans_01`, `q_test_unans_02`) | **4 câu** |
 | **Tổng số câu benchmark** | **17 câu** | **7 câu** | **24 câu** |
 
 ---
@@ -20,30 +20,30 @@
 Các câu hỏi này thuộc cùng chủ đề Netflix nhưng cố tình hỏi về các thông tin **hoàn toàn không được công bố** trong tài liệu SEC Form 10-Q Q2/2023 để kiểm tra khả năng từ chối trả lời (Abstention) của Agent:
 
 ### A. Tập Dev (2 câu)
-1. **`q_unans_dev_01`:**
-   * **Câu hỏi:** *Mức lương cơ bản (base salary) và thưởng tiền mặt cụ thể của Co-CEO Ted Sarandos và Greg Peters trong quý 2 năm 2023 là bao nhiêu?*
+1. **`q_dev_unans_01`:**
+   * **Câu hỏi:** *Kế hoạch chi tiêu vốn (Capital Expenditures) dự kiến của Netflix cho toàn bộ năm tài chính 2025 là bao nhiêu?*
    * **Hành vi kỳ vọng:** `search_and_abstain` (Tìm kiếm và từ chối trả lời).
-   * **Lý do thiếu thông tin:** Báo cáo tài chính Form 10-Q không công bố chi tiết thù lao, lương thưởng cụ thể của từng thành viên ban giám đốc điều hành (thông tin này chỉ được công bố trong Báo cáo thường niên Form 10-K hoặc Báo cáo ủy quyền biểu quyết DEF 14A Proxy Statement).
-2. **`q_unans_dev_02`:**
-   * **Câu hỏi:** *Netflix có kế hoạch đầu tư bao nhiêu tỷ USD vào việc xây dựng công viên giải trí chủ đề (theme park) hoặc chuỗi bán lẻ Netflix House trong năm 2023?*
+   * **Lý do thiếu thông tin:** Tài liệu là báo cáo quý Q2/2023, không có thông tin kế hoạch CapEx dự phóng cho năm tài chính 2025.
+2. **`q_dev_unans_02`:**
+   * **Câu hỏi:** *Tỷ lệ hủy đăng ký (churn rate) hàng tháng của các thuê bao Netflix tại thị trường Việt Nam trong quý 2 năm 2023 là bao nhiêu?*
    * **Hành vi kỳ vọng:** `search_and_abstain`.
-   * **Lý do thiếu thông tin:** Tài liệu Form 10-Q Q2/2023 không chứa bất kỳ kế hoạch, số liệu vốn đầu tư hoặc thuyết minh nào liên quan đến xây dựng công viên giải trí chủ đề hay chuỗi cửa hàng vật lý Netflix House.
+   * **Lý do thiếu thông tin:** Netflix chỉ công bố số lượng thành viên trả phí ròng tăng thêm tổng thể, không công bố tỷ lệ hủy thuê bao (churn rate) bóc tách cho thị trường Việt Nam trong Form 10-Q.
 
 ### B. Tập Test (2 câu)
-1. **`q_unans_test_01`:**
-   * **Câu hỏi:** *Netflix dự kiến chi bao nhiêu tiền mặt để mua lại các hãng phim đối thủ hoặc bản quyền phát sóng giải thể thao trực tiếp (live sports broadcasting) trong nửa cuối năm 2023?*
+1. **`q_test_unans_01`:**
+   * **Câu hỏi:** *Mức lương thưởng và thù lao chi tiết của Tổng Giám đốc điều hành (Co-CEO) Ted Sarandos trong quý 2 năm 2023 là bao nhiêu?*
    * **Hành vi kỳ vọng:** `search_and_abstain`.
-   * **Lý do thiếu thông tin:** Báo cáo tài chính Form 10-Q không có bất kỳ thông tin hoặc cam kết ngân sách nào về việc mua lại hãng phim đối thủ hay đấu thầu bản quyền phát sóng giải thể thao trực tiếp trong nửa cuối năm 2023.
-2. **`q_unans_test_02`:**
-   * **Câu hỏi:** *Tỷ lệ người dùng hủy dịch vụ (churn rate) hàng tháng tại thị trường Bắc Mỹ (UCAN) trong quý 2 năm 2023 của Netflix là bao nhiêu phần trăm?*
+   * **Lý do thiếu thông tin:** Báo cáo Form 10-Q không công bố thù lao chi tiết của ban điều hành (thông tin này chỉ được công bố trên Definitive Proxy Statement Form DEF 14A).
+2. **`q_test_unans_02`:**
+   * **Câu hỏi:** *Doanh thu chi tiết từ gói thành viên có hỗ trợ quảng cáo (ad-supported tier) của Netflix tại thị trường Nhật Bản trong 6 tháng đầu năm 2023 là bao nhiêu?*
    * **Hành vi kỳ vọng:** `search_and_abstain`.
-   * **Lý do thiếu thông tin:** Netflix chỉ công bố số lượng thành viên trả phí ròng tăng thêm (paid net additions), tổng hội viên và ARM; hoàn toàn không công bố chỉ số tỷ lệ hủy thuê bao (churn rate) trong Form 10-Q.
+   * **Lý do thiếu thông tin:** Netflix không bóc tách riêng doanh thu gói quảng cáo cho từng quốc gia cụ thể (Nhật Bản).
 
 ---
 
 ## 3. Danh Sách 20 Câu Hỏi Có Đáp Án (Answerable) & Quy Chuẩn Đồng Bộ Hóa Dữ Liệu Day 07
 
-Bộ 20 câu hỏi được kế thừa 100% về mặt nội dung nghiệp vụ từ tệp gốc [`benchmark/gold_qa.json`](file:///c:/HUST/VIN/lab6/K5-L3-Day06-DataIngestionEngineering/benchmark/gold_qa.json) của Day 06 và được **chuyển đổi, đồng bộ hóa sang hợp đồng dữ liệu của Day 07** (`data/questions.json`):
+Bộ 20 câu hỏi được kế thừa 100% về mặt nội dung nghiệp vụ từ tệp gốc `benchmark/gold_qa.json` của Day 06 và được **chuyển đổi, đồng bộ hóa sang hợp đồng dữ liệu của Day 07** (`data/questions.json`):
 * **Dev (`q01` – `q15`):** Bao gồm doanh thu quý 2/2023 ($8.19 tỷ), tiền mặt ($7.66 tỷ), chính sách ghi nhận doanh thu, loại trừ quyền chọn cổ phiếu khỏi EPS, doanh thu EMEA ($2.56 tỷ), thỏa thuận tín dụng 1 tỷ USD, kế hoạch dừng DVD-by-mail, dòng tiền tự do ($1.34 tỷ).
 * **Test (`q16` – `q20`):** Bao gồm điều khoản ngừng mua lại cổ phiếu không cần báo trước, số tiền khả dụng mua lại cổ phiếu còn lại ($3.4 tỷ), tiền gửi bị hạn chế cho thư tín dụng, chính sách không dùng công cụ phái sinh ngoại hối, và không có thay đổi trọng yếu về yếu tố rủi ro Part II so với 10-K.
 
