@@ -194,7 +194,7 @@ def run_benchmark_agent(split: str = "dev", retriever_type: str = "hybrid_z",
         traces.append(trace_item)
 
     total_time = time.perf_counter() - start_all
-    cost_usd = (controller.total_prompt_tokens * 0.10 + controller.total_completion_tokens * 0.50) / 1_000_000
+    cost_usd = (controller.total_prompt_tokens * 0.15 + controller.total_completion_tokens * 0.60) / 1_000_000
 
     print("\n" + "=" * 80)
     print(f"Completed Split '{split}' with {retriever_type}: {len(traces)} cases in {total_time:.2f}s (avg {total_time/len(traces):.2f}s/q)")
@@ -228,10 +228,11 @@ def run_benchmark_agent(split: str = "dev", retriever_type: str = "hybrid_z",
         "prompt_tokens": controller.total_prompt_tokens,
         "completion_tokens": controller.total_completion_tokens,
         "pricing_per_1m_tokens": {
-            "prompt_usd": 0.10,
-            "completion_usd": 0.50,
-            "reference": "OpenAI official pricing: $0.10/1M input tokens, $0.50/1M output tokens"
+            "prompt_usd": 0.15,
+            "completion_usd": 0.60,
+            "reference": "OpenAI official pricing for gpt-4o-mini (https://developers.openai.com/api/docs/pricing): $0.15/1M input tokens, $0.60/1M output tokens"
         },
+        "cost_formula": "(prompt_tokens * 0.15 + completion_tokens * 0.60) / 1_000_000",
         "total_cost_usd": round(cost_usd, 6),
         "total_elapsed_seconds": round(total_time, 2),
         "avg_elapsed_seconds_per_query": round(total_time / len(traces), 2) if traces else 0.0,

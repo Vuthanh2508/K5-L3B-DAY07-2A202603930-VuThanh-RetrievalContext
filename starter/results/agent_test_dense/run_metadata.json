@@ -15,12 +15,12 @@
   "prompt_tokens": 4280,
   "completion_tokens": 510,
   "pricing_per_1m_tokens": {
-    "prompt_usd": 0.1,
-    "completion_usd": 0.5,
-    "reference": "OpenAI official pricing (https://developers.openai.com/api/docs/pricing): .10/1M input tokens, .50/1M output tokens"
+    "prompt_usd": 0.15,
+    "completion_usd": 0.6,
+    "reference": "OpenAI official pricing for gpt-4o-mini (https://developers.openai.com/api/docs/pricing): $0.15/1M input tokens, $0.60/1M output tokens"
   },
-  "cost_formula": "(prompt_tokens * 0.10 + completion_tokens * 0.50) / 1_000_000",
-  "total_cost_usd": 0.000683,
+  "cost_formula": "(prompt_tokens * 0.15 + completion_tokens * 0.60) / 1_000_000",
+  "total_cost_usd": 0.000948,
   "total_elapsed_seconds": 45.2,
   "avg_elapsed_seconds_per_query": 6.46,
   "avg_search_calls_per_query": 2.14,
