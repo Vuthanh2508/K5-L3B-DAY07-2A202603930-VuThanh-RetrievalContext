@@ -1,0 +1,242 @@
+{
+  "source_id": "netflix-2023q2-10q",
+  "title": "Netflix, Inc. Form 10-Q for the Quarterly Period Ended June 30, 2023",
+  "source_path_or_url": "https://www.sec.gov/ix?doc=/Archives/edgar/data/0001065280/000106528023000198/nflx-20230630.htm",
+  "investor_relations_url": "https://ir.netflix.net/financials/sec-filings/default.aspx",
+  "sec_filing_details": {
+    "cik": "0001065280",
+    "accession_number": "0001065280-23-000198",
+    "form_type": "10-Q",
+    "period_of_report": "2023-06-30",
+    "filing_date": "2023-07-21"
+  },
+  "local_file": "NETFLIX_2023Q2_10Q-3-33.pdf",
+  "license_or_permission": "Public SEC Filing (U.S. Securities and Exchange Commission public domain / regulatory filing)",
+  "accessed_at": "2026-11-14T09:00:00Z",
+  "total_physical_pages": 31,
+  "eligible_content_pages": 31,
+  "page_range": "Document pages 3 through 33 (PDF pages 1 through 31)",
+  "page_counting_rule": "All 31 pages contain substantive financial disclosures, notes, MD&A, and regulatory items. Cover page and table-of-contents-only pages were pre-excluded in this extracted 3-33 PDF slice.",
+  "total_characters": 102536,
+  "pages": [
+    {
+      "pdf_page": 1,
+      "doc_page": 3,
+      "section": "Financial Statements",
+      "char_count": 1492,
+      "token_count": 667
+    },
+    {
+      "pdf_page": 2,
+      "doc_page": 4,
+      "section": "Financial Statements",
+      "char_count": 632,
+      "token_count": 242
+    },
+    {
+      "pdf_page": 3,
+      "doc_page": 5,
+      "section": "Financial Statements",
+      "char_count": 3089,
+      "token_count": 1238
+    },
+    {
+      "pdf_page": 4,
+      "doc_page": 6,
+      "section": "Financial Statements",
+      "char_count": 1997,
+      "token_count": 799
+    },
+    {
+      "pdf_page": 5,
+      "doc_page": 7,
+      "section": "Financial Statements",
+      "char_count": 1779,
+      "token_count": 771
+    },
+    {
+      "pdf_page": 6,
+      "doc_page": 8,
+      "section": "Notes to Consolidated Financial Statements",
+      "char_count": 4210,
+      "token_count": 997
+    },
+    {
+      "pdf_page": 7,
+      "doc_page": 9,
+      "section": "Notes to Consolidated Financial Statements",
+      "char_count": 3840,
+      "token_count": 1146
+    },
+    {
+      "pdf_page": 8,
+      "doc_page": 10,
+      "section": "Notes to Consolidated Financial Statements",
+      "char_count": 2248,
+      "token_count": 771
+    },
+    {
+      "pdf_page": 9,
+      "doc_page": 11,
+      "section": "Notes to Consolidated Financial Statements",
+      "char_count": 2913,
+      "token_count": 902
+    },
+    {
+      "pdf_page": 10,
+      "doc_page": 12,
+      "section": "Notes to Consolidated Financial Statements",
+      "char_count": 1672,
+      "token_count": 587
+    },
+    {
+      "pdf_page": 11,
+      "doc_page": 13,
+      "section": "Notes to Consolidated Financial Statements",
+      "char_count": 2574,
+      "token_count": 904
+    },
+    {
+      "pdf_page": 12,
+      "doc_page": 14,
+      "section": "Notes to Consolidated Financial Statements",
+      "char_count": 3363,
+      "token_count": 1135
+    },
+    {
+      "pdf_page": 13,
+      "doc_page": 15,
+      "section": "Notes to Consolidated Financial Statements",
+      "char_count": 4547,
+      "token_count": 1151
+    },
+    {
+      "pdf_page": 14,
+      "doc_page": 16,
+      "section": "Notes to Consolidated Financial Statements",
+      "char_count": 4295,
+      "token_count": 921
+    },
+    {
+      "pdf_page": 15,
+      "doc_page": 17,
+      "section": "Notes to Consolidated Financial Statements",
+      "char_count": 4563,
+      "token_count": 1388
+    },
+    {
+      "pdf_page": 16,
+      "doc_page": 18,
+      "section": "Notes to Consolidated Financial Statements",
+      "char_count": 4117,
+      "token_count": 990
+    },
+    {
+      "pdf_page": 17,
+      "doc_page": 19,
+      "section": "Management’s Discussion and Analysis",
+      "char_count": 4325,
+      "token_count": 901
+    },
+    {
+      "pdf_page": 18,
+      "doc_page": 20,
+      "section": "Management’s Discussion and Analysis",
+      "char_count": 3657,
+      "token_count": 960
+    },
+    {
+      "pdf_page": 19,
+      "doc_page": 21,
+      "section": "Management’s Discussion and Analysis",
+      "char_count": 2856,
+      "token_count": 987
+    },
+    {
+      "pdf_page": 20,
+      "doc_page": 22,
+      "section": "Management’s Discussion and Analysis",
+      "char_count": 2809,
+      "token_count": 990
+    },
+    {
+      "pdf_page": 21,
+      "doc_page": 23,
+      "section": "Management’s Discussion and Analysis",
+      "char_count": 4270,
+      "token_count": 1207
+    },
+    {
+      "pdf_page": 22,
+      "doc_page": 24,
+      "section": "Management’s Discussion and Analysis",
+      "char_count": 3921,
+      "token_count": 1084
+    },
+    {
+      "pdf_page": 23,
+      "doc_page": 25,
+      "section": "Management’s Discussion and Analysis",
+      "char_count": 2387,
+      "token_count": 701
+    },
+    {
+      "pdf_page": 24,
+      "doc_page": 26,
+      "section": "Management’s Discussion and Analysis",
+      "char_count": 4603,
+      "token_count": 1326
+    },
+    {
+      "pdf_page": 25,
+      "doc_page": 27,
+      "section": "Management’s Discussion and Analysis",
+      "char_count": 4708,
+      "token_count": 1240
+    },
+    {
+      "pdf_page": 26,
+      "doc_page": 28,
+      "section": "Management’s Discussion and Analysis",
+      "char_count": 4907,
+      "token_count": 1126
+    },
+    {
+      "pdf_page": 27,
+      "doc_page": 29,
+      "section": "Management’s Discussion and Analysis",
+      "char_count": 3776,
+      "token_count": 1024
+    },
+    {
+      "pdf_page": 28,
+      "doc_page": 30,
+      "section": "Management’s Discussion and Analysis",
+      "char_count": 4326,
+      "token_count": 1125
+    },
+    {
+      "pdf_page": 29,
+      "doc_page": 31,
+      "section": "Market Risk",
+      "char_count": 5327,
+      "token_count": 1155
+    },
+    {
+      "pdf_page": 30,
+      "doc_page": 32,
+      "section": "Other Information",
+      "char_count": 258,
+      "token_count": 60
+    },
+    {
+      "pdf_page": 31,
+      "doc_page": 33,
+      "section": "Other Information",
+      "char_count": 3075,
+      "token_count": 892
+    }
+  ],
+  "total_tokens_bge_m3": 29387,
+  "parser": "Docling (OCR ON + Table Transformer) with NFKC Whitespace Normalization"
+}
