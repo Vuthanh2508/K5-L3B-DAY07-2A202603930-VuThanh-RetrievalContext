@@ -1,0 +1,1339 @@
+[
+  {
+    "query_id": "q01",
+    "split": "dev",
+    "question": "Tổng doanh thu (Revenues) của Netflix trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "netflix-2023q2-10q",
+        "page": 1,
+        "evidence": "| Revenues | $ 8,187,301 | $ 7,970,141 | $ 16,348,804 | $ 15,837,908 |"
+      }
+    ],
+    "results": [
+      {
+        "id": "stre_p03_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 3,
+        "text": "## NETFLIX, INC.\n\n## Consolidated Statements of Cash Flows\n\n## (unaudited) (in thousands)",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 3,
+          "doc_page": 5,
+          "section": "Financial Statements",
+          "token_count": 28,
+          "char_length": 89,
+          "chunk_index": 0
+        },
+        "score": 0.2425906076778341,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p05_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 5,
+        "text": "## NETFLIX, INC.\n\n## Consolidated Statements of Stockholders' Equity (unaudited) (in thousands)",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 5,
+          "doc_page": 7,
+          "section": "Financial Statements",
+          "token_count": 30,
+          "char_length": 95,
+          "chunk_index": 0
+        },
+        "score": 0.23773643538660483,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p10_001",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 10,
+        "text": "|  | Six Months Ended - June 30, 2023 - (in thousands) | Six Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- |\n| Licensed content | $ 3,502,999 | $ 3,784,220 |\n| Produced content | 3,367,006 | 2,643,493 |\n| Total | $ 6,870,005 | $ 6,427,713 |",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 10,
+          "doc_page": 12,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 114,
+          "char_length": 260,
+          "chunk_index": 1
+        },
+        "score": 0.23440175452305984,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[stre_p03_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 3]\n## NETFLIX, INC.\n\n## Consolidated Statements of Cash Flows\n\n## (unaudited) (in thousands)\n\n[stre_p05_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 5]\n## NETFLIX, INC.\n\n## Consolidated Statements of Stockholders' Equity (unaudited) (in thousands)\n\n[stre_p10_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 10]\n|  | Six Months Ended - June 30, 2023 - (in thousands) | Six Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- |\n| Licensed content | $ 3,502,999 | $ 3,784,220 |\n| Produced content | 3,367,006 | 2,643,493 |\n| Total | $ 6,870,005 | $ 6,427,713 |",
+    "context_ids": [
+      "stre_p03_000",
+      "stre_p05_000",
+      "stre_p10_001"
+    ],
+    "context_chars": 611,
+    "elapsed_ms": 0.19500000053085387,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q02",
+    "split": "dev",
+    "question": "Tính đến ngày 30 tháng 6 năm 2023, khoản mục tiền và các khoản tương đương tiền (Cash and cash equivalents) trên Bảng cân đối kế toán là bao nhiêu?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "netflix-2023q2-10q",
+        "page": 4,
+        "evidence": "| Cash and cash equivalents | $ 7,662,788 | $ 5,147,176 |"
+      }
+    ],
+    "results": [
+      {
+        "id": "stre_p03_003",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 3,
+        "text": "4,717 | 11,250 | 60,745 | 24,928 | | Repurchases of common stock | (645,146) | - | (1,045,247) | - | | Other financing activities | (38,920) | - | (38,920) | - | | Net cash provided by (used in) financing activities | (649,349) | 11,250 | (1,023,422) | (675,072) | | Effect of exchange rate changes on cash, cash equivalents and restricted cash | 39,626 | (145,198) | 66,049 | (156,646) | | Net increase (decrease) in cash, cash equivalents and restricted cash | 928,246 | (190,092) | 2,495,683 | (210,702) | | Cash, cash equivalents and restricted cash at beginning of period | 6,738,019 | 6,034,501 | 5,170,582 | 6,055,111 | | Cash, cash equivalents and restricted cash at end of period | $ 7,666,265 | $ 5,844,409 | $ 7,666,265 | $ 5,844,409 |",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 3,
+          "doc_page": 5,
+          "section": "Financial Statements",
+          "token_count": 298,
+          "char_length": 746,
+          "chunk_index": 3
+        },
+        "score": 0.5735737169698426,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p09_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 9,
+        "text": "## 4. Cash, Cash Equivalents, Restricted Cash, and Short-term Investments\n\nThe Company's investment policy is consistent with the definition of available-for-sale securities. The Company does not buy and hold securities principally for the purpose of selling them in the near future. The Company's policy is focused on the preservation of capital, liquidity and return. From time to time, the Company may sell certain securities but the objectives are generally not to generate profits on short-term differences in price. The following tables summarize the Company's cash, cash equivalents, restricted cash and short-term investments as of June 30, 2023 and December 31, 2022:\n\n|  | As of June 30, 2023 - Cash and cash equivalents - (in thousands) | As of June 30, 2023 - Short-term investments - (in thousands) | As of June 30, 2023 - Other Current Assets - (in thousands) | As of June 30, 2023 - Non-current Assets - (in thousands) | As of June 30, 2023 - Total - (in thousands) |\n| --- | --- | --- | --- | --- | --- |\n| Cash | $ 4,662,668 | $ - | $ 1,763 | $ 1,660 | $ 4,666,091 |\n| Level 1 securities: |  |  |  |  |  |\n| Money market funds | 2,628,351 | - | - | 54 | 2,628,405 |\n| Level 2 securities: |  |  |  |  |  |\n| Time Deposits (1) | 371,769 | 914,201 | - | - | 1,285,970 |\n|  | $ 7,662,788 | $ 914,201 | $ 1,763 | $ 1,714 | $ 8,580,466 |",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 9,
+          "doc_page": 11,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 438,
+          "char_length": 1348,
+          "chunk_index": 0
+        },
+        "score": 0.38669789720457526,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p27_002",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 27,
+        "text": "Free cash flow was $148 million lower than net income for the three months ended June 30, 2023, primarily due to $227 million of cash payments for content assets exceeding amortization expense and $28 million in other non-favorable working capital differences, partially offset by $78 million of non-cash stock-based compensation expense and $29 million of non-cash remeasurement loss on our euro-denominated debt.\n\nFree cash flow was $1,428 million lower than net income for the three months ended June 30, 2022, primarily due to $1,234 million of cash payments for content assets exceeding amortization expense, $305 million of non-cash remeasurement gain on our euro-denominated debt and $39 million in other nonfavorable working capital differences, partially offset by $150 million of non-cash stock-based compensation expense.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 27,
+          "doc_page": 29,
+          "section": "Management’s Discussion and Analysis",
+          "token_count": 200,
+          "char_length": 832,
+          "chunk_index": 2
+        },
+        "score": 0.28659237371184487,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[stre_p03_003 | NETFLIX_2023Q2_10Q-3-33.pdf | page 3]\n4,717 | 11,250 | 60,745 | 24,928 | | Repurchases of common stock | (645,146) | - | (1,045,247) | - | | Other financing activities | (38,920) | - | (38,920) | - | | Net cash provided by (used in) financing activities | (649,349) | 11,250 | (1,023,422) | (675,072) | | Effect of exchange rate changes on cash, cash equivalents and restricted cash | 39,626 | (145,198) | 66,049 | (156,646) | | Net increase (decrease) in cash, cash equivalents and restricted cash | 928,246 | (190,092) | 2,495,683 | (210,702) | | Cash, cash equivalents and restricted cash at beginning of period | 6,738,019 | 6,034,501 | 5,170,582 | 6,055,111 | | Cash, cash equivalents and restricted cash at end of period | $ 7,666,265 | $ 5,844,409 | $ 7,666,265 | $ 5,844,409 |",
+    "context_ids": [
+      "stre_p03_003"
+    ],
+    "context_chars": 800,
+    "elapsed_ms": 0.1461000010749558,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q03",
+    "split": "dev",
+    "question": "Mô hình ghi nhận doanh thu từ phí thành viên hàng tháng của Netflix được thực hiện theo nguyên tắc nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "netflix-2023q2-10q",
+        "page": 6,
+        "evidence": "The Company's primary source of revenues is from monthly membership fees."
+      }
+    ],
+    "results": [
+      {
+        "id": "stre_p03_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 3,
+        "text": "## NETFLIX, INC.\n\n## Consolidated Statements of Cash Flows\n\n## (unaudited) (in thousands)",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 3,
+          "doc_page": 5,
+          "section": "Financial Statements",
+          "token_count": 28,
+          "char_length": 89,
+          "chunk_index": 0
+        },
+        "score": 0.3834490701615581,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p05_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 5,
+        "text": "## NETFLIX, INC.\n\n## Consolidated Statements of Stockholders' Equity (unaudited) (in thousands)",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 5,
+          "doc_page": 7,
+          "section": "Financial Statements",
+          "token_count": 30,
+          "char_length": 95,
+          "chunk_index": 0
+        },
+        "score": 0.3757763582239725,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p01_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 1,
+        "text": "## NETFLIX, INC.\n\n## Consolidated Statements of Operations (unaudited)\n\n## (in thousands, except per share data)",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 1,
+          "doc_page": 3,
+          "section": "Financial Statements",
+          "token_count": 32,
+          "char_length": 112,
+          "chunk_index": 0
+        },
+        "score": 0.32559337563768026,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[stre_p03_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 3]\n## NETFLIX, INC.\n\n## Consolidated Statements of Cash Flows\n\n## (unaudited) (in thousands)\n\n[stre_p05_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 5]\n## NETFLIX, INC.\n\n## Consolidated Statements of Stockholders' Equity (unaudited) (in thousands)\n\n[stre_p01_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 1]\n## NETFLIX, INC.\n\n## Consolidated Statements of Operations (unaudited)\n\n## (in thousands, except per share data)",
+    "context_ids": [
+      "stre_p03_000",
+      "stre_p05_000",
+      "stre_p01_000"
+    ],
+    "context_chars": 462,
+    "elapsed_ms": 0.05959999907645397,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q04",
+    "split": "dev",
+    "question": "Theo Thuyết minh báo cáo tài chính (Notes to Consolidated Financial Statements), các khoản thanh toán cho đối tác (partners) sẽ được ghi nhận giảm trừ doanh thu (reduction of revenues) trong trường hợp nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "netflix-2023q2-10q",
+        "page": 6,
+        "evidence": "The Company's primary source of revenues is from monthly membership fees."
+      }
+    ],
+    "results": [
+      {
+        "id": "stre_p01_003",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 1,
+        "text": "See accompanying notes to the consolidated financial statements.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 1,
+          "doc_page": 3,
+          "section": "Financial Statements",
+          "token_count": 13,
+          "char_length": 64,
+          "chunk_index": 3
+        },
+        "score": 0.4466773553526292,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p03_004",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 3,
+        "text": "See accompanying notes to the consolidated financial statements.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 3,
+          "doc_page": 5,
+          "section": "Financial Statements",
+          "token_count": 13,
+          "char_length": 64,
+          "chunk_index": 4
+        },
+        "score": 0.4466773553526292,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p04_003",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 4,
+        "text": "See accompanying notes to the consolidated financial statements.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 4,
+          "doc_page": 6,
+          "section": "Financial Statements",
+          "token_count": 13,
+          "char_length": 64,
+          "chunk_index": 3
+        },
+        "score": 0.4466773553526292,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[stre_p01_003 | NETFLIX_2023Q2_10Q-3-33.pdf | page 1]\nSee accompanying notes to the consolidated financial statements.\n\n[stre_p03_004 | NETFLIX_2023Q2_10Q-3-33.pdf | page 3]\nSee accompanying notes to the consolidated financial statements.\n\n[stre_p04_003 | NETFLIX_2023Q2_10Q-3-33.pdf | page 4]\nSee accompanying notes to the consolidated financial statements.",
+    "context_ids": [
+      "stre_p01_003",
+      "stre_p03_004",
+      "stre_p04_003"
+    ],
+    "context_chars": 358,
+    "elapsed_ms": 0.1792999992176192,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q05",
+    "split": "dev",
+    "question": "Doanh thu của khu vực Châu Âu, Trung Đông và Châu Phi (EMEA) trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "netflix-2023q2-10q",
+        "page": 7,
+        "evidence": "| Paid memberships at end of period (1) | 79,807 | 72,966 | 79,807 | 72,966 |"
+      }
+    ],
+    "results": [
+      {
+        "id": "stre_p10_001",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 10,
+        "text": "|  | Six Months Ended - June 30, 2023 - (in thousands) | Six Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- |\n| Licensed content | $ 3,502,999 | $ 3,784,220 |\n| Produced content | 3,367,006 | 2,643,493 |\n| Total | $ 6,870,005 | $ 6,427,713 |",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 10,
+          "doc_page": 12,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 114,
+          "char_length": 260,
+          "chunk_index": 1
+        },
+        "score": 0.2145874575501867,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p01_002",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 1,
+        "text": "951 | $ 2,792,730 | $ 3,038,398 | | Earnings per share: | | | | | | Basic | $ 3.35 | $ 3.24 | $ 6.28 | $ 6.84 | | Diluted | $ 3.29 | $ 3.20 | $ 6.18 | $ 6.73 | | Weighted-average shares of common stock outstanding: | | | | | | Basic | 443,881 | 444,557 | 444,559 | 444,352 | | Diluted | 451,572 | 450,169 | 451,990 | 451,578 |",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 1,
+          "doc_page": 3,
+          "section": "Financial Statements",
+          "token_count": 172,
+          "char_length": 326,
+          "chunk_index": 2
+        },
+        "score": 0.19316387387125522,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p19_001",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 19,
+        "text": "|  | As of/ Six Months Ended - June 30, 2023 - (in thousands, except revenue per membership and percentages) | As of/ Six Months Ended - June 30, 2022 - (in thousands, except revenue per membership and percentages) | Change - YTD'23 vs. YTD'22 - (in thousands, except revenue per membership and percentages) | Change - YTD'23 vs. YTD'22 - (in thousands, except revenue per membership and percentages) |\n| --- | --- | --- | --- | --- |\n| Revenues | $ 7,208,093 $ | 6,888,287 | $ 319,806 | 5 % |\n| Paid net membership additions (losses) | 1,275 | (1,932) | 3,207 | 166 % |\n| Paid memberships at end of period | 75,571 | 73,283 | 2,288 | 3 % |\n| Average paying memberships | 74,666 | 74,414 | 252 | - % |\n| Average monthly revenue per paying membership | $ 16.09 | $ 15.43 | $ 0.66 | 4 % |\n| Constant currency change (1) |  |  |  | 5 % |\n\n## Europe, Middle East, and Africa (EMEA)\n\nThree months ended June 30, 2023 as compared to the three months ended June 30, 2022",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 19,
+          "doc_page": 21,
+          "section": "Management’s Discussion and Analysis",
+          "token_count": 336,
+          "char_length": 963,
+          "chunk_index": 1
+        },
+        "score": 0.16158023046535624,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[stre_p10_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 10]\n|  | Six Months Ended - June 30, 2023 - (in thousands) | Six Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- |\n| Licensed content | $ 3,502,999 | $ 3,784,220 |\n| Produced content | 3,367,006 | 2,643,493 |\n| Total | $ 6,870,005 | $ 6,427,713 |\n\n[stre_p01_002 | NETFLIX_2023Q2_10Q-3-33.pdf | page 1]\n951 | $ 2,792,730 | $ 3,038,398 | | Earnings per share: | | | | | | Basic | $ 3.35 | $ 3.24 | $ 6.28 | $ 6.84 | | Diluted | $ 3.29 | $ 3.20 | $ 6.18 | $ 6.73 | | Weighted-average shares of common stock outstanding: | | | | | | Basic | 443,881 | 444,557 | 444,559 | 444,352 | | Diluted | 451,572 | 450,169 | 451,990 | 451,578 |",
+    "context_ids": [
+      "stre_p10_001",
+      "stre_p01_002"
+    ],
+    "context_chars": 697,
+    "elapsed_ms": 0.12560000141093042,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q06",
+    "split": "dev",
+    "question": "Những quyền chọn cổ phiếu nào của nhân viên bị loại trừ khỏi phép tính lãi suy giảm trên mỗi cổ phiếu (diluted EPS) và vì sao?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "netflix-2023q2-10q",
+        "page": 8,
+        "evidence": "Employee stock options with exercise prices greater than the average market price of the common stock were excluded from the diluted calculation"
+      }
+    ],
+    "results": [
+      {
+        "id": "stre_p01_002",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 1,
+        "text": "951 | $ 2,792,730 | $ 3,038,398 | | Earnings per share: | | | | | | Basic | $ 3.35 | $ 3.24 | $ 6.28 | $ 6.84 | | Diluted | $ 3.29 | $ 3.20 | $ 6.18 | $ 6.73 | | Weighted-average shares of common stock outstanding: | | | | | | Basic | 443,881 | 444,557 | 444,559 | 444,352 | | Diluted | 451,572 | 450,169 | 451,990 | 451,578 |",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 1,
+          "doc_page": 3,
+          "section": "Financial Statements",
+          "token_count": 172,
+          "char_length": 326,
+          "chunk_index": 2
+        },
+        "score": 0.2442349483748976,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p08_002",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 8,
+        "text": "Employee stock options with exercise prices greater than the average market price of the common stock were excluded from the diluted calculation as their inclusion would have been anti-dilutive. The following table summarizes the potential shares of common stock excluded from the diluted calculation:\n\n|  | Three Months Ended - June 30, 2023 - (in thousands) | Three Months Ended - June 30, 2022 - (in thousands) | Six Months Ended - June 30, 2023 - (in thousands) | Six Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- | --- | --- |\n| Employee stock options | 4,348 | 8,175 | 5,097 | 5,462 |",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 8,
+          "doc_page": 10,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 187,
+          "char_length": 610,
+          "chunk_index": 2
+        },
+        "score": 0.2321915442303892,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "stre_p08_001",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 8,
+        "text": "|  | Three Months Ended - June 30, 2023 - (in thousands, except per share data) | Three Months Ended - June 30, 2022 - (in thousands, except per share data) | Six Months Ended - June 30, 2023 - (in thousands, except per share data) | Six Months Ended - June 30, 2022 - (in thousands, except per share data) |\n| --- | --- | --- | --- | --- |\n| Basic earnings per share: |  |  |  |  |\n| Net income | $ 1,487,610 | $ 1,440,951 | $ 2,792,730 | $ 3,038,398 |\n| Shares used in computation: |  |  |  |  |\n| Weighted-average shares of common stock outstanding | 443,881 | 444,557 | 444,559 | 444,352 |\n| Basic earnings per share | $ 3.35 | $ 3.24 | $ 6.28 | $ 6.84 |\n| Diluted earnings per share: |  |  |  |  |\n| Net income | $ 1,487,610 | $ 1,440,951 | $ 2,792,730 | $ 3,038,398 |\n| Shares used in computation: |  |  |  |  |\n| Weighted-average shares of common stock outstanding | 443,881 | 444,557 | 444,559 | 444,352 |\n| Employee stock options | 7,691 | 5,612 | 7,431 | 7,226 |\n| Weighted-average number of shares | 451,572 | 450,169 | 451,990 | 451,578 |\n| Diluted earnings per share | $ 3.29 | $ 3.20 | $ 6.18 | $ 6.73 |",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 8,
+          "doc_page": 10,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 469,
+          "char_length": 1117,
+          "chunk_index": 1
+        },
+        "score": 0.11336779808524546,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[stre_p01_002 | NETFLIX_2023Q2_10Q-3-33.pdf | page 1]\n951 | $ 2,792,730 | $ 3,038,398 | | Earnings per share: | | | | | | Basic | $ 3.35 | $ 3.24 | $ 6.28 | $ 6.84 | | Diluted | $ 3.29 | $ 3.20 | $ 6.18 | $ 6.73 | | Weighted-average shares of common stock outstanding: | | | | | | Basic | 443,881 | 444,557 | 444,559 | 444,352 | | Diluted | 451,572 | 450,169 | 451,990 | 451,578 |",
+    "context_ids": [
+      "stre_p01_002"
+    ],
+    "context_chars": 380,
+    "elapsed_ms": 0.06199999916134402,
+    "hit1": false,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q07",
+    "split": "dev",
+    "question": "Chính sách đầu tư đối với các chứng khoán khả dụng để bán (available-for-sale securities) của Netflix tập trung vào mục tiêu gì và có nhằm kiếm lời chênh lệch giá ngắn hạn không?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "netflix-2023q2-10q",
+        "page": 9,
+        "evidence": "|  | $ 7,662,788 | $ 914,201 | $ 1,763 | $ 1,714 | $ 8,580,466 |"
+      }
+    ],
+    "results": [
+      {
+        "id": "stre_p09_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 9,
+        "text": "## 4. Cash, Cash Equivalents, Restricted Cash, and Short-term Investments\n\nThe Company's investment policy is consistent with the definition of available-for-sale securities. The Company does not buy and hold securities principally for the purpose of selling them in the near future. The Company's policy is focused on the preservation of capital, liquidity and return. From time to time, the Company may sell certain securities but the objectives are generally not to generate profits on short-term differences in price. The following tables summarize the Company's cash, cash equivalents, restricted cash and short-term investments as of June 30, 2023 and December 31, 2022:\n\n|  | As of June 30, 2023 - Cash and cash equivalents - (in thousands) | As of June 30, 2023 - Short-term investments - (in thousands) | As of June 30, 2023 - Other Current Assets - (in thousands) | As of June 30, 2023 - Non-current Assets - (in thousands) | As of June 30, 2023 - Total - (in thousands) |\n| --- | --- | --- | --- | --- | --- |\n| Cash | $ 4,662,668 | $ - | $ 1,763 | $ 1,660 | $ 4,666,091 |\n| Level 1 securities: |  |  |  |  |  |\n| Money market funds | 2,628,351 | - | - | 54 | 2,628,405 |\n| Level 2 securities: |  |  |  |  |  |\n| Time Deposits (1) | 371,769 | 914,201 | - | - | 1,285,970 |\n|  | $ 7,662,788 | $ 914,201 | $ 1,763 | $ 1,714 | $ 8,580,466 |",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 9,
+          "doc_page": 11,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 438,
+          "char_length": 1348,
+          "chunk_index": 0
+        },
+        "score": 0.19381680337720095,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "stre_p03_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 3,
+        "text": "## NETFLIX, INC.\n\n## Consolidated Statements of Cash Flows\n\n## (unaudited) (in thousands)",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 3,
+          "doc_page": 5,
+          "section": "Financial Statements",
+          "token_count": 28,
+          "char_length": 89,
+          "chunk_index": 0
+        },
+        "score": 0.17589599622185076,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p05_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 5,
+        "text": "## NETFLIX, INC.\n\n## Consolidated Statements of Stockholders' Equity (unaudited) (in thousands)",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 5,
+          "doc_page": 7,
+          "section": "Financial Statements",
+          "token_count": 30,
+          "char_length": 95,
+          "chunk_index": 0
+        },
+        "score": 0.1723763650243718,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[stre_p03_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 3]\n## NETFLIX, INC.\n\n## Consolidated Statements of Cash Flows\n\n## (unaudited) (in thousands)\n\n[stre_p05_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 5]\n## NETFLIX, INC.\n\n## Consolidated Statements of Stockholders' Equity (unaudited) (in thousands)",
+    "context_ids": [
+      "stre_p03_000",
+      "stre_p05_000"
+    ],
+    "context_chars": 294,
+    "elapsed_ms": 0.1174000008177245,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q08",
+    "split": "dev",
+    "question": "Giá trị ròng của tài sản nội dung tự sản xuất (Produced content, net) so với nội dung được cấp phép (Licensed content, net) tính đến ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "netflix-2023q2-10q",
+        "page": 10,
+        "evidence": "| Licensed content, net | $ 12,622,409 | $ 12,732,549 |"
+      }
+    ],
+    "results": [
+      {
+        "id": "stre_p10_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 10,
+        "text": "## 5. Balance Sheet Components\n\n## Content Assets, Net\n\nContent assets consisted of the following:\n\n|  | As of - June 30, 2023 - (in thousands) | As of - December 31, 2022 - (in thousands) |\n| --- | --- | --- |\n| Licensed content, net | $ 12,622,409 | $ 12,732,549 |\n| Produced content, net |  |  |\n| Released, less amortization | 9,286,399 | 9,110,518 |\n| In production | 9,796,704 | 10,255,940 |\n| In development and pre-production | 815,262 | 637,706 |\n|  | 19,898,365 | 20,004,164 |\n| Content assets, net | $ 32,520,774 | $ 32,736,713 |\n\nAs of June 30, 2023, approximately $5,495 million, $2,844 million, and $1,971 million of the $12,622 million unamortized cost of the licensed content is expected to be amortized in each of the next three years. As of June 30, 2023, approximately $3,544 million, $2,420 million, and $1,710 million of the $9,286 million unamortized cost of the produced content that has been released is expected to be amortized in each of the next three years.\n\nAs of June 30, 2023, the amount of accrued participations and residuals was not material.\n\nThe following table represents the amortization of content assets:\n\n|  | Three Months Ended - June 30, 2023 - (in thousands) | Three Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- |\n| Licensed content | $ 1,779,321 | $ 1,899,782 |\n| Produced content | 1,630,700 | 1,361,566 |\n| Total | $ 3,410,021 | $ 3,261,348 |",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 10,
+          "doc_page": 12,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 473,
+          "char_length": 1410,
+          "chunk_index": 0
+        },
+        "score": 0.43830644554618065,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "stre_p10_001",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 10,
+        "text": "|  | Six Months Ended - June 30, 2023 - (in thousands) | Six Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- |\n| Licensed content | $ 3,502,999 | $ 3,784,220 |\n| Produced content | 3,367,006 | 2,643,493 |\n| Total | $ 6,870,005 | $ 6,427,713 |",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 10,
+          "doc_page": 12,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 114,
+          "char_length": 260,
+          "chunk_index": 1
+        },
+        "score": 0.406347036305791,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p26_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 26,
+        "text": "Our primary uses of cash include the acquisition, licensing and production of content, marketing programs, streaming delivery and personnel-related costs, as well as for strategic acquisitions and investments. Cash payment terms for non-original content have historically been in line with the amortization period. Investments in original content, and in particular content that we produce and own, require more cash upfront relative to licensed content. For example, production costs are paid as the content is created, well in advance of when the content is available on the service and amortized. We expect to continue to significantly invest in global content, particularly in original content, which will impact our liquidity. We currently anticipate that cash flows from operations, available funds and access to financing sources, including our revolving credit facility, will continue to be sufficient to meet our cash needs for the next twelve months and beyond.\n\nOur material cash requirements from known contractual and other obligations primarily relate to our content, debt and lease obligations. As of June 30, 2023, the expected timing of those payments are as follows:\n\n| Contractual obligations (in thousands): | Payments due by Period - Total | Payments due by Period - Next 12 Months | Payments due by Period - Beyond 12 Months |\n| --- | --- | --- | --- |\n| Content obligations (1) | $ 20,900,288 | $ 9,818,370 | $ 11,081,918 |\n| Debt (2) | 18,002,660 | 1,086,201 | 16,916,459 |\n| Operating lease obligations (3) | 3,223,471 | 490,130 | 2,733,341 |\n| Total | $ 42,126,419 | $ 11,394,701 | $ 30,731,718 |\n\n- (1) As of June 30, 2023, content obligations were comprised of $4.4 billion included in 'Current content liabilities' and $2.8 billion of 'Non-current content liabilities' on the Consolidated Balance Sheets and $13.7 billion of obligations that are not reflected on the Consolidated Balance Sheets as they did not then meet the criteria for recognition.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 26,
+          "doc_page": 28,
+          "section": "Management’s Discussion and Analysis",
+          "token_count": 499,
+          "char_length": 1979,
+          "chunk_index": 0
+        },
+        "score": 0.25722729891451235,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[stre_p10_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 10]\n|  | Six Months Ended - June 30, 2023 - (in thousands) | Six Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- |\n| Licensed content | $ 3,502,999 | $ 3,784,220 |\n| Produced content | 3,367,006 | 2,643,493 |\n| Total | $ 6,870,005 | $ 6,427,713 |",
+    "context_ids": [
+      "stre_p10_001"
+    ],
+    "context_chars": 315,
+    "elapsed_ms": 0.1415999995515449,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q09",
+    "split": "dev",
+    "question": "Theo Thuyết minh Nợ (Note 6 Debt), thỏa thuận tín dụng tuần hoàn (Revolving Credit Agreement) được sửa đổi vào tháng 3 năm 2023 có quy mô hạn mức bao nhiêu và chuyển sang lãi suất tham chiếu nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "netflix-2023q2-10q",
+        "page": 13,
+        "evidence": "$1 billion unsecured revolving credit facility"
+      }
+    ],
+    "results": [
+      {
+        "id": "stre_p13_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 13,
+        "text": "Each of the Notes are repayable in whole or in part upon the occurrence of a change of control, at the option of the holders, at a purchase price in cash equal to 101% of the principal plus accrued interest. The Company may redeem the Notes prior to maturity in whole or in part at an amount equal to the principal amount thereof plus accrued and unpaid interest and an applicable premium. The Notes include, among other terms and conditions, limitations on the Company's ability to create, incur or allow certain liens; enter into sale and lease-back transactions; create, assume, incur or guarantee additional indebtedness of certain of the Company's subsidiaries; and consolidate or merge with, or convey, transfer or lease all or substantially all of the Company's and its subsidiaries assets, to another person. As of June 30, 2023 and December 31, 2022, the Company was in compliance with all related covenants.\n\n## Revolving Credit Facility\n\nOn March 6, 2023, the Company amended its $1 billion unsecured revolving credit facility (\"Revolving Credit Agreement\") to replace the London interbank offered rate to a variable secured overnight financing rate (the 'Term SOFR Rate') as the rate to which interest payments are indexed, among other things. The Revolving Credit Agreement matures on June 17, 2026. Revolving loans may be borrowed, repaid and reborrowed until June 17, 2026, at which time all amounts borrowed must be repaid. The Company may use the proceeds of future borrowings under the Revolving Credit Agreement for working capital and general corporate purposes. As of June 30, 2023, no amounts have been borrowed under the Revolving Credit Agreement.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 13,
+          "doc_page": 15,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 395,
+          "char_length": 1671,
+          "chunk_index": 0
+        },
+        "score": 0.36432180548994264,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "stre_p25_001",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 25,
+        "text": "|  | As of - June 30, 2023 - (in thousands, except percentages) | As of - December 31, 2022 - (in thousands, except percentages) | Change - June 30, 2023 vs. December 31, 2022 - (in thousands, except percentages) | Change - June 30, 2023 vs. December 31, 2022 - (in thousands, except percentages) |\n| --- | --- | --- | --- | --- |\n| Cash, cash equivalents, restricted cash and short-term investments | $ 8,580,466 | $ 6,081,858 | $ 2,498,608 | 41 % |\n| Short-term and long-term debt | 14,469,538 | 14,353,076 | 116,462 | 1 % |\n\nCash, cash equivalents, restricted cash and short-term investments increased $2,499 million in the six months ended June 30, 2023 primarily due to cash provided by operations, partially offset by the repurchase of stock.\n\nDebt, net of debt issuance costs, increased $116 million primarily due to the remeasurement of our euro-denominated notes. The amount of principal and interest on our outstanding notes due in the next twelve months is $1,086 million. As of June 30, 2023, no amounts had been borrowed under the $1 billion Revolving Credit Agreement. See Note 6 Debt in the accompanying notes to our consolidated financial statements.\n\nWe anticipate that our future capital needs from the debt market will be more limited compared to prior years. Our ability to obtain this or any additional financing that we may choose or need, including for potential strategic acquisitions and investments, will depend on, among other things, our development efforts, business plans, operating performance, and the condition of the capital markets at the time we seek financing. We may not be able to obtain such financing on terms acceptable to us or at all. If we raise additional funds through the issuance of equity or debt securities, those securities may have rights, preferences or privileges senior to the rights of our common stock, and our stockholders may experience dilution.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 25,
+          "doc_page": 27,
+          "section": "Management’s Discussion and Analysis",
+          "token_count": 487,
+          "char_length": 1906,
+          "chunk_index": 1
+        },
+        "score": 0.19367494560159496,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p13_001",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 13,
+        "text": "The borrowings under the Revolving Credit Agreement bear interest, at the Company's option, of either (i) a floating rate equal to a base rate (the 'Alternate Base Rate') or (ii) a rate equal to the Term SOFR Rate (or the applicable benchmark replacement), plus a margin of 0.75%. The Alternate Base Rate is defined as the greatest of (A) the rate of interest published by the Wall Street Journal, from time to time, as the prime rate, (B) the federal funds rate, plus 0.500% and (C) the Term SOFR Rate for a one-month tenor, plus 1.00%. The Term SOFR Rate is the forward-looking secured overnight financing rate administered by the Federal Reserve Bank of New York or a successor administrator, for the relevant interest period, but in no event shall the Term SOFR Rate be less than 0.00% per annum.\n\nThe Company is also obligated to pay a commitment fee on the undrawn amounts of the Revolving Credit Agreement at an annual rate of 0.10%. The Revolving Credit Agreement requires the Company to comply with certain covenants, including covenants that limit or restrict the ability of the Company's subsidiaries to incur debt and limit or restrict the ability of the Company and its subsidiaries to grant liens and enter into sale and leaseback transactions; and, in the case of the Company or a guarantor, merge, consolidate, liquidate, dissolve or sell, transfer, lease or otherwise dispose of all or substantially all of the assets of the Company and its subsidiaries, taken as a whole. As of June 30, 2023 and December 31, 2022, the Company was in compliance with all related covenants.\n\n## 7. Commitments and Contingencies\n\n## Content\n\nAs of June 30, 2023, the Company had $20.9 billion of obligations comprised of $4.4 billion included in \"Current content liabilities\" and $2.8 billion of \"Non-current content liabilities\" on the Consolidated Balance Sheets and $13.7 billion of obligations that are not reflected on the Consolidated Balance Sheets as they did not yet meet the criteria for recognition.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 13,
+          "doc_page": 15,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 489,
+          "char_length": 2009,
+          "chunk_index": 1
+        },
+        "score": 0.15746148511477653,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.15729999904579017,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q10",
+    "split": "dev",
+    "question": "Khi xảy ra sự kiện thay đổi quyền kiểm soát (change of control), chủ sở hữu trái phiếu Senior Notes có quyền yêu cầu Netflix mua lại với mức giá nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "netflix-2023q2-10q",
+        "page": 13,
+        "evidence": "Each of the Notes are repayable in whole or in part upon the occurrence of a change of control"
+      }
+    ],
+    "results": [
+      {
+        "id": "stre_p12_003",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 12,
+        "text": "(1) The following Senior Notes have a principal amount denominated in euro: 3.000% Senior Notes for €470 million, 3.625% Senior Notes for €1,300 million, 4.625% Senior Notes for €1,100 million, 3.875% Senior Notes for €1,200 million, and 3.625% Senior Notes for €1,100 million.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 12,
+          "doc_page": 14,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 79,
+          "char_length": 277,
+          "chunk_index": 3
+        },
+        "score": 0.3903915457623419,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p12_001",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 12,
+        "text": "| | Principal Amount at Par - June 30, 2023 - (in millions) | Principal Amount at Par - December 31, 2022 - (in millions) | Principal Amount at Par - Issuance Date | Maturity | Level 2 Fair Value as of - June 30, 2023 - (in millions) | Level 2 Fair Value as of - December 31, 2022 - (in millions) | | --- | --- | --- | --- | --- | --- | --- | | 5.750% Senior Notes | $ 400 | $ 400 | February 2014 | March 2024 | $ 401 | $ 404 | | 5.875% Senior Notes | 800 | 800 | February 2015 | February 2025 | 804 | 811 | | 3.000% Senior Notes (1) | 513 | 503 | April 2020 | June 2025 | 503 | 495 | | 3.625% Senior Notes | 500 | 500 | April 2020 | June 2025 | 483 | 479 | | 4.375% Senior Notes | 1,000 | 1,000 | October 2016 | November 2026 | 979 | 980 | | 3.625% Senior Notes (1) | 1,419 | 1,391 | May 2017 | May 2027 | 1,387 | 1,338 | | 4.875% Senior Notes | 1,600 | 1,600 | October 2017 | April 2028 | 1,584 | 1,557 | | 5.875% Senior Notes | 1,900 | 1,900 | April 2018 | November 2028 | 1,972 | 1,930 | | 4.625% Senior Notes (1) | 1,200 | 1,177 | October 2018 | May 2029 | 1,216 | 1,151 | | 6.375% Senior Notes | 800 | 800 | October 2018 | May 2029 | 848 | 830 | | 3.875% Senior Notes (1) | 1,310 | 1,284 | April 2019 | November 2029 | 1,279 | 1,201 | | 5.375% Senior",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 12,
+          "doc_page": 14,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 500,
+          "char_length": 1256,
+          "chunk_index": 1
+        },
+        "score": 0.2888019268196093,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p12_002",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 12,
+        "text": "| 848 | 830 | | 3.875% Senior Notes (1) | 1,310 | 1,284 | April 2019 | November 2029 | 1,279 | 1,201 | | 5.375% Senior Notes | 900 | 900 | April 2019 | November 2029 | 904 | 885 | | 3.625% Senior Notes (1) | 1,200 | 1,177 | October 2019 | June 2030 | 1,145 | 1,078 | | 4.875% Senior Notes | 1,000 | 1,000 | October 2019 | June 2030 | 986 | 944 | | | $ 14,542 | $ 14,432 | | | $ 14,491 | $ 14,083 |",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 12,
+          "doc_page": 14,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 179,
+          "char_length": 397,
+          "chunk_index": 2
+        },
+        "score": 0.20919534306749774,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[stre_p12_003 | NETFLIX_2023Q2_10Q-3-33.pdf | page 12]\n(1) The following Senior Notes have a principal amount denominated in euro: 3.000% Senior Notes for €470 million, 3.625% Senior Notes for €1,300 million, 4.625% Senior Notes for €1,100 million, 3.875% Senior Notes for €1,200 million, and 3.625% Senior Notes for €1,100 million.\n\n[stre_p12_002 | NETFLIX_2023Q2_10Q-3-33.pdf | page 12]\n| 848 | 830 | | 3.875% Senior Notes (1) | 1,310 | 1,284 | April 2019 | November 2029 | 1,279 | 1,201 | | 5.375% Senior Notes | 900 | 900 | April 2019 | November 2029 | 904 | 885 | | 3.625% Senior Notes (1) | 1,200 | 1,177 | October 2019 | June 2030 | 1,145 | 1,078 | | 4.875% Senior Notes | 1,000 | 1,000 | October 2019 | June 2030 | 986 | 944 | | | $ 14,542 | $ 14,432 | | | $ 14,491 | $ 14,083 |",
+    "context_ids": [
+      "stre_p12_003",
+      "stre_p12_002"
+    ],
+    "context_chars": 786,
+    "elapsed_ms": 0.13749999925494194,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q11",
+    "split": "dev",
+    "question": "Theo thuyết minh về content obligations, nghĩa vụ mua lại và cấp phép nội dung phát sinh ở thời điểm nào, và khoản content liability được ghi nhận trên Bảng cân đối kế toán khi nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "netflix-2023q2-10q",
+        "page": 14,
+        "evidence": "The Company is involved in litigation matters not listed herein but does not consider the matters to be material"
+      }
+    ],
+    "results": [
+      {
+        "id": "stre_p26_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 26,
+        "text": "Our primary uses of cash include the acquisition, licensing and production of content, marketing programs, streaming delivery and personnel-related costs, as well as for strategic acquisitions and investments. Cash payment terms for non-original content have historically been in line with the amortization period. Investments in original content, and in particular content that we produce and own, require more cash upfront relative to licensed content. For example, production costs are paid as the content is created, well in advance of when the content is available on the service and amortized. We expect to continue to significantly invest in global content, particularly in original content, which will impact our liquidity. We currently anticipate that cash flows from operations, available funds and access to financing sources, including our revolving credit facility, will continue to be sufficient to meet our cash needs for the next twelve months and beyond.\n\nOur material cash requirements from known contractual and other obligations primarily relate to our content, debt and lease obligations. As of June 30, 2023, the expected timing of those payments are as follows:\n\n| Contractual obligations (in thousands): | Payments due by Period - Total | Payments due by Period - Next 12 Months | Payments due by Period - Beyond 12 Months |\n| --- | --- | --- | --- |\n| Content obligations (1) | $ 20,900,288 | $ 9,818,370 | $ 11,081,918 |\n| Debt (2) | 18,002,660 | 1,086,201 | 16,916,459 |\n| Operating lease obligations (3) | 3,223,471 | 490,130 | 2,733,341 |\n| Total | $ 42,126,419 | $ 11,394,701 | $ 30,731,718 |\n\n- (1) As of June 30, 2023, content obligations were comprised of $4.4 billion included in 'Current content liabilities' and $2.8 billion of 'Non-current content liabilities' on the Consolidated Balance Sheets and $13.7 billion of obligations that are not reflected on the Consolidated Balance Sheets as they did not then meet the criteria for recognition.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 26,
+          "doc_page": 28,
+          "section": "Management’s Discussion and Analysis",
+          "token_count": 499,
+          "char_length": 1979,
+          "chunk_index": 0
+        },
+        "score": 0.3874426135284141,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p10_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 10,
+        "text": "## 5. Balance Sheet Components\n\n## Content Assets, Net\n\nContent assets consisted of the following:\n\n|  | As of - June 30, 2023 - (in thousands) | As of - December 31, 2022 - (in thousands) |\n| --- | --- | --- |\n| Licensed content, net | $ 12,622,409 | $ 12,732,549 |\n| Produced content, net |  |  |\n| Released, less amortization | 9,286,399 | 9,110,518 |\n| In production | 9,796,704 | 10,255,940 |\n| In development and pre-production | 815,262 | 637,706 |\n|  | 19,898,365 | 20,004,164 |\n| Content assets, net | $ 32,520,774 | $ 32,736,713 |\n\nAs of June 30, 2023, approximately $5,495 million, $2,844 million, and $1,971 million of the $12,622 million unamortized cost of the licensed content is expected to be amortized in each of the next three years. As of June 30, 2023, approximately $3,544 million, $2,420 million, and $1,710 million of the $9,286 million unamortized cost of the produced content that has been released is expected to be amortized in each of the next three years.\n\nAs of June 30, 2023, the amount of accrued participations and residuals was not material.\n\nThe following table represents the amortization of content assets:\n\n|  | Three Months Ended - June 30, 2023 - (in thousands) | Three Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- |\n| Licensed content | $ 1,779,321 | $ 1,899,782 |\n| Produced content | 1,630,700 | 1,361,566 |\n| Total | $ 3,410,021 | $ 3,261,348 |",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 10,
+          "doc_page": 12,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 473,
+          "char_length": 1410,
+          "chunk_index": 0
+        },
+        "score": 0.23157505187684926,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p13_002",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 13,
+        "text": "As of December 31, 2022, the Company had $21.8 billion of obligations comprised of $4.5 billion included in \"Current content liabilities\" and $3.1 billion of \"Non-current content liabilities\" on the Consolidated Balance Sheets and $14.2 billion of obligations that are not reflected on the Consolidated Balance Sheets as they did not yet meet the criteria for recognition.\n\nThe expected timing of payments for these content obligations is as follows:\n\n|  | As of - June 30, 2023 - (in thousands) | As of - December 31, 2022 - (in thousands) |\n| --- | --- | --- |\n| Less than one year | $ 9,818,370 | $ 10,038,483 |\n| Due after one year and through three years | 9,131,131 | 9,425,551 |\n| Due after three years and through five years | 1,662,733 | 2,124,307 |\n| Due after five years | 288,054 | 243,606 |\n| Total content obligations | $ 20,900,288 | $ 21,831,947 |",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 13,
+          "doc_page": 15,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 267,
+          "char_length": 863,
+          "chunk_index": 2
+        },
+        "score": 0.22939370936486553,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.08789999992586672,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q12",
+    "split": "dev",
+    "question": "Trong thông báo tháng 4 năm 2023 về dịch vụ DVD-by-mail, Netflix đã lên kế hoạch gì và dự kiến tác động thế nào đến kết quả hoạt động hoặc tài chính?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "netflix-2023q2-10q",
+        "page": 18,
+        "evidence": "In April 2023, we announced our plans to discontinue our DVD-by-mail service, which we do not expect to have a material effect on our operations or financial results."
+      }
+    ],
+    "results": [
+      {
+        "id": "stre_p18_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 18,
+        "text": "## Results of Operations\n\nThe following represents our consolidated performance highlights:\n\n|  | As of/ Three Months Ended - June 30, 2023 - (in thousands, except revenue per membership and percentages) | As of/ Three Months Ended - June 30, 2022 - (in thousands, except revenue per membership and percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except revenue per membership and percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except revenue per membership and percentages) |\n| --- | --- | --- | --- | --- |\n| Financial Results: |  |  |  |  |\n| Streaming revenues | $ 8,158,326 | $ 7,933,051 | $ 225,275 | 3 % |\n| DVD revenues (1) | 28,975 | 37,090 | (8,115) | (22)% |\n| Total revenues | $ 8,187,301 | $ 7,970,141 | $ 217,160 | 3 % |\n| Operating income | $ 1,827,183 | $ 1,578,283 | $ 248,900 | 16 % |\n| Operating margin | 22 % | 20 % | 2 % |  |\n| Global Streaming Memberships: |  |  |  |  |\n| Paid net membership additions (losses) | 5,892 | (969) | 6,861 | 708 % |\n| Paid memberships at end of period | 238,390 | 220,672 | 17,718 | 8 % |\n| Average paying memberships | 235,444 | 221,157 | 14,287 | 6 % |\n| Average monthly revenue per paying membership | $ 11.55 | $ 11.96 | $ (0.41) | (3)% |\n\n(1) In April 2023, we announced our plans to discontinue our DVD-by-mail service, which we do not expect to have a material effect on our operations or financial results.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 18,
+          "doc_page": 20,
+          "section": "Management’s Discussion and Analysis",
+          "token_count": 496,
+          "char_length": 1385,
+          "chunk_index": 0
+        },
+        "score": 0.15732846338972648,
+        "strategy": "tfidf",
+        "hit": true
+      },
+      {
+        "id": "stre_p03_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 3,
+        "text": "## NETFLIX, INC.\n\n## Consolidated Statements of Cash Flows\n\n## (unaudited) (in thousands)",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 3,
+          "doc_page": 5,
+          "section": "Financial Statements",
+          "token_count": 28,
+          "char_length": 89,
+          "chunk_index": 0
+        },
+        "score": 0.15488639732592752,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p05_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 5,
+        "text": "## NETFLIX, INC.\n\n## Consolidated Statements of Stockholders' Equity (unaudited) (in thousands)",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 5,
+          "doc_page": 7,
+          "section": "Financial Statements",
+          "token_count": 30,
+          "char_length": 95,
+          "chunk_index": 0
+        },
+        "score": 0.1517871625064727,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[stre_p03_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 3]\n## NETFLIX, INC.\n\n## Consolidated Statements of Cash Flows\n\n## (unaudited) (in thousands)\n\n[stre_p05_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 5]\n## NETFLIX, INC.\n\n## Consolidated Statements of Stockholders' Equity (unaudited) (in thousands)",
+    "context_ids": [
+      "stre_p03_000",
+      "stre_p05_000"
+    ],
+    "context_chars": 294,
+    "elapsed_ms": 0.1384999995934777,
+    "hit1": true,
+    "hit3": true,
+    "context_hit": false
+  },
+  {
+    "query_id": "q13",
+    "split": "dev",
+    "question": "Số lượng thành viên đăng ký xem trực tuyến trả phí tăng thêm ròng (Paid net membership additions) toàn cầu của Netflix trong quý 2 năm 2023 là bao nhiêu so với quý 2 năm 2022?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "netflix-2023q2-10q",
+        "page": 18,
+        "evidence": "| Paid net membership additions (losses) | 5,892 | (969) | 6,861 | 708 % |"
+      }
+    ],
+    "results": [
+      {
+        "id": "stre_p19_002",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 19,
+        "text": "|  | As of/ Three Months Ended - June 30, 2023 - (in thousands, except revenue per membership and percentages) | As of/ Three Months Ended - June 30, 2022 - (in thousands, except revenue per membership and percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except revenue per membership and percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except revenue per membership and percentages) |\n| --- | --- | --- | --- | --- |\n| Revenues | $ 2,562,170 $ | 2,457,235 | $ 104,935 | 4 % |\n| Paid net membership additions (losses) | 2,434 | (767) | 3,201 | 417 % |\n| Paid memberships at end of period | 79,807 | 72,966 | 6,841 | 9 % |\n| Average paying memberships | 78,590 | 73,350 | 5,240 | 7 % |\n| Average monthly revenue per paying membership | $ 10.87 | $ 11.17 | $ (0.30) | (3)% |\n| Constant currency change (1) |  |  |  | (1)% |\n\nSix months ended June 30, 2023 as compared to the six months ended June 30, 2022",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 19,
+          "doc_page": 21,
+          "section": "Management’s Discussion and Analysis",
+          "token_count": 321,
+          "char_length": 920,
+          "chunk_index": 2
+        },
+        "score": 0.2899557872765443,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p07_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 7,
+        "text": "## Europe, Middle East, and Africa (EMEA)\n\n|  | As of/ Three Months Ended - June 30, 2023 - (in thousands) | As of/ Three Months Ended - June 30, 2022 - (in thousands) | As of/ Six Months Ended - June 30, 2023 - (in thousands) | As of/ Six Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- | --- | --- |\n| Revenues | $ 2,562,170 | $ 2,457,235 | $ 5,079,811 | $ 5,019,066 |\n| Paid net membership additions (losses) | 2,434 | (767) | 3,078 | (1,070) |\n| Paid memberships at end of period (1) | 79,807 | 72,966 | 79,807 | 72,966 |\n\n## Latin America (LATAM)\n\n|  | As of/ Three Months Ended - June 30, 2023 - (in thousands) | As of/ Three Months Ended - June 30, 2022 - (in thousands) | As of/ Six Months Ended - June 30, 2023 - (in thousands) | As of/ Six Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- | --- | --- |\n| Revenues | $ 1,077,435 | $ 1,030,234 | $ 2,147,627 | $ 2,029,182 |\n| Paid net membership additions (losses) | 1,217 | 14 | 767 | (337) |\n| Paid memberships at end of period (1) | 42,466 | 39,624 | 42,466 | 39,624 |\n\n## Asia-Pacific (APAC)",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 7,
+          "doc_page": 9,
+          "section": "Notes to Consolidated Financial Statements",
+          "token_count": 444,
+          "char_length": 1088,
+          "chunk_index": 0
+        },
+        "score": 0.2816663081564431,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p20_002",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 20,
+        "text": "|  | As of/ Six Months Ended - June 30, 2023 - (in thousands, except revenue per membership and percentages) | As of/ Six Months Ended - June 30, 2022 - (in thousands, except revenue per membership and percentages) | Change - YTD'23 vs. YTD'22 - (in thousands, except revenue per membership and percentages) | Change - YTD'23 vs. YTD'22 - (in thousands, except revenue per membership and percentages) |\n| --- | --- | --- | --- | --- |\n| Revenues | $ 2,147,627 $ | 2,029,182 | $ 118,445 | 6 % |\n| Paid net membership additions (losses) | 767 | (337) | 1,104 | 328 % |\n| Paid memberships at end of period | 42,466 | 39,624 | 2,842 | 7 % |\n| Average paying memberships | 41,666 | 39,702 | 1,964 | 5 % |\n| Average monthly revenue per paying membership | $ 8.59 | $ 8.52 | $ 0.07 | 1 % |\n| Constant currency change (1) |  |  |  | 8 % |\n\n## Asia-Pacific (APAC)\n\nThree months ended June 30, 2023 as compared to the three months ended June 30, 2022",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 20,
+          "doc_page": 22,
+          "section": "Management’s Discussion and Analysis",
+          "token_count": 333,
+          "char_length": 940,
+          "chunk_index": 2
+        },
+        "score": 0.2810336732345917,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.155399999130168,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q14",
+    "split": "dev",
+    "question": "Theo phần Thảo luận của Ban giám đốc (Management’s Discussion and Analysis - MD&A), công ty định nghĩa Dòng tiền tự do (Free cash flow) như thế nào?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "netflix-2023q2-10q",
+        "page": 26,
+        "evidence": "| Contractual obligations (in thousands): | Payments due by Period - Total | Payments due by Period - Next 12 Months | Payments due by Period - Beyond 12 Months |"
+      }
+    ],
+    "results": [
+      {
+        "id": "stre_p26_001",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 26,
+        "text": "The material cash requirements above do not include any estimated obligation for the unknown future titles, payment for which could range from less than one year to more than five years. However, these unknown obligations are expected to be significant and we believe could include approximately $1 billion to $4 billion over the next three years, with the payments for the vast majority of such amounts expected to occur after the next twelve months. The foregoing range is based on considerable management judgments and the actual amounts may differ. Once we know the title that we will receive and the license fees, we include the amount in the contractual obligations table above.\n\n- (2) Debt obligations include our Notes consisting of principal and interest payments. See Note 6 Debt to the consolidated financial statements for further details.\n- (3) Operating lease obligations are comprised of operating lease liabilities included in \"Accrued expenses and other liabilities\" and \"Other non-current liabilities\" on the Consolidated Balance Sheets, inclusive of imputed interest. Operating lease obligations also include additional obligations that are not reflected on the Consolidated Balance Sheets as they did not meet the criteria for recognition. See Note 5 Balance Sheet Components in the accompanying notes to our consolidated financial statements for further details regarding leases.\n\nAs of June 30, 2023, we had gross unrecognized tax benefits of $240 million. At this time, an estimate of the range of reasonably possible adjustments to the balance of unrecognized tax benefits cannot be made.\n\n## Free Cash Flow\n\nWe define free cash flow as cash provided by (used in) operating activities less purchases of property and equipment and change in other assets. We believe free cash flow is an important liquidity metric because it measures, during a given period, the amount of cash generated that is available to repay debt obligations, make strategic acquisitions and investments and for certain other activities like stock repurchases. Free cash flow is considered a non-GAAP financial measure and should not be considered in isolation of, or as a substitute for, net income, operating income, net cash provided by operating activities, or any other measure of financial performance or liquidity presented in accordance with GAAP.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 26,
+          "doc_page": 28,
+          "section": "Management’s Discussion and Analysis",
+          "token_count": 498,
+          "char_length": 2350,
+          "chunk_index": 1
+        },
+        "score": 0.20494275310071863,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p27_002",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 27,
+        "text": "Free cash flow was $148 million lower than net income for the three months ended June 30, 2023, primarily due to $227 million of cash payments for content assets exceeding amortization expense and $28 million in other non-favorable working capital differences, partially offset by $78 million of non-cash stock-based compensation expense and $29 million of non-cash remeasurement loss on our euro-denominated debt.\n\nFree cash flow was $1,428 million lower than net income for the three months ended June 30, 2022, primarily due to $1,234 million of cash payments for content assets exceeding amortization expense, $305 million of non-cash remeasurement gain on our euro-denominated debt and $39 million in other nonfavorable working capital differences, partially offset by $150 million of non-cash stock-based compensation expense.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 27,
+          "doc_page": 29,
+          "section": "Management’s Discussion and Analysis",
+          "token_count": 200,
+          "char_length": 832,
+          "chunk_index": 2
+        },
+        "score": 0.17416156248601908,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p28_002",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 28,
+        "text": "The preparation of financial statements and related disclosures in conformity with U.S. generally accepted accounting principles and the Company's discussion and analysis of its financial condition and operating results require the Company's management to make judgments, assumptions and estimates that affect the amounts reported. Note 1, 'Basis of Presentation and Summary of Significant Accounting Policies' of the Notes to consolidated Financial Statements in Part I, Item 1 of this Form 10-Q and in the Notes to Consolidated Financial Statements in Part II, Item 8 of our Annual Report on Form 10-K for the year ended December 31, 2022, describe the significant accounting policies and methods used in the preparation of the Company's consolidated financial statements. There have been no material changes to the Company's critical accounting estimates included in our Annual Report on Form 10-K for the year ended December 31, 2022.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 28,
+          "doc_page": 30,
+          "section": "Management’s Discussion and Analysis",
+          "token_count": 198,
+          "char_length": 938,
+          "chunk_index": 2
+        },
+        "score": 0.16780430932140897,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "",
+    "context_ids": [],
+    "context_chars": 0,
+    "elapsed_ms": 0.1629999987926567,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  },
+  {
+    "query_id": "q15",
+    "split": "dev",
+    "question": "Dòng tiền tự do (Free Cash Flow) của Netflix trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 đạt bao nhiêu và cải thiện như thế nào so với cùng kỳ năm 2022?",
+    "strategy": "tfidf",
+    "top_k": 3,
+    "budget_chars": 800,
+    "gold": [
+      {
+        "source_id": "netflix-2023q2-10q",
+        "page": 27,
+        "evidence": "| Free cash flow | $ 1,339,260 | $ 12,732 | $ 1,326,528 | 10,419 % |"
+      }
+    ],
+    "results": [
+      {
+        "id": "stre_p28_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 28,
+        "text": "Six months ended June 30, 2023 as compared to the six months ended June 30, 2022\n\n|  | Six Months Ended - June 30, 2023 - (in thousands, except percentages) | Six Months Ended - June 30, 2022 - (in thousands, except percentages) | Change - YTD'23 vs. YTD'22 - (in thousands, except percentages) | Change - YTD'23 vs. YTD'22 - (in thousands, except percentages) |\n| --- | --- | --- | --- | --- |\n| Net cash provided by operating activities | $ 3,618,972 | $ 1,025,589 | $ 2,593,383 | 253 % |\n| Net cash used in investing activities | (165,916) | (404,573) | (238,657) | (59)% |\n| Net cash used in financing activities | (1,023,422) | (675,072) | 348,350 | 52 % |\n| Non-GAAP reconciliation of free cash flow: |  |  |  |  |\n| Net cash provided by operating activities | 3,618,972 | 1,025,589 | 2,593,383 | 253 % |\n| Purchases of property and equipment | (162,991) | (211,176) | (48,185) | (23)% |\n| Free cash flow | $ 3,455,981 | $ 814,413 | $ 2,641,568 | 324 % |\n\nNet cash provided by operating activities increased $2,593 million to $3,619 million for the six months ended June 30, 2023. The increase in net cash provided by operating activities was primarily driven by a decrease in payments for content assets, coupled with a $511 million or 3% increase in revenues. The payments for content assets decreased $1,977 million, from $8,427 million to $6,450 million, or 23%.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 28,
+          "doc_page": 30,
+          "section": "Management’s Discussion and Analysis",
+          "token_count": 453,
+          "char_length": 1372,
+          "chunk_index": 0
+        },
+        "score": 0.23413389439171758,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p03_000",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 3,
+        "text": "## NETFLIX, INC.\n\n## Consolidated Statements of Cash Flows\n\n## (unaudited) (in thousands)",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 3,
+          "doc_page": 5,
+          "section": "Financial Statements",
+          "token_count": 28,
+          "char_length": 89,
+          "chunk_index": 0
+        },
+        "score": 0.22542638006503257,
+        "strategy": "tfidf",
+        "hit": false
+      },
+      {
+        "id": "stre_p27_002",
+        "source_id": "netflix-2023q2-10q",
+        "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+        "page": 27,
+        "text": "Free cash flow was $148 million lower than net income for the three months ended June 30, 2023, primarily due to $227 million of cash payments for content assets exceeding amortization expense and $28 million in other non-favorable working capital differences, partially offset by $78 million of non-cash stock-based compensation expense and $29 million of non-cash remeasurement loss on our euro-denominated debt.\n\nFree cash flow was $1,428 million lower than net income for the three months ended June 30, 2022, primarily due to $1,234 million of cash payments for content assets exceeding amortization expense, $305 million of non-cash remeasurement gain on our euro-denominated debt and $39 million in other nonfavorable working capital differences, partially offset by $150 million of non-cash stock-based compensation expense.",
+        "metadata": {
+          "strategy": "strategy_e",
+          "document_id": "netflix-2023q2-10q",
+          "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+          "page": 27,
+          "doc_page": 29,
+          "section": "Management’s Discussion and Analysis",
+          "token_count": 200,
+          "char_length": 832,
+          "chunk_index": 2
+        },
+        "score": 0.22307094514086487,
+        "strategy": "tfidf",
+        "hit": false
+      }
+    ],
+    "context": "[stre_p03_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 3]\n## NETFLIX, INC.\n\n## Consolidated Statements of Cash Flows\n\n## (unaudited) (in thousands)",
+    "context_ids": [
+      "stre_p03_000"
+    ],
+    "context_chars": 143,
+    "elapsed_ms": 0.17020000086631626,
+    "hit1": false,
+    "hit3": false,
+    "context_hit": false
+  }
+]

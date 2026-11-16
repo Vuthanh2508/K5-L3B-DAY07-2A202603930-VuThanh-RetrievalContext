@@ -1,0 +1,657 @@
+[
+  {
+    "name": "Baseline (Dense Qdrant bge-m3)",
+    "split": "test",
+    "n": 5,
+    "h1": "1/5 (20.0%)",
+    "h3": "2/5 (40.0%)",
+    "ctx": "2/5 (40.0%)",
+    "time_str": "0.382s (76.2ms/q)",
+    "traces": [
+      {
+        "id": "q16",
+        "question": "Netflix có quyền chấm dứt việc mua lại cổ phiếu phổ thông vào bất kỳ lúc nào mà không cần thông báo trước hay không?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p06_000",
+            "score": 0.59143406,
+            "hit": false
+          },
+          {
+            "id": "stre_p17_001",
+            "score": 0.5678381,
+            "hit": false
+          },
+          {
+            "id": "stre_p25_002",
+            "score": 0.5633213,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q17",
+        "question": "Tính đến ngày 30 tháng 6 năm 2023, số tiền còn lại được phép dùng cho chương trình mua lại cổ phiếu của Netflix là bao nhiêu?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p07_001",
+            "score": 0.68235207,
+            "hit": false
+          },
+          {
+            "id": "stre_p02_000",
+            "score": 0.63291657,
+            "hit": false
+          },
+          {
+            "id": "stre_p22_002",
+            "score": 0.6271097,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q18",
+        "question": "Theo Thuyết minh báo cáo tài chính (Notes to Consolidated Financial Statements), các khoản tiền gửi bị giới hạn sử dụng (restricted cash) trong tài sản ngắn hạn và tài sản dài hạn được phân bổ cho các thỏa thuận nào?",
+        "h1": false,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p09_000",
+            "score": 0.6357555,
+            "hit": false
+          },
+          {
+            "id": "stre_p09_001",
+            "score": 0.5906517,
+            "hit": true
+          },
+          {
+            "id": "stre_p13_000",
+            "score": 0.5616678,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q19",
+        "question": "Netflix có sử dụng các hợp đồng ngoại hối hoặc công cụ phái sinh để phòng ngừa rủi ro phơi nhiễm ngoại tệ hay không?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p17_001",
+            "score": 0.5589958,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_001",
+            "score": 0.5554168,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_000",
+            "score": 0.54685557,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q20",
+        "question": "Theo Phần II - Thông tin khác (Part II. Other Information), có thay đổi trọng yếu nào đối với các yếu tố rủi ro (Risk Factors) so với báo cáo thường niên Form 10-K năm 2022 không?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p31_000",
+            "score": 0.6208023,
+            "hit": true
+          },
+          {
+            "id": "stre_p30_000",
+            "score": 0.47187135,
+            "hit": false
+          },
+          {
+            "id": "stre_p31_001",
+            "score": 0.45260763,
+            "hit": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Phương pháp 2 (Lexical BM25Okapi)",
+    "split": "test",
+    "n": 5,
+    "h1": "2/5 (40.0%)",
+    "h3": "2/5 (40.0%)",
+    "ctx": "2/5 (40.0%)",
+    "time_str": "0.004s (0.8ms/q)",
+    "traces": [
+      {
+        "id": "q16",
+        "question": "Netflix có quyền chấm dứt việc mua lại cổ phiếu phổ thông vào bất kỳ lúc nào mà không cần thông báo trước hay không?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p03_000",
+            "score": 3.6953686791765996,
+            "hit": false
+          },
+          {
+            "id": "stre_p05_000",
+            "score": 3.6953686791765996,
+            "hit": false
+          },
+          {
+            "id": "stre_p01_000",
+            "score": 3.6479696509876365,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q17",
+        "question": "Tính đến ngày 30 tháng 6 năm 2023, số tiền còn lại được phép dùng cho chương trình mua lại cổ phiếu của Netflix là bao nhiêu?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p02_000",
+            "score": 5.983041720321745,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 4.42189591288409,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_001",
+            "score": 4.399859921304541,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q18",
+        "question": "Theo Thuyết minh báo cáo tài chính (Notes to Consolidated Financial Statements), các khoản tiền gửi bị giới hạn sử dụng (restricted cash) trong tài sản ngắn hạn và tài sản dài hạn được phân bổ cho các thỏa thuận nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p09_001",
+            "score": 9.960277342502124,
+            "hit": true
+          },
+          {
+            "id": "stre_p06_000",
+            "score": 8.316727115466666,
+            "hit": false
+          },
+          {
+            "id": "stre_p09_000",
+            "score": 6.6837281873182395,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q19",
+        "question": "Netflix có sử dụng các hợp đồng ngoại hối hoặc công cụ phái sinh để phòng ngừa rủi ro phơi nhiễm ngoại tệ hay không?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p03_000",
+            "score": 3.6953686791765996,
+            "hit": false
+          },
+          {
+            "id": "stre_p05_000",
+            "score": 3.6953686791765996,
+            "hit": false
+          },
+          {
+            "id": "stre_p01_000",
+            "score": 3.6479696509876365,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q20",
+        "question": "Theo Phần II - Thông tin khác (Part II. Other Information), có thay đổi trọng yếu nào đối với các yếu tố rủi ro (Risk Factors) so với báo cáo thường niên Form 10-K năm 2022 không?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p31_000",
+            "score": 18.348880953471365,
+            "hit": true
+          },
+          {
+            "id": "stre_p30_000",
+            "score": 16.922750953886922,
+            "hit": false
+          },
+          {
+            "id": "stre_p31_001",
+            "score": 5.469603664573185,
+            "hit": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Phương pháp 3 (Hybrid RRF)",
+    "split": "test",
+    "n": 5,
+    "h1": "2/5 (40.0%)",
+    "h3": "2/5 (40.0%)",
+    "ctx": "2/5 (40.0%)",
+    "time_str": "0.446s (89.2ms/q)",
+    "traces": [
+      {
+        "id": "q16",
+        "question": "Netflix có quyền chấm dứt việc mua lại cổ phiếu phổ thông vào bất kỳ lúc nào mà không cần thông báo trước hay không?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p06_000",
+            "score": 0.031544957774465976,
+            "hit": false
+          },
+          {
+            "id": "stre_p03_000",
+            "score": 0.030886196246139225,
+            "hit": false
+          },
+          {
+            "id": "stre_p17_001",
+            "score": 0.030621785881252923,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q17",
+        "question": "Tính đến ngày 30 tháng 6 năm 2023, số tiền còn lại được phép dùng cho chương trình mua lại cổ phiếu của Netflix là bao nhiêu?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p02_000",
+            "score": 0.03252247488101534,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 0.03252247488101534,
+            "hit": false
+          },
+          {
+            "id": "stre_p10_001",
+            "score": 0.031009615384615385,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q18",
+        "question": "Theo Thuyết minh báo cáo tài chính (Notes to Consolidated Financial Statements), các khoản tiền gửi bị giới hạn sử dụng (restricted cash) trong tài sản ngắn hạn và tài sản dài hạn được phân bổ cho các thỏa thuận nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p09_001",
+            "score": 0.03252247488101534,
+            "hit": true
+          },
+          {
+            "id": "stre_p09_000",
+            "score": 0.032266458495966696,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_000",
+            "score": 0.03128054740957967,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q19",
+        "question": "Netflix có sử dụng các hợp đồng ngoại hối hoặc công cụ phái sinh để phòng ngừa rủi ro phơi nhiễm ngoại tệ hay không?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p06_000",
+            "score": 0.031024531024531024,
+            "hit": false
+          },
+          {
+            "id": "stre_p17_001",
+            "score": 0.030886196246139225,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_001",
+            "score": 0.030834914611005692,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q20",
+        "question": "Theo Phần II - Thông tin khác (Part II. Other Information), có thay đổi trọng yếu nào đối với các yếu tố rủi ro (Risk Factors) so với báo cáo thường niên Form 10-K năm 2022 không?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p31_000",
+            "score": 0.03278688524590164,
+            "hit": true
+          },
+          {
+            "id": "stre_p30_000",
+            "score": 0.03225806451612903,
+            "hit": false
+          },
+          {
+            "id": "stre_p31_001",
+            "score": 0.031746031746031744,
+            "hit": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cải thiện 1 (Hybrid Z-Score a=0.6)",
+    "split": "test",
+    "n": 5,
+    "h1": "1/5 (20.0%)",
+    "h3": "2/5 (40.0%)",
+    "ctx": "2/5 (40.0%)",
+    "time_str": "0.459s (91.7ms/q)",
+    "traces": [
+      {
+        "id": "q16",
+        "question": "Netflix có quyền chấm dứt việc mua lại cổ phiếu phổ thông vào bất kỳ lúc nào mà không cần thông báo trước hay không?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p06_000",
+            "score": 0.8767162702877774,
+            "hit": false
+          },
+          {
+            "id": "stre_p17_001",
+            "score": 0.1871250148203467,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 0.17730450788677726,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q17",
+        "question": "Tính đến ngày 30 tháng 6 năm 2023, số tiền còn lại được phép dùng cho chương trình mua lại cổ phiếu của Netflix là bao nhiêu?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p07_001",
+            "score": 2.005913134900137,
+            "hit": false
+          },
+          {
+            "id": "stre_p02_000",
+            "score": 1.8211659541052008,
+            "hit": false
+          },
+          {
+            "id": "stre_p10_001",
+            "score": 0.26661743081504485,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q18",
+        "question": "Theo Thuyết minh báo cáo tài chính (Notes to Consolidated Financial Statements), các khoản tiền gửi bị giới hạn sử dụng (restricted cash) trong tài sản ngắn hạn và tài sản dài hạn được phân bổ cho các thỏa thuận nào?",
+        "h1": false,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p09_000",
+            "score": 2.0488645772919702,
+            "hit": false
+          },
+          {
+            "id": "stre_p09_001",
+            "score": 1.8143385704894444,
+            "hit": true
+          },
+          {
+            "id": "stre_p06_000",
+            "score": 0.6650849118445432,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q19",
+        "question": "Netflix có sử dụng các hợp đồng ngoại hối hoặc công cụ phái sinh để phòng ngừa rủi ro phơi nhiễm ngoại tệ hay không?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p06_000",
+            "score": 0.5831583215299243,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_001",
+            "score": 0.46513628945381996,
+            "hit": false
+          },
+          {
+            "id": "stre_p17_001",
+            "score": 0.4150476476955619,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q20",
+        "question": "Theo Phần II - Thông tin khác (Part II. Other Information), có thay đổi trọng yếu nào đối với các yếu tố rủi ro (Risk Factors) so với báo cáo thường niên Form 10-K năm 2022 không?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p31_000",
+            "score": 0.9591751925454608,
+            "hit": true
+          },
+          {
+            "id": "stre_p30_000",
+            "score": -0.09236682107407646,
+            "hit": false
+          },
+          {
+            "id": "stre_p31_001",
+            "score": -0.8668083714713855,
+            "hit": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cải thiện 2 (Dense + Reranker v2-m3)",
+    "split": "test",
+    "n": 5,
+    "h1": "2/5 (40.0%)",
+    "h3": "5/5 (100.0%)",
+    "ctx": "5/5 (100.0%)",
+    "time_str": "3.269s (653.7ms/q)",
+    "traces": [
+      {
+        "id": "q16",
+        "question": "Netflix có quyền chấm dứt việc mua lại cổ phiếu phổ thông vào bất kỳ lúc nào mà không cần thông báo trước hay không?",
+        "h1": false,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p25_002",
+            "score": -1.580078125,
+            "hit": false
+          },
+          {
+            "id": "stre_p15_003",
+            "score": -3.6953125,
+            "hit": true
+          },
+          {
+            "id": "stre_p06_000",
+            "score": -3.912109375,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q17",
+        "question": "Tính đến ngày 30 tháng 6 năm 2023, số tiền còn lại được phép dùng cho chương trình mua lại cổ phiếu của Netflix là bao nhiêu?",
+        "h1": false,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p25_002",
+            "score": 2.71875,
+            "hit": false
+          },
+          {
+            "id": "stre_p15_003",
+            "score": 1.173828125,
+            "hit": true
+          },
+          {
+            "id": "stre_p07_001",
+            "score": -0.7978515625,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q18",
+        "question": "Theo Thuyết minh báo cáo tài chính (Notes to Consolidated Financial Statements), các khoản tiền gửi bị giới hạn sử dụng (restricted cash) trong tài sản ngắn hạn và tài sản dài hạn được phân bổ cho các thỏa thuận nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p09_001",
+            "score": -0.96435546875,
+            "hit": true
+          },
+          {
+            "id": "stre_p09_000",
+            "score": -2.478515625,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_000",
+            "score": -3.27734375,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q19",
+        "question": "Netflix có sử dụng các hợp đồng ngoại hối hoặc công cụ phái sinh để phòng ngừa rủi ro phơi nhiễm ngoại tệ hay không?",
+        "h1": false,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p06_000",
+            "score": -4.703125,
+            "hit": false
+          },
+          {
+            "id": "stre_p29_001",
+            "score": -4.9375,
+            "hit": true
+          },
+          {
+            "id": "stre_p17_001",
+            "score": -5.6875,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q20",
+        "question": "Theo Phần II - Thông tin khác (Part II. Other Information), có thay đổi trọng yếu nào đối với các yếu tố rủi ro (Risk Factors) so với báo cáo thường niên Form 10-K năm 2022 không?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p31_000",
+            "score": 3.974609375,
+            "hit": true
+          },
+          {
+            "id": "stre_p30_000",
+            "score": -2.3359375,
+            "hit": false
+          },
+          {
+            "id": "stre_p31_001",
+            "score": -5.02734375,
+            "hit": false
+          }
+        ]
+      }
+    ]
+  }
+]

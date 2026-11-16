@@ -1,0 +1,929 @@
+[
+  {
+    "query_id": "q16",
+    "split": "test",
+    "answerable": true,
+    "question": "Netflix có quyền chấm dứt việc mua lại cổ phiếu phổ thông vào bất kỳ lúc nào mà không cần thông báo trước hay không?",
+    "status": "answered",
+    "answer": "Có, Netflix có quyền chấm dứt việc mua lại cổ phiếu phổ thông vào bất kỳ lúc nào mà không cần thông báo trước. Điều này được nêu rõ trong báo cáo tài chính rằng công ty có thể ngừng bất kỳ việc mua lại nào mà không cần thông báo trước. [stre_p25_002]",
+    "citations": [
+      "stre_p25_002"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Netflix stock repurchase termination rights",
+        "filter": null,
+        "results": [
+          {
+            "id": "stre_p25_002",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 25,
+            "text": "In March 2021, our Board of Directors authorized the repurchase of up to $5 billion of our common stock, with no expiration date. Stock repurchases may be effected through open market repurchases in compliance with Rule 10b-18 under the Exchange Act, including through the use of trading plans intended to qualify under Rule 10b5-1 under the Exchange Act, privately-negotiated transactions, accelerated stock repurchase plans, block purchases, or other similar purchase techniques and in such amounts as management deems appropriate. We are not obligated to repurchase any specific number of shares, and the timing and actual number of shares repurchased will depend on a variety of factors, including our stock price, general economic, business and market conditions, and alternative investment opportunities. We may discontinue any repurchases of our common stock at any time without prior notice. During the six months ended June 30, 2023, the Company repurchased 3,071,380 shares of common stock for an aggregate amount of $1,045 million. As of June 30, 2023, $3.4 billion remains available for repurchases.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 25,
+              "doc_page": 27,
+              "section": "Management’s Discussion and Analysis",
+              "token_count": 255,
+              "char_length": 1111,
+              "chunk_index": 2
+            },
+            "score": 1.373675105535767,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p15_003",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 15,
+            "text": "In March 2021, the Company's Board of Directors authorized the repurchase of up to $5 billion of its common stock, with no expiration date. Stock repurchases may be effected through open market repurchases in compliance with Rule 10b-18 under the Exchange Act, including through the use of trading plans intended to qualify under Rule 10b5-1 under the Exchange Act, privately-negotiated transactions, accelerated stock repurchase plans, block purchases, or other similar purchase techniques and in such amounts as management deems appropriate. The Company is not obligated to repurchase any specific number of shares, and the timing and actual number of shares repurchased will depend on a variety of factors, including the Company's stock price, general economic, business and market conditions, and alternative investment opportunities. The Company may discontinue any repurchases of its common stock at any time without prior notice. During the three and six months ended June 30, 2023, the Company repurchased 1,849,324 and 3,071,380 shares, respectively, for an aggregate amount of $645 million and $1,045 million, respectively. As of June 30, 2023, $3.4 billion remain available for repurchases. Shares repurchased by the Company are accounted for when the transaction is settled. As of June 30, 2023, there were no unsettled share repurchases. Direct costs incurred to acquire the shares are included in the total cost of the shares.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 15,
+              "doc_page": 17,
+              "section": "Notes to Consolidated Financial Statements",
+              "token_count": 337,
+              "char_length": 1440,
+              "chunk_index": 3
+            },
+            "score": 1.3103963097586302,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p07_001",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 7,
+            "text": "|  | As of/ Three Months Ended - June 30, 2023 - (in thousands) | As of/ Three Months Ended - June 30, 2022 - (in thousands) | As of/ Six Months Ended - June 30, 2023 - (in thousands) | As of/ Six Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- | --- | --- |\n| Revenues | $ 919,273 | $ 907,719 | $ 1,852,796 | $ 1,824,473 |\n| Paid net membership additions (losses) | 1,068 | 1,080 | 2,523 | 2,167 |\n| Paid memberships at end of period (1) | 40,546 | 34,799 | 40,546 | 34,799 |\n\n(1) A paid membership (also referred to as a paid subscription) is defined as a membership that has the right to receive Netflix service following sign-up and a method of payment being provided, and that is not part of a free trial or certain other promotions that may be offered by the Company to new or rejoining members. Certain members have the option to add extra member sub accounts. These extra member sub accounts are not included in paid memberships. A membership is canceled and ceases to be reflected in the above metrics as of the effective cancellation date. V oluntary cancellations generally become effective at the end of the prepaid membership period. Involuntary cancellations, as a result of a failed method of payment, become effective immediately. Memberships are assigned to territories based on the geographic location used at time of sign-up as determined by the Company's internal systems, which utilize industry standard geo-location technology.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 7,
+              "doc_page": 9,
+              "section": "Notes to Consolidated Financial Statements",
+              "token_count": 411,
+              "char_length": 1467,
+              "chunk_index": 1
+            },
+            "score": 0.5406372768777176,
+            "strategy": "hybrid_zscore"
+          }
+        ],
+        "context": "[stre_p25_002 | NETFLIX_2023Q2_10Q-3-33.pdf | page 25]\nIn March 2021, our Board of Directors authorized the repurchase of up to $5 billion of our common stock, with no expiration date. Stock repurchases may be effected through open market repurchases in compliance with Rule 10b-18 under the Exchange Act, including through the use of trading plans intended to qualify under Rule 10b5-1 under the Exchange Act, privately-negotiated transactions, accelerated stock repurchase plans, block purchases, or other similar purchase techniques and in such amounts as management deems appropriate. We are not obligated to repurchase any specific number of shares, and the timing and actual number of shares repurchased will depend on a variety of factors, including our stock price, general economic, business and market conditions, and alternative investment opportunities. We may discontinue any repurchases of our common stock at any time without prior notice. During the six months ended June 30, 2023, the Company repurchased 3,071,380 shares of common stock for an aggregate amount of $1,045 million. As of June 30, 2023, $3.4 billion remains available for repurchases.\n\n[stre_p15_003 | NETFLIX_2023Q2_10Q-3-33.pdf | page 15]\nIn March 2021, the Company's Board of Directors authorized the repurchase of up to $5 billion of its common stock, with no expiration date. Stock repurchases may be effected through open market repurchases in compliance with Rule 10b-18 under the Exchange Act, including through the use of trading plans intended to qualify under Rule 10b5-1 under the Exchange Act, privately-negotiated transactions, accelerated stock repurchase plans, block purchases, or other similar purchase techniques and in such amounts as management deems appropriate. The Company is not obligated to repurchase any specific number of shares, and the timing and actual number of shares repurchased will depend on a variety of factors, including the Company's stock price, general economic, business and market conditions, and alternative investment opportunities. The Company may discontinue any repurchases of its common stock at any time without prior notice. During the three and six months ended June 30, 2023, the Company repurchased 1,849,324 and 3,071,380 shares, respectively, for an aggregate amount of $645 million and $1,045 million, respectively. As of June 30, 2023, $3.4 billion remain available for repurchases. Shares repurchased by the Company are accounted for when the transaction is settled. As of June 30, 2023, there were no unsettled share repurchases. Direct costs incurred to acquire the shares are included in the total cost of the shares.\n\n[stre_p07_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 7]\n|  | As of/ Three Months Ended - June 30, 2023 - (in thousands) | As of/ Three Months Ended - June 30, 2022 - (in thousands) | As of/ Six Months Ended - June 30, 2023 - (in thousands) | As of/ Six Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- | --- | --- |\n| Revenues | $ 919,273 | $ 907,719 | $ 1,852,796 | $ 1,824,473 |\n| Paid net membership additions (losses) | 1,068 | 1,080 | 2,523 | 2,167 |\n| Paid memberships at end of period (1) | 40,546 | 34,799 | 40,546 | 34,799 |\n\n(1) A paid membership (also referred to as a paid subscription) is defined as a membership that has the right to receive Netflix service following sign-up and a method of payment being provided, and that is not part of a free trial or certain other promotions that may be offered by the Company to new or rejoining members. Certain members have the option to add extra member sub accounts. These extra member sub accounts are not included in paid memberships. A membership is canceled and ceases to be reflected in the above metrics as of the effective cancellation date. V oluntary cancellations generally become effective at the end of the prepaid membership period. Involuntary cancellations, as a result of a failed method of payment, become effective immediately. Memberships are assigned to territories based on the geographic location used at time of sign-up as determined by the Company's internal systems, which utilize industry standard geo-location technology.",
+        "context_ids": [
+          "stre_p25_002",
+          "stre_p15_003",
+          "stre_p07_001"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 6.644
+  },
+  {
+    "query_id": "q17",
+    "split": "test",
+    "answerable": true,
+    "question": "Tính đến ngày 30 tháng 6 năm 2023, số tiền còn lại được phép dùng cho chương trình mua lại cổ phiếu của Netflix là bao nhiêu?",
+    "status": "answered",
+    "answer": "Tính đến ngày 30 tháng 6 năm 2023, số tiền còn lại được phép dùng cho chương trình mua lại cổ phiếu của Netflix là 3,4 tỷ USD [stre_p15_003].",
+    "citations": [
+      "stre_p15_003"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "Netflix share repurchase program remaining amount as of June 30, 2023",
+        "filter": null,
+        "results": [
+          {
+            "id": "stre_p07_001",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 7,
+            "text": "|  | As of/ Three Months Ended - June 30, 2023 - (in thousands) | As of/ Three Months Ended - June 30, 2022 - (in thousands) | As of/ Six Months Ended - June 30, 2023 - (in thousands) | As of/ Six Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- | --- | --- |\n| Revenues | $ 919,273 | $ 907,719 | $ 1,852,796 | $ 1,824,473 |\n| Paid net membership additions (losses) | 1,068 | 1,080 | 2,523 | 2,167 |\n| Paid memberships at end of period (1) | 40,546 | 34,799 | 40,546 | 34,799 |\n\n(1) A paid membership (also referred to as a paid subscription) is defined as a membership that has the right to receive Netflix service following sign-up and a method of payment being provided, and that is not part of a free trial or certain other promotions that may be offered by the Company to new or rejoining members. Certain members have the option to add extra member sub accounts. These extra member sub accounts are not included in paid memberships. A membership is canceled and ceases to be reflected in the above metrics as of the effective cancellation date. V oluntary cancellations generally become effective at the end of the prepaid membership period. Involuntary cancellations, as a result of a failed method of payment, become effective immediately. Memberships are assigned to territories based on the geographic location used at time of sign-up as determined by the Company's internal systems, which utilize industry standard geo-location technology.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 7,
+              "doc_page": 9,
+              "section": "Notes to Consolidated Financial Statements",
+              "token_count": 411,
+              "char_length": 1467,
+              "chunk_index": 1
+            },
+            "score": 1.6002124497880867,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p15_003",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 15,
+            "text": "In March 2021, the Company's Board of Directors authorized the repurchase of up to $5 billion of its common stock, with no expiration date. Stock repurchases may be effected through open market repurchases in compliance with Rule 10b-18 under the Exchange Act, including through the use of trading plans intended to qualify under Rule 10b5-1 under the Exchange Act, privately-negotiated transactions, accelerated stock repurchase plans, block purchases, or other similar purchase techniques and in such amounts as management deems appropriate. The Company is not obligated to repurchase any specific number of shares, and the timing and actual number of shares repurchased will depend on a variety of factors, including the Company's stock price, general economic, business and market conditions, and alternative investment opportunities. The Company may discontinue any repurchases of its common stock at any time without prior notice. During the three and six months ended June 30, 2023, the Company repurchased 1,849,324 and 3,071,380 shares, respectively, for an aggregate amount of $645 million and $1,045 million, respectively. As of June 30, 2023, $3.4 billion remain available for repurchases. Shares repurchased by the Company are accounted for when the transaction is settled. As of June 30, 2023, there were no unsettled share repurchases. Direct costs incurred to acquire the shares are included in the total cost of the shares.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 15,
+              "doc_page": 17,
+              "section": "Notes to Consolidated Financial Statements",
+              "token_count": 337,
+              "char_length": 1440,
+              "chunk_index": 3
+            },
+            "score": 0.46474738588930836,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p25_002",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 25,
+            "text": "In March 2021, our Board of Directors authorized the repurchase of up to $5 billion of our common stock, with no expiration date. Stock repurchases may be effected through open market repurchases in compliance with Rule 10b-18 under the Exchange Act, including through the use of trading plans intended to qualify under Rule 10b5-1 under the Exchange Act, privately-negotiated transactions, accelerated stock repurchase plans, block purchases, or other similar purchase techniques and in such amounts as management deems appropriate. We are not obligated to repurchase any specific number of shares, and the timing and actual number of shares repurchased will depend on a variety of factors, including our stock price, general economic, business and market conditions, and alternative investment opportunities. We may discontinue any repurchases of our common stock at any time without prior notice. During the six months ended June 30, 2023, the Company repurchased 3,071,380 shares of common stock for an aggregate amount of $1,045 million. As of June 30, 2023, $3.4 billion remains available for repurchases.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 25,
+              "doc_page": 27,
+              "section": "Management’s Discussion and Analysis",
+              "token_count": 255,
+              "char_length": 1111,
+              "chunk_index": 2
+            },
+            "score": 0.40173116997646136,
+            "strategy": "hybrid_zscore"
+          }
+        ],
+        "context": "[stre_p07_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 7]\n|  | As of/ Three Months Ended - June 30, 2023 - (in thousands) | As of/ Three Months Ended - June 30, 2022 - (in thousands) | As of/ Six Months Ended - June 30, 2023 - (in thousands) | As of/ Six Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- | --- | --- |\n| Revenues | $ 919,273 | $ 907,719 | $ 1,852,796 | $ 1,824,473 |\n| Paid net membership additions (losses) | 1,068 | 1,080 | 2,523 | 2,167 |\n| Paid memberships at end of period (1) | 40,546 | 34,799 | 40,546 | 34,799 |\n\n(1) A paid membership (also referred to as a paid subscription) is defined as a membership that has the right to receive Netflix service following sign-up and a method of payment being provided, and that is not part of a free trial or certain other promotions that may be offered by the Company to new or rejoining members. Certain members have the option to add extra member sub accounts. These extra member sub accounts are not included in paid memberships. A membership is canceled and ceases to be reflected in the above metrics as of the effective cancellation date. V oluntary cancellations generally become effective at the end of the prepaid membership period. Involuntary cancellations, as a result of a failed method of payment, become effective immediately. Memberships are assigned to territories based on the geographic location used at time of sign-up as determined by the Company's internal systems, which utilize industry standard geo-location technology.\n\n[stre_p15_003 | NETFLIX_2023Q2_10Q-3-33.pdf | page 15]\nIn March 2021, the Company's Board of Directors authorized the repurchase of up to $5 billion of its common stock, with no expiration date. Stock repurchases may be effected through open market repurchases in compliance with Rule 10b-18 under the Exchange Act, including through the use of trading plans intended to qualify under Rule 10b5-1 under the Exchange Act, privately-negotiated transactions, accelerated stock repurchase plans, block purchases, or other similar purchase techniques and in such amounts as management deems appropriate. The Company is not obligated to repurchase any specific number of shares, and the timing and actual number of shares repurchased will depend on a variety of factors, including the Company's stock price, general economic, business and market conditions, and alternative investment opportunities. The Company may discontinue any repurchases of its common stock at any time without prior notice. During the three and six months ended June 30, 2023, the Company repurchased 1,849,324 and 3,071,380 shares, respectively, for an aggregate amount of $645 million and $1,045 million, respectively. As of June 30, 2023, $3.4 billion remain available for repurchases. Shares repurchased by the Company are accounted for when the transaction is settled. As of June 30, 2023, there were no unsettled share repurchases. Direct costs incurred to acquire the shares are included in the total cost of the shares.\n\n[stre_p25_002 | NETFLIX_2023Q2_10Q-3-33.pdf | page 25]\nIn March 2021, our Board of Directors authorized the repurchase of up to $5 billion of our common stock, with no expiration date. Stock repurchases may be effected through open market repurchases in compliance with Rule 10b-18 under the Exchange Act, including through the use of trading plans intended to qualify under Rule 10b5-1 under the Exchange Act, privately-negotiated transactions, accelerated stock repurchase plans, block purchases, or other similar purchase techniques and in such amounts as management deems appropriate. We are not obligated to repurchase any specific number of shares, and the timing and actual number of shares repurchased will depend on a variety of factors, including our stock price, general economic, business and market conditions, and alternative investment opportunities. We may discontinue any repurchases of our common stock at any time without prior notice. During the six months ended June 30, 2023, the Company repurchased 3,071,380 shares of common stock for an aggregate amount of $1,045 million. As of June 30, 2023, $3.4 billion remains available for repurchases.",
+        "context_ids": [
+          "stre_p07_001",
+          "stre_p15_003",
+          "stre_p25_002"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 3.419
+  },
+  {
+    "query_id": "q18",
+    "split": "test",
+    "answerable": true,
+    "question": "Theo Thuyết minh báo cáo tài chính (Notes to Consolidated Financial Statements), các khoản tiền gửi bị giới hạn sử dụng (restricted cash) trong tài sản ngắn hạn và tài sản dài hạn được phân bổ cho các thỏa thuận nào?",
+    "status": "answered",
+    "answer": "Các khoản tiền gửi bị giới hạn sử dụng (restricted cash) trong tài sản ngắn hạn được phân bổ cho các khoản tiền gửi liên quan đến bảo hiểm tự thân và các thỏa thuận thư tín dụng. Trong khi đó, tài sản dài hạn bao gồm các khoản tiền gửi bị giới hạn liên quan đến các thỏa thuận thư tín dụng [stre_p09_001].",
+    "citations": [
+      "stre_p09_001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "restricted cash agreements in Notes to Consolidated Financial Statements",
+        "filter": {
+          "section": "Notes to Consolidated Financial Statements"
+        },
+        "results": [
+          {
+            "id": "stre_p09_001",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 9,
+            "text": "|  | As of December 31, 2022 - Cash and cash equivalents - (in thousands) | As of December 31, 2022 - Short-term investments - (in thousands) | As of December 31, 2022 - Other Current Assets - (in thousands) | As of December 31, 2022 - Non-current Assets - (in thousands) | As of December 31, 2022 - Total - (in thousands) |\n| --- | --- | --- | --- | --- | --- |\n| Cash | $ 4,071,584 | $ - | $ 3,410 | $ 19,874 | $ 4,094,868 |\n| Level 1 securities: |  |  |  |  |  |\n| Money market funds | 569,826 | - | - | 122 | 569,948 |\n| Level 2 securities: |  |  |  |  |  |\n| Time Deposits (1) | 505,766 | 911,276 | - | - | 1,417,042 |\n|  | $ 5,147,176 | $ 911,276 | $ 3,410 | $ 19,996 | $ 6,081,858 |\n\n(1) The majority of the Company's time deposits are domestic deposits, which mature within one year.\n\nOther current assets include restricted cash for deposits related to self insurance and letter of credit agreements. Non-current assets include restricted cash related to letter of credit agreements. The fair value of cash equivalents and short-term investments included in the Level 2 category is based on observable inputs, such as quoted prices for similar assets at the measurement date; quoted prices in markets that are not active; or other inputs that are observable, either directly or indirectly.\n\nSee Note 6 Debt to the consolidated financial statements for further information regarding the fair value of the Company's senior notes.\n\nThere were no material gross realized gains or losses in the three and six months ended June 30, 2023 and 2022, respectively.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 9,
+              "doc_page": 11,
+              "section": "Notes to Consolidated Financial Statements",
+              "token_count": 464,
+              "char_length": 1563,
+              "chunk_index": 1
+            },
+            "score": 1.1066484778283874,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p06_000",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 6,
+            "text": "## NETFLIX, INC.\n\n## Notes to Consolidated Financial Statements (unaudited)\n\n## 1. Basis of Presentation and Summary of Significant Accounting Policies\n\nThe accompanying interim consolidated financial statements of Netflix, Inc. and its wholly owned subsidiaries (the 'Company') have been prepared in conformity with accounting principles generally accepted in the United States ('U.S.') and are consistent in all material respects with those applied in the Company's Annual Report on Form 10-K for the year ended December 31, 2022 filed with the Securities and Exchange Commission (the 'SEC') on January 26, 2023. The preparation of consolidated financial statements in conformity with U.S. generally accepted accounting principles ('GAAP') requires management to make estimates and judgments that affect the amounts reported in the consolidated financial statements and accompanying notes. Significant items subject to such estimates and assumptions include the amortization of content assets and the recognition and measurement of income tax assets and liabilities. The Company bases its estimates on historical experience and on various other assumptions that the Company believes to be reasonable under the circumstances. On a regular basis, the Company evaluates the assumptions, judgments and estimates. Actual results may differ from these estimates.\n\nThe interim financial information is unaudited, but reflects all normal recurring adjustments that are, in the opinion of management, necessary to fairly present the information set forth herein. The interim consolidated financial statements should be read in conjunction with the audited consolidated financial statements and related notes included in the Company's Annual Report on Form 10-K for the year ended December 31, 2022. Interim results are not necessarily indicative of the results for a full year.\n\nThere have been no material changes in the Company's significant accounting policies as compared to the significant accounting policies described in the Company's Annual Report on Form 10-K for the year ended December 31, 2022.\n\n## 2. Revenue Recognition",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 6,
+              "doc_page": 8,
+              "section": "Notes to Consolidated Financial Statements",
+              "token_count": 453,
+              "char_length": 2126,
+              "chunk_index": 0
+            },
+            "score": 1.0744390632060878,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p13_000",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 13,
+            "text": "Each of the Notes are repayable in whole or in part upon the occurrence of a change of control, at the option of the holders, at a purchase price in cash equal to 101% of the principal plus accrued interest. The Company may redeem the Notes prior to maturity in whole or in part at an amount equal to the principal amount thereof plus accrued and unpaid interest and an applicable premium. The Notes include, among other terms and conditions, limitations on the Company's ability to create, incur or allow certain liens; enter into sale and lease-back transactions; create, assume, incur or guarantee additional indebtedness of certain of the Company's subsidiaries; and consolidate or merge with, or convey, transfer or lease all or substantially all of the Company's and its subsidiaries assets, to another person. As of June 30, 2023 and December 31, 2022, the Company was in compliance with all related covenants.\n\n## Revolving Credit Facility\n\nOn March 6, 2023, the Company amended its $1 billion unsecured revolving credit facility (\"Revolving Credit Agreement\") to replace the London interbank offered rate to a variable secured overnight financing rate (the 'Term SOFR Rate') as the rate to which interest payments are indexed, among other things. The Revolving Credit Agreement matures on June 17, 2026. Revolving loans may be borrowed, repaid and reborrowed until June 17, 2026, at which time all amounts borrowed must be repaid. The Company may use the proceeds of future borrowings under the Revolving Credit Agreement for working capital and general corporate purposes. As of June 30, 2023, no amounts have been borrowed under the Revolving Credit Agreement.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 13,
+              "doc_page": 15,
+              "section": "Notes to Consolidated Financial Statements",
+              "token_count": 395,
+              "char_length": 1671,
+              "chunk_index": 0
+            },
+            "score": 0.9528029217987319,
+            "strategy": "hybrid_zscore"
+          }
+        ],
+        "context": "[stre_p09_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 9]\n|  | As of December 31, 2022 - Cash and cash equivalents - (in thousands) | As of December 31, 2022 - Short-term investments - (in thousands) | As of December 31, 2022 - Other Current Assets - (in thousands) | As of December 31, 2022 - Non-current Assets - (in thousands) | As of December 31, 2022 - Total - (in thousands) |\n| --- | --- | --- | --- | --- | --- |\n| Cash | $ 4,071,584 | $ - | $ 3,410 | $ 19,874 | $ 4,094,868 |\n| Level 1 securities: |  |  |  |  |  |\n| Money market funds | 569,826 | - | - | 122 | 569,948 |\n| Level 2 securities: |  |  |  |  |  |\n| Time Deposits (1) | 505,766 | 911,276 | - | - | 1,417,042 |\n|  | $ 5,147,176 | $ 911,276 | $ 3,410 | $ 19,996 | $ 6,081,858 |\n\n(1) The majority of the Company's time deposits are domestic deposits, which mature within one year.\n\nOther current assets include restricted cash for deposits related to self insurance and letter of credit agreements. Non-current assets include restricted cash related to letter of credit agreements. The fair value of cash equivalents and short-term investments included in the Level 2 category is based on observable inputs, such as quoted prices for similar assets at the measurement date; quoted prices in markets that are not active; or other inputs that are observable, either directly or indirectly.\n\nSee Note 6 Debt to the consolidated financial statements for further information regarding the fair value of the Company's senior notes.\n\nThere were no material gross realized gains or losses in the three and six months ended June 30, 2023 and 2022, respectively.\n\n[stre_p06_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 6]\n## NETFLIX, INC.\n\n## Notes to Consolidated Financial Statements (unaudited)\n\n## 1. Basis of Presentation and Summary of Significant Accounting Policies\n\nThe accompanying interim consolidated financial statements of Netflix, Inc. and its wholly owned subsidiaries (the 'Company') have been prepared in conformity with accounting principles generally accepted in the United States ('U.S.') and are consistent in all material respects with those applied in the Company's Annual Report on Form 10-K for the year ended December 31, 2022 filed with the Securities and Exchange Commission (the 'SEC') on January 26, 2023. The preparation of consolidated financial statements in conformity with U.S. generally accepted accounting principles ('GAAP') requires management to make estimates and judgments that affect the amounts reported in the consolidated financial statements and accompanying notes. Significant items subject to such estimates and assumptions include the amortization of content assets and the recognition and measurement of income tax assets and liabilities. The Company bases its estimates on historical experience and on various other assumptions that the Company believes to be reasonable under the circumstances. On a regular basis, the Company evaluates the assumptions, judgments and estimates. Actual results may differ from these estimates.\n\nThe interim financial information is unaudited, but reflects all normal recurring adjustments that are, in the opinion of management, necessary to fairly present the information set forth herein. The interim consolidated financial statements should be read in conjunction with the audited consolidated financial statements and related notes included in the Company's Annual Report on Form 10-K for the year ended December 31, 2022. Interim results are not necessarily indicative of the results for a full year.\n\nThere have been no material changes in the Company's significant accounting policies as compared to the significant accounting policies described in the Company's Annual Report on Form 10-K for the year ended December 31, 2022.\n\n## 2. Revenue Recognition\n\n[stre_p13_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 13]\nEach of the Notes are repayable in whole or in part upon the occurrence of a change of control, at the option of the holders, at a purchase price in cash equal to 101% of the principal plus accrued interest. The Company may redeem the Notes prior to maturity in whole or in part at an amount equal to the principal amount thereof plus accrued and unpaid interest and an applicable premium. The Notes include, among other terms and conditions, limitations on the Company's ability to create, incur or allow certain liens; enter into sale and lease-back transactions; create, assume, incur or guarantee additional indebtedness of certain of the Company's subsidiaries; and consolidate or merge with, or convey, transfer or lease all or substantially all of the Company's and its subsidiaries assets, to another person. As of June 30, 2023 and December 31, 2022, the Company was in compliance with all related covenants.\n\n## Revolving Credit Facility\n\nOn March 6, 2023, the Company amended its $1 billion unsecured revolving credit facility (\"Revolving Credit Agreement\") to replace the London interbank offered rate to a variable secured overnight financing rate (the 'Term SOFR Rate') as the rate to which interest payments are indexed, among other things. The Revolving Credit Agreement matures on June 17, 2026. Revolving loans may be borrowed, repaid and reborrowed until June 17, 2026, at which time all amounts borrowed must be repaid. The Company may use the proceeds of future borrowings under the Revolving Credit Agreement for working capital and general corporate purposes. As of June 30, 2023, no amounts have been borrowed under the Revolving Credit Agreement.",
+        "context_ids": [
+          "stre_p09_001",
+          "stre_p06_000",
+          "stre_p13_000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 3.496
+  },
+  {
+    "query_id": "q19",
+    "split": "test",
+    "answerable": true,
+    "question": "Netflix có sử dụng các hợp đồng ngoại hối hoặc công cụ phái sinh để phòng ngừa rủi ro phơi nhiễm ngoại tệ hay không?",
+    "status": "answered",
+    "answer": "Netflix không sử dụng các hợp đồng ngoại hối hoặc công cụ phái sinh để phòng ngừa rủi ro phơi nhiễm ngoại tệ. Họ cho biết rằng sự biến động của tỷ giá hối đoái phụ thuộc vào nhiều yếu tố mà họ không thể dự đoán một cách chính xác. Việc mở rộng quốc tế của họ làm tăng mức độ phơi nhiễm với sự biến động tỷ giá, và điều này có thể ảnh hưởng đáng kể đến kết quả hoạt động trong tương lai của họ [stre_p29_001].",
+    "citations": [
+      "stre_p29_001"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "foreign exchange contracts or derivatives to hedge currency exposure",
+        "filter": null,
+        "results": [
+          {
+            "id": "stre_p29_001",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 29,
+            "text": "We have also experienced and will continue to experience fluctuations in our net income as a result of gains (losses) on the settlement and the remeasurement of monetary assets and liabilities denominated in currencies that are not the functional currency. In the six months ended June 30, 2023, we recognized a $130 million foreign exchange loss primarily due to the non-cash remeasurement of our Senior Notes denominated in euros, coupled with the remeasurement of cash and content liabilities denominated in currencies other than the functional currencies.\n\nIn addition, the effect of exchange rate changes on cash, cash equivalents and restricted cash as disclosed on the Consolidated Statements of Cash Flow for the six months ended June 30, 2023 was an increase of $66 million.\n\nWe do not use foreign exchange contracts or derivatives to hedge any foreign currency exposures. The volatility of exchange rates depends on many factors that we cannot forecast with reliable accuracy. Our continued international expansion increases our exposure to exchange rate fluctuations and, as a result, such fluctuations could have a significant impact on our future results of operations.\n\n## Item 4. Controls and Procedures\n\n## Evaluation of Disclosure Controls and Procedures",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 29,
+              "doc_page": 31,
+              "section": "Market Risk",
+              "token_count": 279,
+              "char_length": 1271,
+              "chunk_index": 1
+            },
+            "score": 2.6604375926515877,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p29_000",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 29,
+            "text": "## Item 3. Quantitative and Qualitative Disclosures About Market Risk\n\nFor financial market risks related to changes in interest rates, reference is made to Item 7A 'Quantitative and Qualitative Disclosures About Market Risk' contained in Part II of our Annual Report on Form 10-K for the year ended December 31, 2022. Our exposure to market risk has not changed significantly since December 31, 2022.\n\n## Interest Rate Risk\n\nAt June 30, 2023, our cash equivalents and short-term investments were generally invested in money market funds and time deposits. Interest paid on such funds fluctuates with the prevailing interest rate.\n\nAs of June 30, 2023, we had $14.5 billion of debt, consisting of fixed rate unsecured debt in fourteen tranches due between 2024 and 2030. Refer to Note 6 Debt to the consolidated financial statements for details about all issuances. The fair value of our debt will fluctuate with movements of interest rates, increasing in periods of declining rates of interest and declining in periods of increasing rates of interest. The fair value of our debt will also fluctuate based on changes in foreign currency rates, as discussed below.\n\n## Foreign Currency Risk\n\nCurrencies denominated in other than the U.S. dollar account for 57% of revenue for the six months ended June 30, 2023. We therefore have foreign currency risk related to these currencies, which are primarily the euro, the British pound, the Brazilian real, the Canadian dollar, the Mexican Peso, the Japanese yen, and the Australian dollar.\n\nAccordingly, changes in exchange rates, and in particular a weakening of foreign currencies relative to the U.S. dollar may negatively affect our revenue and operating income as expressed in U.S. dollars. In the six months ended June 30, 2023, our revenues would have been approximately $577 million higher had foreign currency exchange rates remained consistent with those in the same period of 2022.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 29,
+              "doc_page": 31,
+              "section": "Market Risk",
+              "token_count": 431,
+              "char_length": 1935,
+              "chunk_index": 0
+            },
+            "score": 1.5202402936410704,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p24_003",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 24,
+            "text": "Interest and other income (expense) decreased in the three and six months ended June 30, 2023 primarily due to foreign exchange losses of $23 million and $130 million, respectively, compared to gains of $239 million and $431 million, respectively, for the corresponding periods in 2022. In the three months ended June 30, 2023, the foreign exchange losses were primarily driven by the non-cash losses of $29 million from the remeasurement of our €5,170 million Senior Notes, partially offset by the remeasurement of cash and content liability positions in currencies other than the functional currencies. In the six months ended June 30, 2023, the foreign exchange losses were primarily driven by the non-cash losses of $110 million from the remeasurement of our €5,170 million Senior Notes, coupled with the remeasurement of cash and content liability positions in currencies other than the functional currencies. In the three and six months ended June 30, 2022, the foreign exchange gains were primarily driven by the non-cash gains of $305 million and $466 million, respectively, from the remeasurement of our €5,170 million Senior Notes, partially offset by the remeasurement of cash and content liability positions in currencies other than the functional currencies. The change in foreign currency gains and losses was partially offset by higher interest income earned in the three and six months ended June 30, 2023 as compared to the corresponding periods in 2022.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 24,
+              "doc_page": 26,
+              "section": "Management’s Discussion and Analysis",
+              "token_count": 355,
+              "char_length": 1471,
+              "chunk_index": 3
+            },
+            "score": 0.8434634850043103,
+            "strategy": "hybrid_zscore"
+          }
+        ],
+        "context": "[stre_p29_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 29]\nWe have also experienced and will continue to experience fluctuations in our net income as a result of gains (losses) on the settlement and the remeasurement of monetary assets and liabilities denominated in currencies that are not the functional currency. In the six months ended June 30, 2023, we recognized a $130 million foreign exchange loss primarily due to the non-cash remeasurement of our Senior Notes denominated in euros, coupled with the remeasurement of cash and content liabilities denominated in currencies other than the functional currencies.\n\nIn addition, the effect of exchange rate changes on cash, cash equivalents and restricted cash as disclosed on the Consolidated Statements of Cash Flow for the six months ended June 30, 2023 was an increase of $66 million.\n\nWe do not use foreign exchange contracts or derivatives to hedge any foreign currency exposures. The volatility of exchange rates depends on many factors that we cannot forecast with reliable accuracy. Our continued international expansion increases our exposure to exchange rate fluctuations and, as a result, such fluctuations could have a significant impact on our future results of operations.\n\n## Item 4. Controls and Procedures\n\n## Evaluation of Disclosure Controls and Procedures\n\n[stre_p29_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 29]\n## Item 3. Quantitative and Qualitative Disclosures About Market Risk\n\nFor financial market risks related to changes in interest rates, reference is made to Item 7A 'Quantitative and Qualitative Disclosures About Market Risk' contained in Part II of our Annual Report on Form 10-K for the year ended December 31, 2022. Our exposure to market risk has not changed significantly since December 31, 2022.\n\n## Interest Rate Risk\n\nAt June 30, 2023, our cash equivalents and short-term investments were generally invested in money market funds and time deposits. Interest paid on such funds fluctuates with the prevailing interest rate.\n\nAs of June 30, 2023, we had $14.5 billion of debt, consisting of fixed rate unsecured debt in fourteen tranches due between 2024 and 2030. Refer to Note 6 Debt to the consolidated financial statements for details about all issuances. The fair value of our debt will fluctuate with movements of interest rates, increasing in periods of declining rates of interest and declining in periods of increasing rates of interest. The fair value of our debt will also fluctuate based on changes in foreign currency rates, as discussed below.\n\n## Foreign Currency Risk\n\nCurrencies denominated in other than the U.S. dollar account for 57% of revenue for the six months ended June 30, 2023. We therefore have foreign currency risk related to these currencies, which are primarily the euro, the British pound, the Brazilian real, the Canadian dollar, the Mexican Peso, the Japanese yen, and the Australian dollar.\n\nAccordingly, changes in exchange rates, and in particular a weakening of foreign currencies relative to the U.S. dollar may negatively affect our revenue and operating income as expressed in U.S. dollars. In the six months ended June 30, 2023, our revenues would have been approximately $577 million higher had foreign currency exchange rates remained consistent with those in the same period of 2022.\n\n[stre_p24_003 | NETFLIX_2023Q2_10Q-3-33.pdf | page 24]\nInterest and other income (expense) decreased in the three and six months ended June 30, 2023 primarily due to foreign exchange losses of $23 million and $130 million, respectively, compared to gains of $239 million and $431 million, respectively, for the corresponding periods in 2022. In the three months ended June 30, 2023, the foreign exchange losses were primarily driven by the non-cash losses of $29 million from the remeasurement of our €5,170 million Senior Notes, partially offset by the remeasurement of cash and content liability positions in currencies other than the functional currencies. In the six months ended June 30, 2023, the foreign exchange losses were primarily driven by the non-cash losses of $110 million from the remeasurement of our €5,170 million Senior Notes, coupled with the remeasurement of cash and content liability positions in currencies other than the functional currencies. In the three and six months ended June 30, 2022, the foreign exchange gains were primarily driven by the non-cash gains of $305 million and $466 million, respectively, from the remeasurement of our €5,170 million Senior Notes, partially offset by the remeasurement of cash and content liability positions in currencies other than the functional currencies. The change in foreign currency gains and losses was partially offset by higher interest income earned in the three and six months ended June 30, 2023 as compared to the corresponding periods in 2022.",
+        "context_ids": [
+          "stre_p29_001",
+          "stre_p29_000",
+          "stre_p24_003"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 4.221
+  },
+  {
+    "query_id": "q20",
+    "split": "test",
+    "answerable": true,
+    "question": "Theo Phần II - Thông tin khác (Part II. Other Information), có thay đổi trọng yếu nào đối với các yếu tố rủi ro (Risk Factors) so với báo cáo thường niên Form 10-K năm 2022 không?",
+    "status": "answered",
+    "answer": "Theo thông tin trong báo cáo, không có thay đổi trọng yếu nào đối với các yếu tố rủi ro so với báo cáo thường niên Form 10-K năm 2022. Cụ thể, báo cáo chỉ ra rằng \"không có thay đổi trọng yếu từ các yếu tố rủi ro đã được công bố trước đó\" trong báo cáo thường niên đó [stre_p31_000].",
+    "citations": [
+      "stre_p31_000"
+    ],
+    "events": [
+      {
+        "event": "search",
+        "query": "material changes to risk factors compared to 2022 Form 10-K",
+        "filter": {
+          "section": "Other Information"
+        },
+        "results": [
+          {
+            "id": "stre_p31_000",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 31,
+            "text": "## Item 1A. Risk Factors\n\nThere have been no material changes from the risk factors previously disclosed under the heading \"Risk Factors\" in the Company's Annual Report on Form 10-K for the year ended December 31, 2022.\n\n## Item 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\n## Company Purchases of Equity Securities\n\nStock repurchases during the three months ended June 30, 2023 were as follows:\n\n| Period | Total Number of Shares Purchased (1) | Average Price Paid per Share (2) | Total Number of Shares Purchased as Part of Publicly Announced Programs (1) | Approximate Dollar Value of Shares that May Yet Be Purchased Under the Program (1) (in thousands) |\n| --- | --- | --- | --- | --- |\n| April 1 - 30, 2023 | - | $ - | - | $ 4,000,000 |\n| May 1 - 31, 2023 | 1,417,075 | $ 336.81 | 1,417,075 | $ 3,522,717 |\n| June 1 - 30, 2023 | 432,249 | $ 388.35 | 432,249 | $ 3,354,855 |\n| Total | 1,849,324 |  | 1,849,324 |  |\n\n(1) In March 2021, the Company's Board of Directors authorized the repurchase of up to $5 billion of its common stock, with no expiration date. For further information regarding stock repurchase activity, see Note 8 Stockholders' Equity to the consolidated financial statements in this Quarterly Report.\n\n(2) Average price paid per share includes costs associated with the repurchases.\n\n## Item 5. Other Information\n\n## Rule 10b5-1 Trading Plans\n\nThe adoption or termination of contracts, instructions or written plans for the purchase or sale of our securities by our Section 16 officers and directors for the three months ended June 30, 2023, each of which is intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) under the Exchange Act ('Rule 10b5-1 Plan'), were as follows:",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 31,
+              "doc_page": 33,
+              "section": "Other Information",
+              "token_count": 498,
+              "char_length": 1736,
+              "chunk_index": 0
+            },
+            "score": 1.0887169879317706,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p31_001",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 31,
+            "text": "| Name | Title | Action | Date Adopted | Expiration Date | Aggregate # of Securities to be Purchased/Sold |\n| --- | --- | --- | --- | --- | --- |\n| Ann Mather (1) | Director | Adoption | 5/4/2023 | 2/28/2025 | 6,385 |\n| Ted Sarandos (2) | Co-CEO and Director | Adoption | 5/5/2023 | 8/2/2024 | 55,386 |\n\n(1) Ann Mather, a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 4, 2023. Ms. Mather's plan provides for the potential exercise of vested stock options and the associated sale of up to 6,385 shares of the Company's common stock. The plan expires on February 28, 2025, or upon the earlier completion of all authorized transactions under the plan.\n\n(2) Ted Sarandos, co-CEO and a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 5, 2023. Mr. Sarandos' plan provides for the potential exercise of vested stock options and the associated sale of up to 55,386 shares of the Company's common stock. The plan expires on August 2, 2024, or upon the earlier completion of all authorized transactions under the plan.\n\nNone of our directors or officers adopted or terminated a \"non-Rule 10b5-1 trading arrangement\" as defined in Item 408 of Regulation S-K.\n\n## Item 6. Exhibits\n\n## (a) Exhibits:\n\nSee Exhibit Index immediately following the signature page of this Quarterly Report on Form 10-Q.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 31,
+              "doc_page": 33,
+              "section": "Other Information",
+              "token_count": 394,
+              "char_length": 1337,
+              "chunk_index": 1
+            },
+            "score": -0.21131114230991666,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p30_000",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 30,
+            "text": "## Item 1. Legal Proceedings\n\nThe information set forth under Note 7 Commitments and Contingencies in the notes to the consolidated financial statements under the caption 'Legal Proceedings' is incorporated herein by reference.\n\n## PART II. OTHER INFORMATION",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 30,
+              "doc_page": 32,
+              "section": "Other Information",
+              "token_count": 60,
+              "char_length": 258,
+              "chunk_index": 0
+            },
+            "score": -0.8774058456218536,
+            "strategy": "hybrid_zscore"
+          }
+        ],
+        "context": "[stre_p31_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 31]\n## Item 1A. Risk Factors\n\nThere have been no material changes from the risk factors previously disclosed under the heading \"Risk Factors\" in the Company's Annual Report on Form 10-K for the year ended December 31, 2022.\n\n## Item 2. Unregistered Sales of Equity Securities and Use of Proceeds\n\n## Company Purchases of Equity Securities\n\nStock repurchases during the three months ended June 30, 2023 were as follows:\n\n| Period | Total Number of Shares Purchased (1) | Average Price Paid per Share (2) | Total Number of Shares Purchased as Part of Publicly Announced Programs (1) | Approximate Dollar Value of Shares that May Yet Be Purchased Under the Program (1) (in thousands) |\n| --- | --- | --- | --- | --- |\n| April 1 - 30, 2023 | - | $ - | - | $ 4,000,000 |\n| May 1 - 31, 2023 | 1,417,075 | $ 336.81 | 1,417,075 | $ 3,522,717 |\n| June 1 - 30, 2023 | 432,249 | $ 388.35 | 432,249 | $ 3,354,855 |\n| Total | 1,849,324 |  | 1,849,324 |  |\n\n(1) In March 2021, the Company's Board of Directors authorized the repurchase of up to $5 billion of its common stock, with no expiration date. For further information regarding stock repurchase activity, see Note 8 Stockholders' Equity to the consolidated financial statements in this Quarterly Report.\n\n(2) Average price paid per share includes costs associated with the repurchases.\n\n## Item 5. Other Information\n\n## Rule 10b5-1 Trading Plans\n\nThe adoption or termination of contracts, instructions or written plans for the purchase or sale of our securities by our Section 16 officers and directors for the three months ended June 30, 2023, each of which is intended to satisfy the affirmative defense conditions of Rule 10b5-1(c) under the Exchange Act ('Rule 10b5-1 Plan'), were as follows:\n\n[stre_p31_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 31]\n| Name | Title | Action | Date Adopted | Expiration Date | Aggregate # of Securities to be Purchased/Sold |\n| --- | --- | --- | --- | --- | --- |\n| Ann Mather (1) | Director | Adoption | 5/4/2023 | 2/28/2025 | 6,385 |\n| Ted Sarandos (2) | Co-CEO and Director | Adoption | 5/5/2023 | 8/2/2024 | 55,386 |\n\n(1) Ann Mather, a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 4, 2023. Ms. Mather's plan provides for the potential exercise of vested stock options and the associated sale of up to 6,385 shares of the Company's common stock. The plan expires on February 28, 2025, or upon the earlier completion of all authorized transactions under the plan.\n\n(2) Ted Sarandos, co-CEO and a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 5, 2023. Mr. Sarandos' plan provides for the potential exercise of vested stock options and the associated sale of up to 55,386 shares of the Company's common stock. The plan expires on August 2, 2024, or upon the earlier completion of all authorized transactions under the plan.\n\nNone of our directors or officers adopted or terminated a \"non-Rule 10b5-1 trading arrangement\" as defined in Item 408 of Regulation S-K.\n\n## Item 6. Exhibits\n\n## (a) Exhibits:\n\nSee Exhibit Index immediately following the signature page of this Quarterly Report on Form 10-Q.\n\n[stre_p30_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 30]\n## Item 1. Legal Proceedings\n\nThe information set forth under Note 7 Commitments and Contingencies in the notes to the consolidated financial statements under the caption 'Legal Proceedings' is incorporated herein by reference.\n\n## PART II. OTHER INFORMATION",
+        "context_ids": [
+          "stre_p31_000",
+          "stre_p31_001",
+          "stre_p30_000"
+        ]
+      },
+      {
+        "event": "answer"
+      }
+    ],
+    "elapsed_seconds": 2.933
+  },
+  {
+    "query_id": "q_test_unans_01",
+    "split": "test",
+    "answerable": false,
+    "question": "Mức lương thưởng và thù lao chi tiết của Tổng Giám đốc điều hành (Co-CEO) Ted Sarandos trong quý 2 năm 2023 là bao nhiêu?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "Ted Sarandos compensation Q2 2023",
+        "filter": null,
+        "results": [
+          {
+            "id": "stre_p31_001",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 31,
+            "text": "| Name | Title | Action | Date Adopted | Expiration Date | Aggregate # of Securities to be Purchased/Sold |\n| --- | --- | --- | --- | --- | --- |\n| Ann Mather (1) | Director | Adoption | 5/4/2023 | 2/28/2025 | 6,385 |\n| Ted Sarandos (2) | Co-CEO and Director | Adoption | 5/5/2023 | 8/2/2024 | 55,386 |\n\n(1) Ann Mather, a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 4, 2023. Ms. Mather's plan provides for the potential exercise of vested stock options and the associated sale of up to 6,385 shares of the Company's common stock. The plan expires on February 28, 2025, or upon the earlier completion of all authorized transactions under the plan.\n\n(2) Ted Sarandos, co-CEO and a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 5, 2023. Mr. Sarandos' plan provides for the potential exercise of vested stock options and the associated sale of up to 55,386 shares of the Company's common stock. The plan expires on August 2, 2024, or upon the earlier completion of all authorized transactions under the plan.\n\nNone of our directors or officers adopted or terminated a \"non-Rule 10b5-1 trading arrangement\" as defined in Item 408 of Regulation S-K.\n\n## Item 6. Exhibits\n\n## (a) Exhibits:\n\nSee Exhibit Index immediately following the signature page of this Quarterly Report on Form 10-Q.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 31,
+              "doc_page": 33,
+              "section": "Other Information",
+              "token_count": 394,
+              "char_length": 1337,
+              "chunk_index": 1
+            },
+            "score": 2.370957629719385,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p22_002",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 22,
+            "text": "|  | Three Months Ended - June 30, 2023 - (in thousands, except percentages) | Three Months Ended - June 30, 2022 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) |\n| --- | --- | --- | --- | --- |\n| Technology and development | $ 657,983 | $ 716,846 | $ (58,863) | (8)% |\n| As a percentage of revenues | 8 % | 9 % |  |  |\n\nThe decrease in technology and development expenses was primarily due to a $62 million decrease in personnel-related costs, partially offset by an increase in expenses related to continued improvements in our streaming service.\n\nSix months ended June 30, 2023 as compared to the six months ended June 30, 2022",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 22,
+              "doc_page": 24,
+              "section": "Management’s Discussion and Analysis",
+              "token_count": 226,
+              "char_length": 748,
+              "chunk_index": 2
+            },
+            "score": 1.238304279401178,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p27_000",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 27,
+            "text": "Three months ended June 30, 2023 as compared to the three months ended June 30, 2022\n\n|  | Three Months Ended - June 30, 2023 - (in thousands, except percentages) | Three Months Ended - June 30, 2022 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) |\n| --- | --- | --- | --- | --- |\n| Net cash provided by operating activities | $ 1,440,232 | $ 102,750 | $ 1,337,482 | 1,302 % |\n| Net cash provided by (used in) investing activities | 97,737 | (158,894) | 256,631 | 162 % |\n| Net cash provided by (used in) financing activities | (649,349) | 11,250 | (660,599) | (5,872)% |\n| Non-GAAP reconciliation of free cash flow: |  |  |  |  |\n| Net cash provided by operating activities | 1,440,232 | 102,750 | 1,337,482 | 1,302 % |\n| Purchases of property and equipment | (100,972) | (90,018) | 10,954 | 12 % |\n| Free cash flow | $ 1,339,260 | $ 12,732 | $ 1,326,528 | 10,419 % |",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 27,
+              "doc_page": 29,
+              "section": "Management’s Discussion and Analysis",
+              "token_count": 362,
+              "char_length": 986,
+              "chunk_index": 0
+            },
+            "score": 0.10650117085623328,
+            "strategy": "hybrid_zscore"
+          }
+        ],
+        "context": "[stre_p31_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 31]\n| Name | Title | Action | Date Adopted | Expiration Date | Aggregate # of Securities to be Purchased/Sold |\n| --- | --- | --- | --- | --- | --- |\n| Ann Mather (1) | Director | Adoption | 5/4/2023 | 2/28/2025 | 6,385 |\n| Ted Sarandos (2) | Co-CEO and Director | Adoption | 5/5/2023 | 8/2/2024 | 55,386 |\n\n(1) Ann Mather, a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 4, 2023. Ms. Mather's plan provides for the potential exercise of vested stock options and the associated sale of up to 6,385 shares of the Company's common stock. The plan expires on February 28, 2025, or upon the earlier completion of all authorized transactions under the plan.\n\n(2) Ted Sarandos, co-CEO and a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 5, 2023. Mr. Sarandos' plan provides for the potential exercise of vested stock options and the associated sale of up to 55,386 shares of the Company's common stock. The plan expires on August 2, 2024, or upon the earlier completion of all authorized transactions under the plan.\n\nNone of our directors or officers adopted or terminated a \"non-Rule 10b5-1 trading arrangement\" as defined in Item 408 of Regulation S-K.\n\n## Item 6. Exhibits\n\n## (a) Exhibits:\n\nSee Exhibit Index immediately following the signature page of this Quarterly Report on Form 10-Q.\n\n[stre_p22_002 | NETFLIX_2023Q2_10Q-3-33.pdf | page 22]\n|  | Three Months Ended - June 30, 2023 - (in thousands, except percentages) | Three Months Ended - June 30, 2022 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) |\n| --- | --- | --- | --- | --- |\n| Technology and development | $ 657,983 | $ 716,846 | $ (58,863) | (8)% |\n| As a percentage of revenues | 8 % | 9 % |  |  |\n\nThe decrease in technology and development expenses was primarily due to a $62 million decrease in personnel-related costs, partially offset by an increase in expenses related to continued improvements in our streaming service.\n\nSix months ended June 30, 2023 as compared to the six months ended June 30, 2022\n\n[stre_p27_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 27]\nThree months ended June 30, 2023 as compared to the three months ended June 30, 2022\n\n|  | Three Months Ended - June 30, 2023 - (in thousands, except percentages) | Three Months Ended - June 30, 2022 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) |\n| --- | --- | --- | --- | --- |\n| Net cash provided by operating activities | $ 1,440,232 | $ 102,750 | $ 1,337,482 | 1,302 % |\n| Net cash provided by (used in) investing activities | 97,737 | (158,894) | 256,631 | 162 % |\n| Net cash provided by (used in) financing activities | (649,349) | 11,250 | (660,599) | (5,872)% |\n| Non-GAAP reconciliation of free cash flow: |  |  |  |  |\n| Net cash provided by operating activities | 1,440,232 | 102,750 | 1,337,482 | 1,302 % |\n| Purchases of property and equipment | (100,972) | (90,018) | 10,954 | 12 % |\n| Free cash flow | $ 1,339,260 | $ 12,732 | $ 1,326,528 | 10,419 % |",
+        "context_ids": [
+          "stre_p31_001",
+          "stre_p22_002",
+          "stre_p27_000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Ted Sarandos salary compensation details Q2 2023",
+        "filter": null,
+        "results": [
+          {
+            "id": "stre_p31_001",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 31,
+            "text": "| Name | Title | Action | Date Adopted | Expiration Date | Aggregate # of Securities to be Purchased/Sold |\n| --- | --- | --- | --- | --- | --- |\n| Ann Mather (1) | Director | Adoption | 5/4/2023 | 2/28/2025 | 6,385 |\n| Ted Sarandos (2) | Co-CEO and Director | Adoption | 5/5/2023 | 8/2/2024 | 55,386 |\n\n(1) Ann Mather, a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 4, 2023. Ms. Mather's plan provides for the potential exercise of vested stock options and the associated sale of up to 6,385 shares of the Company's common stock. The plan expires on February 28, 2025, or upon the earlier completion of all authorized transactions under the plan.\n\n(2) Ted Sarandos, co-CEO and a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 5, 2023. Mr. Sarandos' plan provides for the potential exercise of vested stock options and the associated sale of up to 55,386 shares of the Company's common stock. The plan expires on August 2, 2024, or upon the earlier completion of all authorized transactions under the plan.\n\nNone of our directors or officers adopted or terminated a \"non-Rule 10b5-1 trading arrangement\" as defined in Item 408 of Regulation S-K.\n\n## Item 6. Exhibits\n\n## (a) Exhibits:\n\nSee Exhibit Index immediately following the signature page of this Quarterly Report on Form 10-Q.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 31,
+              "doc_page": 33,
+              "section": "Other Information",
+              "token_count": 394,
+              "char_length": 1337,
+              "chunk_index": 1
+            },
+            "score": 2.912510735683802,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p22_002",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 22,
+            "text": "|  | Three Months Ended - June 30, 2023 - (in thousands, except percentages) | Three Months Ended - June 30, 2022 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) |\n| --- | --- | --- | --- | --- |\n| Technology and development | $ 657,983 | $ 716,846 | $ (58,863) | (8)% |\n| As a percentage of revenues | 8 % | 9 % |  |  |\n\nThe decrease in technology and development expenses was primarily due to a $62 million decrease in personnel-related costs, partially offset by an increase in expenses related to continued improvements in our streaming service.\n\nSix months ended June 30, 2023 as compared to the six months ended June 30, 2022",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 22,
+              "doc_page": 24,
+              "section": "Management’s Discussion and Analysis",
+              "token_count": 226,
+              "char_length": 748,
+              "chunk_index": 2
+            },
+            "score": 0.9968317121401028,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p27_000",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 27,
+            "text": "Three months ended June 30, 2023 as compared to the three months ended June 30, 2022\n\n|  | Three Months Ended - June 30, 2023 - (in thousands, except percentages) | Three Months Ended - June 30, 2022 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) |\n| --- | --- | --- | --- | --- |\n| Net cash provided by operating activities | $ 1,440,232 | $ 102,750 | $ 1,337,482 | 1,302 % |\n| Net cash provided by (used in) investing activities | 97,737 | (158,894) | 256,631 | 162 % |\n| Net cash provided by (used in) financing activities | (649,349) | 11,250 | (660,599) | (5,872)% |\n| Non-GAAP reconciliation of free cash flow: |  |  |  |  |\n| Net cash provided by operating activities | 1,440,232 | 102,750 | 1,337,482 | 1,302 % |\n| Purchases of property and equipment | (100,972) | (90,018) | 10,954 | 12 % |\n| Free cash flow | $ 1,339,260 | $ 12,732 | $ 1,326,528 | 10,419 % |",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 27,
+              "doc_page": 29,
+              "section": "Management’s Discussion and Analysis",
+              "token_count": 362,
+              "char_length": 986,
+              "chunk_index": 0
+            },
+            "score": -0.07912396190591334,
+            "strategy": "hybrid_zscore"
+          }
+        ],
+        "context": "[stre_p31_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 31]\n| Name | Title | Action | Date Adopted | Expiration Date | Aggregate # of Securities to be Purchased/Sold |\n| --- | --- | --- | --- | --- | --- |\n| Ann Mather (1) | Director | Adoption | 5/4/2023 | 2/28/2025 | 6,385 |\n| Ted Sarandos (2) | Co-CEO and Director | Adoption | 5/5/2023 | 8/2/2024 | 55,386 |\n\n(1) Ann Mather, a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 4, 2023. Ms. Mather's plan provides for the potential exercise of vested stock options and the associated sale of up to 6,385 shares of the Company's common stock. The plan expires on February 28, 2025, or upon the earlier completion of all authorized transactions under the plan.\n\n(2) Ted Sarandos, co-CEO and a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 5, 2023. Mr. Sarandos' plan provides for the potential exercise of vested stock options and the associated sale of up to 55,386 shares of the Company's common stock. The plan expires on August 2, 2024, or upon the earlier completion of all authorized transactions under the plan.\n\nNone of our directors or officers adopted or terminated a \"non-Rule 10b5-1 trading arrangement\" as defined in Item 408 of Regulation S-K.\n\n## Item 6. Exhibits\n\n## (a) Exhibits:\n\nSee Exhibit Index immediately following the signature page of this Quarterly Report on Form 10-Q.\n\n[stre_p22_002 | NETFLIX_2023Q2_10Q-3-33.pdf | page 22]\n|  | Three Months Ended - June 30, 2023 - (in thousands, except percentages) | Three Months Ended - June 30, 2022 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) |\n| --- | --- | --- | --- | --- |\n| Technology and development | $ 657,983 | $ 716,846 | $ (58,863) | (8)% |\n| As a percentage of revenues | 8 % | 9 % |  |  |\n\nThe decrease in technology and development expenses was primarily due to a $62 million decrease in personnel-related costs, partially offset by an increase in expenses related to continued improvements in our streaming service.\n\nSix months ended June 30, 2023 as compared to the six months ended June 30, 2022\n\n[stre_p27_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 27]\nThree months ended June 30, 2023 as compared to the three months ended June 30, 2022\n\n|  | Three Months Ended - June 30, 2023 - (in thousands, except percentages) | Three Months Ended - June 30, 2022 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) |\n| --- | --- | --- | --- | --- |\n| Net cash provided by operating activities | $ 1,440,232 | $ 102,750 | $ 1,337,482 | 1,302 % |\n| Net cash provided by (used in) investing activities | 97,737 | (158,894) | 256,631 | 162 % |\n| Net cash provided by (used in) financing activities | (649,349) | 11,250 | (660,599) | (5,872)% |\n| Non-GAAP reconciliation of free cash flow: |  |  |  |  |\n| Net cash provided by operating activities | 1,440,232 | 102,750 | 1,337,482 | 1,302 % |\n| Purchases of property and equipment | (100,972) | (90,018) | 10,954 | 12 % |\n| Free cash flow | $ 1,339,260 | $ 12,732 | $ 1,326,528 | 10,419 % |",
+        "context_ids": [
+          "stre_p31_001",
+          "stre_p22_002",
+          "stre_p27_000"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "Ted Sarandos executive compensation details Q2 2023",
+        "filter": null,
+        "results": [
+          {
+            "id": "stre_p31_001",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 31,
+            "text": "| Name | Title | Action | Date Adopted | Expiration Date | Aggregate # of Securities to be Purchased/Sold |\n| --- | --- | --- | --- | --- | --- |\n| Ann Mather (1) | Director | Adoption | 5/4/2023 | 2/28/2025 | 6,385 |\n| Ted Sarandos (2) | Co-CEO and Director | Adoption | 5/5/2023 | 8/2/2024 | 55,386 |\n\n(1) Ann Mather, a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 4, 2023. Ms. Mather's plan provides for the potential exercise of vested stock options and the associated sale of up to 6,385 shares of the Company's common stock. The plan expires on February 28, 2025, or upon the earlier completion of all authorized transactions under the plan.\n\n(2) Ted Sarandos, co-CEO and a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 5, 2023. Mr. Sarandos' plan provides for the potential exercise of vested stock options and the associated sale of up to 55,386 shares of the Company's common stock. The plan expires on August 2, 2024, or upon the earlier completion of all authorized transactions under the plan.\n\nNone of our directors or officers adopted or terminated a \"non-Rule 10b5-1 trading arrangement\" as defined in Item 408 of Regulation S-K.\n\n## Item 6. Exhibits\n\n## (a) Exhibits:\n\nSee Exhibit Index immediately following the signature page of this Quarterly Report on Form 10-Q.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 31,
+              "doc_page": 33,
+              "section": "Other Information",
+              "token_count": 394,
+              "char_length": 1337,
+              "chunk_index": 1
+            },
+            "score": 3.1240167028998975,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p22_002",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 22,
+            "text": "|  | Three Months Ended - June 30, 2023 - (in thousands, except percentages) | Three Months Ended - June 30, 2022 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) |\n| --- | --- | --- | --- | --- |\n| Technology and development | $ 657,983 | $ 716,846 | $ (58,863) | (8)% |\n| As a percentage of revenues | 8 % | 9 % |  |  |\n\nThe decrease in technology and development expenses was primarily due to a $62 million decrease in personnel-related costs, partially offset by an increase in expenses related to continued improvements in our streaming service.\n\nSix months ended June 30, 2023 as compared to the six months ended June 30, 2022",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 22,
+              "doc_page": 24,
+              "section": "Management’s Discussion and Analysis",
+              "token_count": 226,
+              "char_length": 748,
+              "chunk_index": 2
+            },
+            "score": 0.6298610354691762,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p15_001",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 15,
+            "text": "|  | Three Months Ended - June 30, 2023 - (in thousands) | Three Months Ended - June 30, 2022 - (in thousands) | Six Months Ended - June 30, 2023 - (in thousands) | Six Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- | --- | --- |\n| Total intrinsic value of options exercised | $ 137,791 | $ 83,030 | $ 254,101 | $ 197,792 |\n| Cash received from options exercised | 34,717 | 11,250 | 60,745 | 24,928 |\n\n## Stock-based Compensation\n\nStock options are generally vested in full upon grant date and exercisable for the full ten year contractual term regardless of employment status. Stock options granted to certain named executive officers vest on the one-year anniversary of the grant date, subject to the employee's continuous employment or service with the Company through the vesting date. The following table summarizes the assumptions used to value option grants using the lattice-binomial model and the valuation data:",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 15,
+              "doc_page": 17,
+              "section": "Notes to Consolidated Financial Statements",
+              "token_count": 267,
+              "char_length": 940,
+              "chunk_index": 1
+            },
+            "score": 0.20869398502013498,
+            "strategy": "hybrid_zscore"
+          }
+        ],
+        "context": "[stre_p31_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 31]\n| Name | Title | Action | Date Adopted | Expiration Date | Aggregate # of Securities to be Purchased/Sold |\n| --- | --- | --- | --- | --- | --- |\n| Ann Mather (1) | Director | Adoption | 5/4/2023 | 2/28/2025 | 6,385 |\n| Ted Sarandos (2) | Co-CEO and Director | Adoption | 5/5/2023 | 8/2/2024 | 55,386 |\n\n(1) Ann Mather, a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 4, 2023. Ms. Mather's plan provides for the potential exercise of vested stock options and the associated sale of up to 6,385 shares of the Company's common stock. The plan expires on February 28, 2025, or upon the earlier completion of all authorized transactions under the plan.\n\n(2) Ted Sarandos, co-CEO and a member of the Board of Directors, entered into a Rule 10b5-1 Plan on May 5, 2023. Mr. Sarandos' plan provides for the potential exercise of vested stock options and the associated sale of up to 55,386 shares of the Company's common stock. The plan expires on August 2, 2024, or upon the earlier completion of all authorized transactions under the plan.\n\nNone of our directors or officers adopted or terminated a \"non-Rule 10b5-1 trading arrangement\" as defined in Item 408 of Regulation S-K.\n\n## Item 6. Exhibits\n\n## (a) Exhibits:\n\nSee Exhibit Index immediately following the signature page of this Quarterly Report on Form 10-Q.\n\n[stre_p22_002 | NETFLIX_2023Q2_10Q-3-33.pdf | page 22]\n|  | Three Months Ended - June 30, 2023 - (in thousands, except percentages) | Three Months Ended - June 30, 2022 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) |\n| --- | --- | --- | --- | --- |\n| Technology and development | $ 657,983 | $ 716,846 | $ (58,863) | (8)% |\n| As a percentage of revenues | 8 % | 9 % |  |  |\n\nThe decrease in technology and development expenses was primarily due to a $62 million decrease in personnel-related costs, partially offset by an increase in expenses related to continued improvements in our streaming service.\n\nSix months ended June 30, 2023 as compared to the six months ended June 30, 2022\n\n[stre_p27_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 27]\nThree months ended June 30, 2023 as compared to the three months ended June 30, 2022\n\n|  | Three Months Ended - June 30, 2023 - (in thousands, except percentages) | Three Months Ended - June 30, 2022 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) | Change - Q2'23 vs. Q2'22 - (in thousands, except percentages) |\n| --- | --- | --- | --- | --- |\n| Net cash provided by operating activities | $ 1,440,232 | $ 102,750 | $ 1,337,482 | 1,302 % |\n| Net cash provided by (used in) investing activities | 97,737 | (158,894) | 256,631 | 162 % |\n| Net cash provided by (used in) financing activities | (649,349) | 11,250 | (660,599) | (5,872)% |\n| Non-GAAP reconciliation of free cash flow: |  |  |  |  |\n| Net cash provided by operating activities | 1,440,232 | 102,750 | 1,337,482 | 1,302 % |\n| Purchases of property and equipment | (100,972) | (90,018) | 10,954 | 12 % |\n| Free cash flow | $ 1,339,260 | $ 12,732 | $ 1,326,528 | 10,419 % |\n\n[stre_p15_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 15]\n|  | Three Months Ended - June 30, 2023 - (in thousands) | Three Months Ended - June 30, 2022 - (in thousands) | Six Months Ended - June 30, 2023 - (in thousands) | Six Months Ended - June 30, 2022 - (in thousands) |\n| --- | --- | --- | --- | --- |\n| Total intrinsic value of options exercised | $ 137,791 | $ 83,030 | $ 254,101 | $ 197,792 |\n| Cash received from options exercised | 34,717 | 11,250 | 60,745 | 24,928 |\n\n## Stock-based Compensation\n\nStock options are generally vested in full upon grant date and exercisable for the full ten year contractual term regardless of employment status. Stock options granted to certain named executive officers vest on the one-year anniversary of the grant date, subject to the employee's continuous employment or service with the Company through the vesting date. The following table summarizes the assumptions used to value option grants using the lattice-binomial model and the valuation data:",
+        "context_ids": [
+          "stre_p31_001",
+          "stre_p22_002",
+          "stre_p27_000",
+          "stre_p15_001"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_seconds": 8.106
+  },
+  {
+    "query_id": "q_test_unans_02",
+    "split": "test",
+    "answerable": false,
+    "question": "Doanh thu chi tiết từ gói thành viên có hỗ trợ quảng cáo (ad-supported tier) của Netflix tại thị trường Nhật Bản trong 6 tháng đầu năm 2023 là bao nhiêu?",
+    "status": "abstain",
+    "answer": "Không đủ bằng chứng để trả lời.",
+    "citations": [],
+    "events": [
+      {
+        "event": "search",
+        "query": "ad-supported tier revenue Japan first half 2023",
+        "filter": null,
+        "results": [
+          {
+            "id": "stre_p18_001",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 18,
+            "text": "Consolidated revenues for the three months ended June 30, 2023 increased 3% as compared to the three months ended June 30, 2022. The increase in our consolidated revenues was due to the 6% growth in average paying memberships, partially offset by a 3% decrease in average monthly revenue per paying membership. The decrease in average monthly revenue per paying membership was primarily due to the strengthening of the U.S. dollar relative to certain foreign currencies, higher membership growth in regions with lower average monthly revenue per paying membership and timing of paid net membership additions. These decreases were partially offset by price increases in certain regions.\n\nThe increase in operating margin is primarily due to the 3% growth in revenue coupled with lower cost of revenues, technology and development expenses, and general and administrative expenses for the three months ended June 30, 2023 as compared to the corresponding prior year period. The decrease in expenses was impacted by approximately $150 million of expenses related to cost restructuring initiatives incurred during the three months ended June 30, 2022 with no similar transactions for the three months ended June 30, 2023.\n\n## Streaming Revenues\n\nWe primarily derive revenues from monthly membership fees for services related to streaming content to our members. We offer a variety of streaming membership plans, the price of which varies by country and the features of the plan. As of June 30, 2023, pricing on our paid plans ranged from the U.S. dollar equivalent of $1 to $27 per month, and pricing on our extra member sub accounts ranged from the U.S. dollar equivalent of $2 to $8 per month. We expect that from time to time the prices of our membership plans in each country may change and we may test other plan and price variations.\n\nWe also earn revenue from advertisements presented on our streaming service, consumer products and various other sources. Revenues earned from sources other than monthly membership fees were not material for the three and six months ended June 30, 2023 and June 30, 2022.\n\nThe following tables summarize streaming revenue and other streaming membership information by region for the three and six months ended June 30, 2023 and 2022.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 18,
+              "doc_page": 20,
+              "section": "Management’s Discussion and Analysis",
+              "token_count": 464,
+              "char_length": 2270,
+              "chunk_index": 1
+            },
+            "score": 1.1371648780711412,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p07_002",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 7,
+            "text": "Total U.S. revenues, inclusive of DVD revenues not reported in the tables above, were $3.3 billion and $6.6 billion, respectively, for the three and six months ended June 30, 2023 and $3.3 billion and $6.4 billion, respectively, for the three and six months ended June 30, 2022. DVD revenues were $29 million and $60 million, respectively, for the three and six months ended June 30, 2023 and $37 million and $77 million, respectively, for the three and six months ended June 30, 2022.\n\nDeferred revenue consists of membership fees billed that have not been recognized, as well as gift cards and other prepaid memberships that have not been fully redeemed. As of June 30, 2023, total deferred revenue was $1,312 million, the vast majority of which was related to membership fees billed that are expected to be recognized as revenue within the next month. The remaining deferred revenue balance, which is related to gift cards and other prepaid memberships, will be recognized as revenue over the period of service after redemption, which is expected to occur over the next 12 months. The $47 million increase in deferred revenue as compared to the balance of $1,265 million as of December 31, 2022 is a result of the increase in membership fees billed due to increased memberships.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 7,
+              "doc_page": 9,
+              "section": "Notes to Consolidated Financial Statements",
+              "token_count": 291,
+              "char_length": 1281,
+              "chunk_index": 2
+            },
+            "score": 0.8394636802143602,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p20_002",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 20,
+            "text": "|  | As of/ Six Months Ended - June 30, 2023 - (in thousands, except revenue per membership and percentages) | As of/ Six Months Ended - June 30, 2022 - (in thousands, except revenue per membership and percentages) | Change - YTD'23 vs. YTD'22 - (in thousands, except revenue per membership and percentages) | Change - YTD'23 vs. YTD'22 - (in thousands, except revenue per membership and percentages) |\n| --- | --- | --- | --- | --- |\n| Revenues | $ 2,147,627 $ | 2,029,182 | $ 118,445 | 6 % |\n| Paid net membership additions (losses) | 767 | (337) | 1,104 | 328 % |\n| Paid memberships at end of period | 42,466 | 39,624 | 2,842 | 7 % |\n| Average paying memberships | 41,666 | 39,702 | 1,964 | 5 % |\n| Average monthly revenue per paying membership | $ 8.59 | $ 8.52 | $ 0.07 | 1 % |\n| Constant currency change (1) |  |  |  | 8 % |\n\n## Asia-Pacific (APAC)\n\nThree months ended June 30, 2023 as compared to the three months ended June 30, 2022",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 20,
+              "doc_page": 22,
+              "section": "Management’s Discussion and Analysis",
+              "token_count": 333,
+              "char_length": 940,
+              "chunk_index": 2
+            },
+            "score": 0.7401875006728669,
+            "strategy": "hybrid_zscore"
+          }
+        ],
+        "context": "[stre_p18_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 18]\nConsolidated revenues for the three months ended June 30, 2023 increased 3% as compared to the three months ended June 30, 2022. The increase in our consolidated revenues was due to the 6% growth in average paying memberships, partially offset by a 3% decrease in average monthly revenue per paying membership. The decrease in average monthly revenue per paying membership was primarily due to the strengthening of the U.S. dollar relative to certain foreign currencies, higher membership growth in regions with lower average monthly revenue per paying membership and timing of paid net membership additions. These decreases were partially offset by price increases in certain regions.\n\nThe increase in operating margin is primarily due to the 3% growth in revenue coupled with lower cost of revenues, technology and development expenses, and general and administrative expenses for the three months ended June 30, 2023 as compared to the corresponding prior year period. The decrease in expenses was impacted by approximately $150 million of expenses related to cost restructuring initiatives incurred during the three months ended June 30, 2022 with no similar transactions for the three months ended June 30, 2023.\n\n## Streaming Revenues\n\nWe primarily derive revenues from monthly membership fees for services related to streaming content to our members. We offer a variety of streaming membership plans, the price of which varies by country and the features of the plan. As of June 30, 2023, pricing on our paid plans ranged from the U.S. dollar equivalent of $1 to $27 per month, and pricing on our extra member sub accounts ranged from the U.S. dollar equivalent of $2 to $8 per month. We expect that from time to time the prices of our membership plans in each country may change and we may test other plan and price variations.\n\nWe also earn revenue from advertisements presented on our streaming service, consumer products and various other sources. Revenues earned from sources other than monthly membership fees were not material for the three and six months ended June 30, 2023 and June 30, 2022.\n\nThe following tables summarize streaming revenue and other streaming membership information by region for the three and six months ended June 30, 2023 and 2022.\n\n[stre_p07_002 | NETFLIX_2023Q2_10Q-3-33.pdf | page 7]\nTotal U.S. revenues, inclusive of DVD revenues not reported in the tables above, were $3.3 billion and $6.6 billion, respectively, for the three and six months ended June 30, 2023 and $3.3 billion and $6.4 billion, respectively, for the three and six months ended June 30, 2022. DVD revenues were $29 million and $60 million, respectively, for the three and six months ended June 30, 2023 and $37 million and $77 million, respectively, for the three and six months ended June 30, 2022.\n\nDeferred revenue consists of membership fees billed that have not been recognized, as well as gift cards and other prepaid memberships that have not been fully redeemed. As of June 30, 2023, total deferred revenue was $1,312 million, the vast majority of which was related to membership fees billed that are expected to be recognized as revenue within the next month. The remaining deferred revenue balance, which is related to gift cards and other prepaid memberships, will be recognized as revenue over the period of service after redemption, which is expected to occur over the next 12 months. The $47 million increase in deferred revenue as compared to the balance of $1,265 million as of December 31, 2022 is a result of the increase in membership fees billed due to increased memberships.\n\n[stre_p20_002 | NETFLIX_2023Q2_10Q-3-33.pdf | page 20]\n|  | As of/ Six Months Ended - June 30, 2023 - (in thousands, except revenue per membership and percentages) | As of/ Six Months Ended - June 30, 2022 - (in thousands, except revenue per membership and percentages) | Change - YTD'23 vs. YTD'22 - (in thousands, except revenue per membership and percentages) | Change - YTD'23 vs. YTD'22 - (in thousands, except revenue per membership and percentages) |\n| --- | --- | --- | --- | --- |\n| Revenues | $ 2,147,627 $ | 2,029,182 | $ 118,445 | 6 % |\n| Paid net membership additions (losses) | 767 | (337) | 1,104 | 328 % |\n| Paid memberships at end of period | 42,466 | 39,624 | 2,842 | 7 % |\n| Average paying memberships | 41,666 | 39,702 | 1,964 | 5 % |\n| Average monthly revenue per paying membership | $ 8.59 | $ 8.52 | $ 0.07 | 1 % |\n| Constant currency change (1) |  |  |  | 8 % |\n\n## Asia-Pacific (APAC)\n\nThree months ended June 30, 2023 as compared to the three months ended June 30, 2022",
+        "context_ids": [
+          "stre_p18_001",
+          "stre_p07_002",
+          "stre_p20_002"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "ad-supported tier revenue Netflix Japan first half 2023",
+        "filter": null,
+        "results": [
+          {
+            "id": "stre_p02_000",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 2,
+            "text": "## NETFLIX, INC.\n\n## Consolidated Statements of Comprehensive Income (unaudited) (in thousands)\n\n|  | Three Months Ended - June 30, 2023 | Three Months Ended - June 30, 2022 | Six Months Ended - June 30, 2023 | Six Months Ended - June 30, 2022 |\n| --- | --- | --- | --- | --- |\n| Net income | $ 1,487,610 | $ 1,440,951 | $ 2,792,730 | $ 3,038,398 |\n| Other comprehensive income (loss): |  |  |  |  |\n| Foreign currency translation adjustments | 52,429 | (70,306) | 78,040 | (103,981) |\n| Comprehensive income | $ 1,540,039 | $ 1,370,645 | $ 2,870,770 | $ 2,934,417 |\n\nSee accompanying notes to the consolidated financial statements.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 2,
+              "doc_page": 4,
+              "section": "Financial Statements",
+              "token_count": 242,
+              "char_length": 632,
+              "chunk_index": 0
+            },
+            "score": 2.0859651112251387,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p06_001",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 6,
+            "text": "The Company's primary source of revenues is from monthly membership fees. Members are billed in advance of the start of their monthly membership and revenues are recognized ratably over each monthly membership period. Revenues are presented net of the taxes that are collected from members and remitted to governmental authorities. The Company is the principal in all its relationships where partners, including consumer electronics ('CE') manufacturers, multichannel video programming distributors ('MVPDs'), mobile operators and internet service providers ('ISPs'), provide access to the service as the Company retains control over service delivery to its members. Typically, payments made to the partners, such as for marketing, are expensed. However, if there is no distinct service provided in exchange for the payments made to the partners or if the price that the member pays is established by the partners and there is no standalone price for the Netflix service (for instance, in a bundle), these payments are recognized as a reduction of revenues.\n\nThe Company also earns revenue from advertisements presented on its streaming service, consumer products and various other sources. Revenues earned from sources other than monthly membership fees were not material for the three and six months ended June 30, 2023 and June 30, 2022.\n\nThe following tables summarize revenues, paid net membership additions (losses), and ending paid memberships by region for the three and six months ended June 30, 2023 and June 30, 2022, respectively:\n\n## United States and Canada (UCAN)",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 6,
+              "doc_page": 8,
+              "section": "Notes to Consolidated Financial Statements",
+              "token_count": 334,
+              "char_length": 1578,
+              "chunk_index": 1
+            },
+            "score": 1.2974295611804645,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p06_000",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 6,
+            "text": "## NETFLIX, INC.\n\n## Notes to Consolidated Financial Statements (unaudited)\n\n## 1. Basis of Presentation and Summary of Significant Accounting Policies\n\nThe accompanying interim consolidated financial statements of Netflix, Inc. and its wholly owned subsidiaries (the 'Company') have been prepared in conformity with accounting principles generally accepted in the United States ('U.S.') and are consistent in all material respects with those applied in the Company's Annual Report on Form 10-K for the year ended December 31, 2022 filed with the Securities and Exchange Commission (the 'SEC') on January 26, 2023. The preparation of consolidated financial statements in conformity with U.S. generally accepted accounting principles ('GAAP') requires management to make estimates and judgments that affect the amounts reported in the consolidated financial statements and accompanying notes. Significant items subject to such estimates and assumptions include the amortization of content assets and the recognition and measurement of income tax assets and liabilities. The Company bases its estimates on historical experience and on various other assumptions that the Company believes to be reasonable under the circumstances. On a regular basis, the Company evaluates the assumptions, judgments and estimates. Actual results may differ from these estimates.\n\nThe interim financial information is unaudited, but reflects all normal recurring adjustments that are, in the opinion of management, necessary to fairly present the information set forth herein. The interim consolidated financial statements should be read in conjunction with the audited consolidated financial statements and related notes included in the Company's Annual Report on Form 10-K for the year ended December 31, 2022. Interim results are not necessarily indicative of the results for a full year.\n\nThere have been no material changes in the Company's significant accounting policies as compared to the significant accounting policies described in the Company's Annual Report on Form 10-K for the year ended December 31, 2022.\n\n## 2. Revenue Recognition",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 6,
+              "doc_page": 8,
+              "section": "Notes to Consolidated Financial Statements",
+              "token_count": 453,
+              "char_length": 2126,
+              "chunk_index": 0
+            },
+            "score": 0.7005098223492043,
+            "strategy": "hybrid_zscore"
+          }
+        ],
+        "context": "[stre_p18_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 18]\nConsolidated revenues for the three months ended June 30, 2023 increased 3% as compared to the three months ended June 30, 2022. The increase in our consolidated revenues was due to the 6% growth in average paying memberships, partially offset by a 3% decrease in average monthly revenue per paying membership. The decrease in average monthly revenue per paying membership was primarily due to the strengthening of the U.S. dollar relative to certain foreign currencies, higher membership growth in regions with lower average monthly revenue per paying membership and timing of paid net membership additions. These decreases were partially offset by price increases in certain regions.\n\nThe increase in operating margin is primarily due to the 3% growth in revenue coupled with lower cost of revenues, technology and development expenses, and general and administrative expenses for the three months ended June 30, 2023 as compared to the corresponding prior year period. The decrease in expenses was impacted by approximately $150 million of expenses related to cost restructuring initiatives incurred during the three months ended June 30, 2022 with no similar transactions for the three months ended June 30, 2023.\n\n## Streaming Revenues\n\nWe primarily derive revenues from monthly membership fees for services related to streaming content to our members. We offer a variety of streaming membership plans, the price of which varies by country and the features of the plan. As of June 30, 2023, pricing on our paid plans ranged from the U.S. dollar equivalent of $1 to $27 per month, and pricing on our extra member sub accounts ranged from the U.S. dollar equivalent of $2 to $8 per month. We expect that from time to time the prices of our membership plans in each country may change and we may test other plan and price variations.\n\nWe also earn revenue from advertisements presented on our streaming service, consumer products and various other sources. Revenues earned from sources other than monthly membership fees were not material for the three and six months ended June 30, 2023 and June 30, 2022.\n\nThe following tables summarize streaming revenue and other streaming membership information by region for the three and six months ended June 30, 2023 and 2022.\n\n[stre_p07_002 | NETFLIX_2023Q2_10Q-3-33.pdf | page 7]\nTotal U.S. revenues, inclusive of DVD revenues not reported in the tables above, were $3.3 billion and $6.6 billion, respectively, for the three and six months ended June 30, 2023 and $3.3 billion and $6.4 billion, respectively, for the three and six months ended June 30, 2022. DVD revenues were $29 million and $60 million, respectively, for the three and six months ended June 30, 2023 and $37 million and $77 million, respectively, for the three and six months ended June 30, 2022.\n\nDeferred revenue consists of membership fees billed that have not been recognized, as well as gift cards and other prepaid memberships that have not been fully redeemed. As of June 30, 2023, total deferred revenue was $1,312 million, the vast majority of which was related to membership fees billed that are expected to be recognized as revenue within the next month. The remaining deferred revenue balance, which is related to gift cards and other prepaid memberships, will be recognized as revenue over the period of service after redemption, which is expected to occur over the next 12 months. The $47 million increase in deferred revenue as compared to the balance of $1,265 million as of December 31, 2022 is a result of the increase in membership fees billed due to increased memberships.\n\n[stre_p20_002 | NETFLIX_2023Q2_10Q-3-33.pdf | page 20]\n|  | As of/ Six Months Ended - June 30, 2023 - (in thousands, except revenue per membership and percentages) | As of/ Six Months Ended - June 30, 2022 - (in thousands, except revenue per membership and percentages) | Change - YTD'23 vs. YTD'22 - (in thousands, except revenue per membership and percentages) | Change - YTD'23 vs. YTD'22 - (in thousands, except revenue per membership and percentages) |\n| --- | --- | --- | --- | --- |\n| Revenues | $ 2,147,627 $ | 2,029,182 | $ 118,445 | 6 % |\n| Paid net membership additions (losses) | 767 | (337) | 1,104 | 328 % |\n| Paid memberships at end of period | 42,466 | 39,624 | 2,842 | 7 % |\n| Average paying memberships | 41,666 | 39,702 | 1,964 | 5 % |\n| Average monthly revenue per paying membership | $ 8.59 | $ 8.52 | $ 0.07 | 1 % |\n| Constant currency change (1) |  |  |  | 8 % |\n\n## Asia-Pacific (APAC)\n\nThree months ended June 30, 2023 as compared to the three months ended June 30, 2022\n\n[stre_p02_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 2]\n## NETFLIX, INC.\n\n## Consolidated Statements of Comprehensive Income (unaudited) (in thousands)\n\n|  | Three Months Ended - June 30, 2023 | Three Months Ended - June 30, 2022 | Six Months Ended - June 30, 2023 | Six Months Ended - June 30, 2022 |\n| --- | --- | --- | --- | --- |\n| Net income | $ 1,487,610 | $ 1,440,951 | $ 2,792,730 | $ 3,038,398 |\n| Other comprehensive income (loss): |  |  |  |  |\n| Foreign currency translation adjustments | 52,429 | (70,306) | 78,040 | (103,981) |\n| Comprehensive income | $ 1,540,039 | $ 1,370,645 | $ 2,870,770 | $ 2,934,417 |\n\nSee accompanying notes to the consolidated financial statements.\n\n[stre_p06_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 6]\nThe Company's primary source of revenues is from monthly membership fees. Members are billed in advance of the start of their monthly membership and revenues are recognized ratably over each monthly membership period. Revenues are presented net of the taxes that are collected from members and remitted to governmental authorities. The Company is the principal in all its relationships where partners, including consumer electronics ('CE') manufacturers, multichannel video programming distributors ('MVPDs'), mobile operators and internet service providers ('ISPs'), provide access to the service as the Company retains control over service delivery to its members. Typically, payments made to the partners, such as for marketing, are expensed. However, if there is no distinct service provided in exchange for the payments made to the partners or if the price that the member pays is established by the partners and there is no standalone price for the Netflix service (for instance, in a bundle), these payments are recognized as a reduction of revenues.\n\nThe Company also earns revenue from advertisements presented on its streaming service, consumer products and various other sources. Revenues earned from sources other than monthly membership fees were not material for the three and six months ended June 30, 2023 and June 30, 2022.\n\nThe following tables summarize revenues, paid net membership additions (losses), and ending paid memberships by region for the three and six months ended June 30, 2023 and June 30, 2022, respectively:\n\n## United States and Canada (UCAN)",
+        "context_ids": [
+          "stre_p18_001",
+          "stre_p07_002",
+          "stre_p20_002",
+          "stre_p02_000",
+          "stre_p06_001"
+        ]
+      },
+      {
+        "event": "search",
+        "query": "ad-supported tier revenue Netflix Japan H1 2023",
+        "filter": null,
+        "results": [
+          {
+            "id": "stre_p02_000",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 2,
+            "text": "## NETFLIX, INC.\n\n## Consolidated Statements of Comprehensive Income (unaudited) (in thousands)\n\n|  | Three Months Ended - June 30, 2023 | Three Months Ended - June 30, 2022 | Six Months Ended - June 30, 2023 | Six Months Ended - June 30, 2022 |\n| --- | --- | --- | --- | --- |\n| Net income | $ 1,487,610 | $ 1,440,951 | $ 2,792,730 | $ 3,038,398 |\n| Other comprehensive income (loss): |  |  |  |  |\n| Foreign currency translation adjustments | 52,429 | (70,306) | 78,040 | (103,981) |\n| Comprehensive income | $ 1,540,039 | $ 1,370,645 | $ 2,870,770 | $ 2,934,417 |\n\nSee accompanying notes to the consolidated financial statements.",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 2,
+              "doc_page": 4,
+              "section": "Financial Statements",
+              "token_count": 242,
+              "char_length": 632,
+              "chunk_index": 0
+            },
+            "score": 2.1271296160850763,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p06_001",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 6,
+            "text": "The Company's primary source of revenues is from monthly membership fees. Members are billed in advance of the start of their monthly membership and revenues are recognized ratably over each monthly membership period. Revenues are presented net of the taxes that are collected from members and remitted to governmental authorities. The Company is the principal in all its relationships where partners, including consumer electronics ('CE') manufacturers, multichannel video programming distributors ('MVPDs'), mobile operators and internet service providers ('ISPs'), provide access to the service as the Company retains control over service delivery to its members. Typically, payments made to the partners, such as for marketing, are expensed. However, if there is no distinct service provided in exchange for the payments made to the partners or if the price that the member pays is established by the partners and there is no standalone price for the Netflix service (for instance, in a bundle), these payments are recognized as a reduction of revenues.\n\nThe Company also earns revenue from advertisements presented on its streaming service, consumer products and various other sources. Revenues earned from sources other than monthly membership fees were not material for the three and six months ended June 30, 2023 and June 30, 2022.\n\nThe following tables summarize revenues, paid net membership additions (losses), and ending paid memberships by region for the three and six months ended June 30, 2023 and June 30, 2022, respectively:\n\n## United States and Canada (UCAN)",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 6,
+              "doc_page": 8,
+              "section": "Notes to Consolidated Financial Statements",
+              "token_count": 334,
+              "char_length": 1578,
+              "chunk_index": 1
+            },
+            "score": 1.2364095177467727,
+            "strategy": "hybrid_zscore"
+          },
+          {
+            "id": "stre_p06_000",
+            "source_id": "netflix-2023q2-10q",
+            "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+            "page": 6,
+            "text": "## NETFLIX, INC.\n\n## Notes to Consolidated Financial Statements (unaudited)\n\n## 1. Basis of Presentation and Summary of Significant Accounting Policies\n\nThe accompanying interim consolidated financial statements of Netflix, Inc. and its wholly owned subsidiaries (the 'Company') have been prepared in conformity with accounting principles generally accepted in the United States ('U.S.') and are consistent in all material respects with those applied in the Company's Annual Report on Form 10-K for the year ended December 31, 2022 filed with the Securities and Exchange Commission (the 'SEC') on January 26, 2023. The preparation of consolidated financial statements in conformity with U.S. generally accepted accounting principles ('GAAP') requires management to make estimates and judgments that affect the amounts reported in the consolidated financial statements and accompanying notes. Significant items subject to such estimates and assumptions include the amortization of content assets and the recognition and measurement of income tax assets and liabilities. The Company bases its estimates on historical experience and on various other assumptions that the Company believes to be reasonable under the circumstances. On a regular basis, the Company evaluates the assumptions, judgments and estimates. Actual results may differ from these estimates.\n\nThe interim financial information is unaudited, but reflects all normal recurring adjustments that are, in the opinion of management, necessary to fairly present the information set forth herein. The interim consolidated financial statements should be read in conjunction with the audited consolidated financial statements and related notes included in the Company's Annual Report on Form 10-K for the year ended December 31, 2022. Interim results are not necessarily indicative of the results for a full year.\n\nThere have been no material changes in the Company's significant accounting policies as compared to the significant accounting policies described in the Company's Annual Report on Form 10-K for the year ended December 31, 2022.\n\n## 2. Revenue Recognition",
+            "metadata": {
+              "strategy": "strategy_e",
+              "document_id": "netflix-2023q2-10q",
+              "source": "NETFLIX_2023Q2_10Q-3-33.pdf",
+              "page": 6,
+              "doc_page": 8,
+              "section": "Notes to Consolidated Financial Statements",
+              "token_count": 453,
+              "char_length": 2126,
+              "chunk_index": 0
+            },
+            "score": 0.7043649403630898,
+            "strategy": "hybrid_zscore"
+          }
+        ],
+        "context": "[stre_p18_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 18]\nConsolidated revenues for the three months ended June 30, 2023 increased 3% as compared to the three months ended June 30, 2022. The increase in our consolidated revenues was due to the 6% growth in average paying memberships, partially offset by a 3% decrease in average monthly revenue per paying membership. The decrease in average monthly revenue per paying membership was primarily due to the strengthening of the U.S. dollar relative to certain foreign currencies, higher membership growth in regions with lower average monthly revenue per paying membership and timing of paid net membership additions. These decreases were partially offset by price increases in certain regions.\n\nThe increase in operating margin is primarily due to the 3% growth in revenue coupled with lower cost of revenues, technology and development expenses, and general and administrative expenses for the three months ended June 30, 2023 as compared to the corresponding prior year period. The decrease in expenses was impacted by approximately $150 million of expenses related to cost restructuring initiatives incurred during the three months ended June 30, 2022 with no similar transactions for the three months ended June 30, 2023.\n\n## Streaming Revenues\n\nWe primarily derive revenues from monthly membership fees for services related to streaming content to our members. We offer a variety of streaming membership plans, the price of which varies by country and the features of the plan. As of June 30, 2023, pricing on our paid plans ranged from the U.S. dollar equivalent of $1 to $27 per month, and pricing on our extra member sub accounts ranged from the U.S. dollar equivalent of $2 to $8 per month. We expect that from time to time the prices of our membership plans in each country may change and we may test other plan and price variations.\n\nWe also earn revenue from advertisements presented on our streaming service, consumer products and various other sources. Revenues earned from sources other than monthly membership fees were not material for the three and six months ended June 30, 2023 and June 30, 2022.\n\nThe following tables summarize streaming revenue and other streaming membership information by region for the three and six months ended June 30, 2023 and 2022.\n\n[stre_p07_002 | NETFLIX_2023Q2_10Q-3-33.pdf | page 7]\nTotal U.S. revenues, inclusive of DVD revenues not reported in the tables above, were $3.3 billion and $6.6 billion, respectively, for the three and six months ended June 30, 2023 and $3.3 billion and $6.4 billion, respectively, for the three and six months ended June 30, 2022. DVD revenues were $29 million and $60 million, respectively, for the three and six months ended June 30, 2023 and $37 million and $77 million, respectively, for the three and six months ended June 30, 2022.\n\nDeferred revenue consists of membership fees billed that have not been recognized, as well as gift cards and other prepaid memberships that have not been fully redeemed. As of June 30, 2023, total deferred revenue was $1,312 million, the vast majority of which was related to membership fees billed that are expected to be recognized as revenue within the next month. The remaining deferred revenue balance, which is related to gift cards and other prepaid memberships, will be recognized as revenue over the period of service after redemption, which is expected to occur over the next 12 months. The $47 million increase in deferred revenue as compared to the balance of $1,265 million as of December 31, 2022 is a result of the increase in membership fees billed due to increased memberships.\n\n[stre_p20_002 | NETFLIX_2023Q2_10Q-3-33.pdf | page 20]\n|  | As of/ Six Months Ended - June 30, 2023 - (in thousands, except revenue per membership and percentages) | As of/ Six Months Ended - June 30, 2022 - (in thousands, except revenue per membership and percentages) | Change - YTD'23 vs. YTD'22 - (in thousands, except revenue per membership and percentages) | Change - YTD'23 vs. YTD'22 - (in thousands, except revenue per membership and percentages) |\n| --- | --- | --- | --- | --- |\n| Revenues | $ 2,147,627 $ | 2,029,182 | $ 118,445 | 6 % |\n| Paid net membership additions (losses) | 767 | (337) | 1,104 | 328 % |\n| Paid memberships at end of period | 42,466 | 39,624 | 2,842 | 7 % |\n| Average paying memberships | 41,666 | 39,702 | 1,964 | 5 % |\n| Average monthly revenue per paying membership | $ 8.59 | $ 8.52 | $ 0.07 | 1 % |\n| Constant currency change (1) |  |  |  | 8 % |\n\n## Asia-Pacific (APAC)\n\nThree months ended June 30, 2023 as compared to the three months ended June 30, 2022\n\n[stre_p02_000 | NETFLIX_2023Q2_10Q-3-33.pdf | page 2]\n## NETFLIX, INC.\n\n## Consolidated Statements of Comprehensive Income (unaudited) (in thousands)\n\n|  | Three Months Ended - June 30, 2023 | Three Months Ended - June 30, 2022 | Six Months Ended - June 30, 2023 | Six Months Ended - June 30, 2022 |\n| --- | --- | --- | --- | --- |\n| Net income | $ 1,487,610 | $ 1,440,951 | $ 2,792,730 | $ 3,038,398 |\n| Other comprehensive income (loss): |  |  |  |  |\n| Foreign currency translation adjustments | 52,429 | (70,306) | 78,040 | (103,981) |\n| Comprehensive income | $ 1,540,039 | $ 1,370,645 | $ 2,870,770 | $ 2,934,417 |\n\nSee accompanying notes to the consolidated financial statements.\n\n[stre_p06_001 | NETFLIX_2023Q2_10Q-3-33.pdf | page 6]\nThe Company's primary source of revenues is from monthly membership fees. Members are billed in advance of the start of their monthly membership and revenues are recognized ratably over each monthly membership period. Revenues are presented net of the taxes that are collected from members and remitted to governmental authorities. The Company is the principal in all its relationships where partners, including consumer electronics ('CE') manufacturers, multichannel video programming distributors ('MVPDs'), mobile operators and internet service providers ('ISPs'), provide access to the service as the Company retains control over service delivery to its members. Typically, payments made to the partners, such as for marketing, are expensed. However, if there is no distinct service provided in exchange for the payments made to the partners or if the price that the member pays is established by the partners and there is no standalone price for the Netflix service (for instance, in a bundle), these payments are recognized as a reduction of revenues.\n\nThe Company also earns revenue from advertisements presented on its streaming service, consumer products and various other sources. Revenues earned from sources other than monthly membership fees were not material for the three and six months ended June 30, 2023 and June 30, 2022.\n\nThe following tables summarize revenues, paid net membership additions (losses), and ending paid memberships by region for the three and six months ended June 30, 2023 and June 30, 2022, respectively:\n\n## United States and Canada (UCAN)",
+        "context_ids": [
+          "stre_p18_001",
+          "stre_p07_002",
+          "stre_p20_002",
+          "stre_p02_000",
+          "stre_p06_001"
+        ]
+      },
+      {
+        "event": "search_limit"
+      }
+    ],
+    "elapsed_seconds": 6.127
+  }
+]

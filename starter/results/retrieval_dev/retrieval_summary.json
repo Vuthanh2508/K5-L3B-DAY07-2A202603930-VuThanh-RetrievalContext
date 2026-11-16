@@ -1,0 +1,1857 @@
+[
+  {
+    "name": "Baseline (Dense Qdrant bge-m3)",
+    "split": "dev",
+    "n": 15,
+    "h1": "11/15 (73.3%)",
+    "h3": "12/15 (80.0%)",
+    "ctx": "12/15 (80.0%)",
+    "time_str": "1.000s (66.6ms/q)",
+    "traces": [
+      {
+        "id": "q01",
+        "question": "Tổng doanh thu (Revenues) của Netflix trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p02_000",
+            "score": 0.7411115,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 0.72232664,
+            "hit": false
+          },
+          {
+            "id": "stre_p22_002",
+            "score": 0.6898216,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q02",
+        "question": "Tính đến ngày 30 tháng 6 năm 2023, khoản mục tiền và các khoản tương đương tiền (Cash and cash equivalents) trên Bảng cân đối kế toán là bao nhiêu?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p23_001",
+            "score": 0.6847333,
+            "hit": false
+          },
+          {
+            "id": "stre_p25_001",
+            "score": 0.67253184,
+            "hit": false
+          },
+          {
+            "id": "stre_p09_000",
+            "score": 0.6705427,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q03",
+        "question": "Mô hình ghi nhận doanh thu từ phí thành viên hàng tháng của Netflix được thực hiện theo nguyên tắc nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p06_001",
+            "score": 0.7182799,
+            "hit": true
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 0.6773045,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_000",
+            "score": 0.6401266,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q04",
+        "question": "Theo Thuyết minh báo cáo tài chính (Notes to Consolidated Financial Statements), các khoản thanh toán cho đối tác (partners) sẽ được ghi nhận giảm trừ doanh thu (reduction of revenues) trong trường hợp nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p06_001",
+            "score": 0.5451152,
+            "hit": true
+          },
+          {
+            "id": "stre_p14_001",
+            "score": 0.51616216,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_000",
+            "score": 0.50760204,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q05",
+        "question": "Doanh thu của khu vực Châu Âu, Trung Đông và Châu Phi (EMEA) trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p07_000",
+            "score": 0.73947406,
+            "hit": true
+          },
+          {
+            "id": "stre_p19_001",
+            "score": 0.6535066,
+            "hit": false
+          },
+          {
+            "id": "stre_p20_002",
+            "score": 0.6286918,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q06",
+        "question": "Những quyền chọn cổ phiếu nào của nhân viên bị loại trừ khỏi phép tính lãi suy giảm trên mỗi cổ phiếu (diluted EPS) và vì sao?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p08_002",
+            "score": 0.6348754,
+            "hit": true
+          },
+          {
+            "id": "stre_p08_000",
+            "score": 0.53912246,
+            "hit": false
+          },
+          {
+            "id": "stre_p15_002",
+            "score": 0.4972026,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q07",
+        "question": "Chính sách đầu tư đối với các chứng khoán khả dụng để bán (available-for-sale securities) của Netflix tập trung vào mục tiêu gì và có nhằm kiếm lời chênh lệch giá ngắn hạn không?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p09_000",
+            "score": 0.6064352,
+            "hit": true
+          },
+          {
+            "id": "stre_p06_000",
+            "score": 0.59899783,
+            "hit": false
+          },
+          {
+            "id": "stre_p17_001",
+            "score": 0.5531132,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q08",
+        "question": "Giá trị ròng của tài sản nội dung tự sản xuất (Produced content, net) so với nội dung được cấp phép (Licensed content, net) tính đến ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p10_000",
+            "score": 0.7141777,
+            "hit": true
+          },
+          {
+            "id": "stre_p10_001",
+            "score": 0.6915126,
+            "hit": false
+          },
+          {
+            "id": "stre_p26_000",
+            "score": 0.6562773,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q09",
+        "question": "Theo Thuyết minh Nợ (Note 6 Debt), thỏa thuận tín dụng tuần hoàn (Revolving Credit Agreement) được sửa đổi vào tháng 3 năm 2023 có quy mô hạn mức bao nhiêu và chuyển sang lãi suất tham chiếu nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p13_000",
+            "score": 0.6984265,
+            "hit": true
+          },
+          {
+            "id": "stre_p13_001",
+            "score": 0.6750233,
+            "hit": false
+          },
+          {
+            "id": "stre_p15_002",
+            "score": 0.61589265,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "question": "Khi xảy ra sự kiện thay đổi quyền kiểm soát (change of control), chủ sở hữu trái phiếu Senior Notes có quyền yêu cầu Netflix mua lại với mức giá nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p13_000",
+            "score": 0.596757,
+            "hit": true
+          },
+          {
+            "id": "stre_p12_001",
+            "score": 0.5659745,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 0.5641709,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q11",
+        "question": "Theo thuyết minh về content obligations, nghĩa vụ mua lại và cấp phép nội dung phát sinh ở thời điểm nào, và khoản content liability được ghi nhận trên Bảng cân đối kế toán khi nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p14_000",
+            "score": 0.6540052,
+            "hit": true
+          },
+          {
+            "id": "stre_p26_000",
+            "score": 0.6088282,
+            "hit": false
+          },
+          {
+            "id": "stre_p13_002",
+            "score": 0.60842025,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q12",
+        "question": "Trong thông báo tháng 4 năm 2023 về dịch vụ DVD-by-mail, Netflix đã lên kế hoạch gì và dự kiến tác động thế nào đến kết quả hoạt động hoặc tài chính?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p18_000",
+            "score": 0.6526675,
+            "hit": true
+          },
+          {
+            "id": "stre_p07_002",
+            "score": 0.59846276,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 0.59022266,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q13",
+        "question": "Số lượng thành viên đăng ký xem trực tuyến trả phí tăng thêm ròng (Paid net membership additions) toàn cầu của Netflix trong quý 2 năm 2023 là bao nhiêu so với quý 2 năm 2022?",
+        "h1": false,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p07_001",
+            "score": 0.7311283,
+            "hit": false
+          },
+          {
+            "id": "stre_p18_001",
+            "score": 0.64442337,
+            "hit": false
+          },
+          {
+            "id": "stre_p18_000",
+            "score": 0.63848746,
+            "hit": true
+          }
+        ]
+      },
+      {
+        "id": "q14",
+        "question": "Theo phần Thảo luận của Ban giám đốc (Management’s Discussion and Analysis - MD&A), công ty định nghĩa Dòng tiền tự do (Free cash flow) như thế nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p26_001",
+            "score": 0.5786108,
+            "hit": true
+          },
+          {
+            "id": "stre_p26_002",
+            "score": 0.55501664,
+            "hit": false
+          },
+          {
+            "id": "stre_p27_002",
+            "score": 0.54599446,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q15",
+        "question": "Dòng tiền tự do (Free Cash Flow) của Netflix trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 đạt bao nhiêu và cải thiện như thế nào so với cùng kỳ năm 2022?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p22_002",
+            "score": 0.7079917,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 0.7018613,
+            "hit": false
+          },
+          {
+            "id": "stre_p02_000",
+            "score": 0.7002257,
+            "hit": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Phương pháp 2 (Lexical BM25Okapi)",
+    "split": "dev",
+    "n": 15,
+    "h1": "7/15 (46.7%)",
+    "h3": "10/15 (66.7%)",
+    "ctx": "10/15 (66.7%)",
+    "time_str": "0.013s (0.8ms/q)",
+    "traces": [
+      {
+        "id": "q01",
+        "question": "Tổng doanh thu (Revenues) của Netflix trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p02_000",
+            "score": 6.2189448904724385,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_001",
+            "score": 5.640401769398049,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_002",
+            "score": 5.449883010238773,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q02",
+        "question": "Tính đến ngày 30 tháng 6 năm 2023, khoản mục tiền và các khoản tương đương tiền (Cash and cash equivalents) trên Bảng cân đối kế toán là bao nhiêu?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p09_000",
+            "score": 12.72088054012157,
+            "hit": false
+          },
+          {
+            "id": "stre_p03_003",
+            "score": 11.834465358139221,
+            "hit": false
+          },
+          {
+            "id": "stre_p25_001",
+            "score": 11.773568514796068,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q03",
+        "question": "Mô hình ghi nhận doanh thu từ phí thành viên hàng tháng của Netflix được thực hiện theo nguyên tắc nào?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p03_000",
+            "score": 3.6953686791765996,
+            "hit": false
+          },
+          {
+            "id": "stre_p05_000",
+            "score": 3.6953686791765996,
+            "hit": false
+          },
+          {
+            "id": "stre_p01_000",
+            "score": 3.6479696509876365,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q04",
+        "question": "Theo Thuyết minh báo cáo tài chính (Notes to Consolidated Financial Statements), các khoản thanh toán cho đối tác (partners) sẽ được ghi nhận giảm trừ doanh thu (reduction of revenues) trong trường hợp nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p06_001",
+            "score": 12.05368562561448,
+            "hit": true
+          },
+          {
+            "id": "stre_p06_000",
+            "score": 9.970387852405384,
+            "hit": false
+          },
+          {
+            "id": "stre_p14_001",
+            "score": 7.509929772989574,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q05",
+        "question": "Doanh thu của khu vực Châu Âu, Trung Đông và Châu Phi (EMEA) trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+        "h1": false,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p19_001",
+            "score": 7.944580693906049,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_000",
+            "score": 7.2050010828791216,
+            "hit": true
+          },
+          {
+            "id": "stre_p10_001",
+            "score": 4.759058610980692,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q06",
+        "question": "Những quyền chọn cổ phiếu nào của nhân viên bị loại trừ khỏi phép tính lãi suy giảm trên mỗi cổ phiếu (diluted EPS) và vì sao?",
+        "h1": false,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p01_002",
+            "score": 5.421005774678784,
+            "hit": false
+          },
+          {
+            "id": "stre_p08_002",
+            "score": 5.016914366683302,
+            "hit": true
+          },
+          {
+            "id": "stre_p08_001",
+            "score": 4.271020245062573,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q07",
+        "question": "Chính sách đầu tư đối với các chứng khoán khả dụng để bán (available-for-sale securities) của Netflix tập trung vào mục tiêu gì và có nhằm kiếm lời chênh lệch giá ngắn hạn không?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p09_000",
+            "score": 10.061661354905155,
+            "hit": true
+          },
+          {
+            "id": "stre_p31_000",
+            "score": 6.889520398332184,
+            "hit": false
+          },
+          {
+            "id": "stre_p31_001",
+            "score": 6.707871045900049,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q08",
+        "question": "Giá trị ròng của tài sản nội dung tự sản xuất (Produced content, net) so với nội dung được cấp phép (Licensed content, net) tính đến ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p10_000",
+            "score": 19.503827796705323,
+            "hit": true
+          },
+          {
+            "id": "stre_p10_001",
+            "score": 18.94006171145184,
+            "hit": false
+          },
+          {
+            "id": "stre_p26_000",
+            "score": 9.303948126232008,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q09",
+        "question": "Theo Thuyết minh Nợ (Note 6 Debt), thỏa thuận tín dụng tuần hoàn (Revolving Credit Agreement) được sửa đổi vào tháng 3 năm 2023 có quy mô hạn mức bao nhiêu và chuyển sang lãi suất tham chiếu nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p13_000",
+            "score": 16.76494184058376,
+            "hit": true
+          },
+          {
+            "id": "stre_p13_001",
+            "score": 13.200593759969129,
+            "hit": false
+          },
+          {
+            "id": "stre_p09_001",
+            "score": 8.532525740094945,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "question": "Khi xảy ra sự kiện thay đổi quyền kiểm soát (change of control), chủ sở hữu trái phiếu Senior Notes có quyền yêu cầu Netflix mua lại với mức giá nào?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p12_001",
+            "score": 8.307911754969217,
+            "hit": false
+          },
+          {
+            "id": "stre_p29_002",
+            "score": 7.906496563416896,
+            "hit": false
+          },
+          {
+            "id": "stre_p24_003",
+            "score": 7.364740547974992,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q11",
+        "question": "Theo thuyết minh về content obligations, nghĩa vụ mua lại và cấp phép nội dung phát sinh ở thời điểm nào, và khoản content liability được ghi nhận trên Bảng cân đối kế toán khi nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p14_000",
+            "score": 10.314201314205466,
+            "hit": true
+          },
+          {
+            "id": "stre_p24_003",
+            "score": 8.831267603488893,
+            "hit": false
+          },
+          {
+            "id": "stre_p26_000",
+            "score": 8.075914726309465,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q12",
+        "question": "Trong thông báo tháng 4 năm 2023 về dịch vụ DVD-by-mail, Netflix đã lên kế hoạch gì và dự kiến tác động thế nào đến kết quả hoạt động hoặc tài chính?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p18_000",
+            "score": 10.506365950263548,
+            "hit": true
+          },
+          {
+            "id": "stre_p07_002",
+            "score": 6.607123484447082,
+            "hit": false
+          },
+          {
+            "id": "stre_p02_000",
+            "score": 4.245781057787795,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q13",
+        "question": "Số lượng thành viên đăng ký xem trực tuyến trả phí tăng thêm ròng (Paid net membership additions) toàn cầu của Netflix trong quý 2 năm 2023 là bao nhiêu so với quý 2 năm 2022?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p07_001",
+            "score": 10.5930618379429,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_000",
+            "score": 10.313824091929199,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_001",
+            "score": 9.9268215715432,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q14",
+        "question": "Theo phần Thảo luận của Ban giám đốc (Management’s Discussion and Analysis - MD&A), công ty định nghĩa Dòng tiền tự do (Free cash flow) như thế nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p26_001",
+            "score": 14.708557298376757,
+            "hit": true
+          },
+          {
+            "id": "stre_p28_002",
+            "score": 13.898797407124187,
+            "hit": false
+          },
+          {
+            "id": "stre_p17_000",
+            "score": 12.269298670186988,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q15",
+        "question": "Dòng tiền tự do (Free Cash Flow) của Netflix trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 đạt bao nhiêu và cải thiện như thế nào so với cùng kỳ năm 2022?",
+        "h1": false,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p28_000",
+            "score": 13.152633950940954,
+            "hit": false
+          },
+          {
+            "id": "stre_p27_000",
+            "score": 12.966077624339011,
+            "hit": true
+          },
+          {
+            "id": "stre_p26_001",
+            "score": 12.617472387607622,
+            "hit": false
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Phương pháp 3 (Hybrid RRF)",
+    "split": "dev",
+    "n": 15,
+    "h1": "10/15 (66.7%)",
+    "h3": "12/15 (80.0%)",
+    "ctx": "12/15 (80.0%)",
+    "time_str": "0.887s (59.1ms/q)",
+    "traces": [
+      {
+        "id": "q01",
+        "question": "Tổng doanh thu (Revenues) của Netflix trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p02_000",
+            "score": 0.03278688524590164,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_001",
+            "score": 0.031054405392392875,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 0.030834914611005692,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q02",
+        "question": "Tính đến ngày 30 tháng 6 năm 2023, khoản mục tiền và các khoản tương đương tiền (Cash and cash equivalents) trên Bảng cân đối kế toán là bao nhiêu?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p09_000",
+            "score": 0.032266458495966696,
+            "hit": false
+          },
+          {
+            "id": "stre_p25_001",
+            "score": 0.03200204813108039,
+            "hit": false
+          },
+          {
+            "id": "stre_p09_001",
+            "score": 0.03125,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q03",
+        "question": "Mô hình ghi nhận doanh thu từ phí thành viên hàng tháng của Netflix được thực hiện theo nguyên tắc nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p06_001",
+            "score": 0.031099324975891997,
+            "hit": true
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 0.031054405392392875,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_000",
+            "score": 0.031024531024531024,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q04",
+        "question": "Theo Thuyết minh báo cáo tài chính (Notes to Consolidated Financial Statements), các khoản thanh toán cho đối tác (partners) sẽ được ghi nhận giảm trừ doanh thu (reduction of revenues) trong trường hợp nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p06_001",
+            "score": 0.03278688524590164,
+            "hit": true
+          },
+          {
+            "id": "stre_p06_000",
+            "score": 0.03200204813108039,
+            "hit": false
+          },
+          {
+            "id": "stre_p14_001",
+            "score": 0.03200204813108039,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q05",
+        "question": "Doanh thu của khu vực Châu Âu, Trung Đông và Châu Phi (EMEA) trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p07_000",
+            "score": 0.03252247488101534,
+            "hit": true
+          },
+          {
+            "id": "stre_p19_001",
+            "score": 0.03252247488101534,
+            "hit": false
+          },
+          {
+            "id": "stre_p10_001",
+            "score": 0.03057889822595705,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q06",
+        "question": "Những quyền chọn cổ phiếu nào của nhân viên bị loại trừ khỏi phép tính lãi suy giảm trên mỗi cổ phiếu (diluted EPS) và vì sao?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p08_002",
+            "score": 0.03252247488101534,
+            "hit": true
+          },
+          {
+            "id": "stre_p08_000",
+            "score": 0.031754032258064516,
+            "hit": false
+          },
+          {
+            "id": "stre_p08_001",
+            "score": 0.03149801587301587,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q07",
+        "question": "Chính sách đầu tư đối với các chứng khoán khả dụng để bán (available-for-sale securities) của Netflix tập trung vào mục tiêu gì và có nhằm kiếm lời chênh lệch giá ngắn hạn không?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p09_000",
+            "score": 0.03278688524590164,
+            "hit": true
+          },
+          {
+            "id": "stre_p06_000",
+            "score": 0.031754032258064516,
+            "hit": false
+          },
+          {
+            "id": "stre_p31_001",
+            "score": 0.029571646010002173,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q08",
+        "question": "Giá trị ròng của tài sản nội dung tự sản xuất (Produced content, net) so với nội dung được cấp phép (Licensed content, net) tính đến ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p10_000",
+            "score": 0.03278688524590164,
+            "hit": true
+          },
+          {
+            "id": "stre_p10_001",
+            "score": 0.03225806451612903,
+            "hit": false
+          },
+          {
+            "id": "stre_p26_000",
+            "score": 0.031746031746031744,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q09",
+        "question": "Theo Thuyết minh Nợ (Note 6 Debt), thỏa thuận tín dụng tuần hoàn (Revolving Credit Agreement) được sửa đổi vào tháng 3 năm 2023 có quy mô hạn mức bao nhiêu và chuyển sang lãi suất tham chiếu nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p13_000",
+            "score": 0.03278688524590164,
+            "hit": true
+          },
+          {
+            "id": "stre_p13_001",
+            "score": 0.03225806451612903,
+            "hit": false
+          },
+          {
+            "id": "stre_p10_001",
+            "score": 0.030536130536130537,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "question": "Khi xảy ra sự kiện thay đổi quyền kiểm soát (change of control), chủ sở hữu trái phiếu Senior Notes có quyền yêu cầu Netflix mua lại với mức giá nào?",
+        "h1": false,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p12_001",
+            "score": 0.03252247488101534,
+            "hit": false
+          },
+          {
+            "id": "stre_p13_000",
+            "score": 0.031544957774465976,
+            "hit": true
+          },
+          {
+            "id": "stre_p12_002",
+            "score": 0.031009615384615385,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q11",
+        "question": "Theo thuyết minh về content obligations, nghĩa vụ mua lại và cấp phép nội dung phát sinh ở thời điểm nào, và khoản content liability được ghi nhận trên Bảng cân đối kế toán khi nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p14_000",
+            "score": 0.03278688524590164,
+            "hit": true
+          },
+          {
+            "id": "stre_p26_000",
+            "score": 0.03200204813108039,
+            "hit": false
+          },
+          {
+            "id": "stre_p13_002",
+            "score": 0.03149801587301587,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q12",
+        "question": "Trong thông báo tháng 4 năm 2023 về dịch vụ DVD-by-mail, Netflix đã lên kế hoạch gì và dự kiến tác động thế nào đến kết quả hoạt động hoặc tài chính?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p18_000",
+            "score": 0.03278688524590164,
+            "hit": true
+          },
+          {
+            "id": "stre_p07_002",
+            "score": 0.03225806451612903,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 0.03149801587301587,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q13",
+        "question": "Số lượng thành viên đăng ký xem trực tuyến trả phí tăng thêm ròng (Paid net membership additions) toàn cầu của Netflix trong quý 2 năm 2023 là bao nhiêu so với quý 2 năm 2022?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p07_001",
+            "score": 0.03278688524590164,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_001",
+            "score": 0.030798389007344232,
+            "hit": false
+          },
+          {
+            "id": "stre_p19_002",
+            "score": 0.03076923076923077,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q14",
+        "question": "Theo phần Thảo luận của Ban giám đốc (Management’s Discussion and Analysis - MD&A), công ty định nghĩa Dòng tiền tự do (Free cash flow) như thế nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p26_001",
+            "score": 0.03278688524590164,
+            "hit": true
+          },
+          {
+            "id": "stre_p17_000",
+            "score": 0.03149801587301587,
+            "hit": false
+          },
+          {
+            "id": "stre_p27_002",
+            "score": 0.03149801587301587,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q15",
+        "question": "Dòng tiền tự do (Free Cash Flow) của Netflix trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 đạt bao nhiêu và cải thiện như thế nào so với cùng kỳ năm 2022?",
+        "h1": false,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p28_000",
+            "score": 0.03177805800756621,
+            "hit": false
+          },
+          {
+            "id": "stre_p27_002",
+            "score": 0.03125,
+            "hit": false
+          },
+          {
+            "id": "stre_p27_000",
+            "score": 0.031054405392392875,
+            "hit": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cải thiện 1 (Hybrid Z-Score a=0.6)",
+    "split": "dev",
+    "n": 15,
+    "h1": "11/15 (73.3%)",
+    "h3": "12/15 (80.0%)",
+    "ctx": "12/15 (80.0%)",
+    "time_str": "0.846s (56.4ms/q)",
+    "traces": [
+      {
+        "id": "q01",
+        "question": "Tổng doanh thu (Revenues) của Netflix trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p02_000",
+            "score": 2.3722689912723487,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 0.9766412890019652,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_001",
+            "score": 0.41750438292408587,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q02",
+        "question": "Tính đến ngày 30 tháng 6 năm 2023, khoản mục tiền và các khoản tương đương tiền (Cash and cash equivalents) trên Bảng cân đối kế toán là bao nhiêu?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p09_000",
+            "score": 1.4458194615308653,
+            "hit": false
+          },
+          {
+            "id": "stre_p25_001",
+            "score": 1.2687311838281436,
+            "hit": false
+          },
+          {
+            "id": "stre_p09_001",
+            "score": 0.9314026045081691,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q03",
+        "question": "Mô hình ghi nhận doanh thu từ phí thành viên hàng tháng của Netflix được thực hiện theo nguyên tắc nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p06_001",
+            "score": 0.9689909722097048,
+            "hit": true
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 0.6080546421352058,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_000",
+            "score": 0.5441988891132297,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q04",
+        "question": "Theo Thuyết minh báo cáo tài chính (Notes to Consolidated Financial Statements), các khoản thanh toán cho đối tác (partners) sẽ được ghi nhận giảm trừ doanh thu (reduction of revenues) trong trường hợp nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p06_001",
+            "score": 2.492053558924423,
+            "hit": true
+          },
+          {
+            "id": "stre_p06_000",
+            "score": 1.2845900595485142,
+            "hit": false
+          },
+          {
+            "id": "stre_p14_001",
+            "score": 1.0844838344030485,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q05",
+        "question": "Doanh thu của khu vực Châu Âu, Trung Đông và Châu Phi (EMEA) trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p07_000",
+            "score": 2.7594144385244004,
+            "hit": true
+          },
+          {
+            "id": "stre_p19_001",
+            "score": 1.6415041089561544,
+            "hit": false
+          },
+          {
+            "id": "stre_p20_000",
+            "score": -0.04346140004618736,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q06",
+        "question": "Những quyền chọn cổ phiếu nào của nhân viên bị loại trừ khỏi phép tính lãi suy giảm trên mỗi cổ phiếu (diluted EPS) và vì sao?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p08_002",
+            "score": 2.1357733206868974,
+            "hit": true
+          },
+          {
+            "id": "stre_p08_000",
+            "score": 0.25560017179804045,
+            "hit": false
+          },
+          {
+            "id": "stre_p01_002",
+            "score": 0.12637000480584626,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q07",
+        "question": "Chính sách đầu tư đối với các chứng khoán khả dụng để bán (available-for-sale securities) của Netflix tập trung vào mục tiêu gì và có nhằm kiếm lời chênh lệch giá ngắn hạn không?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p09_000",
+            "score": 2.408156099885769,
+            "hit": true
+          },
+          {
+            "id": "stre_p06_000",
+            "score": 1.3483114375356253,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_001",
+            "score": 0.0691077755475191,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q08",
+        "question": "Giá trị ròng của tài sản nội dung tự sản xuất (Produced content, net) so với nội dung được cấp phép (Licensed content, net) tính đến ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p10_000",
+            "score": 2.3452132829716543,
+            "hit": true
+          },
+          {
+            "id": "stre_p10_001",
+            "score": 1.9732640811689826,
+            "hit": false
+          },
+          {
+            "id": "stre_p26_000",
+            "score": 0.6026810754688424,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q09",
+        "question": "Theo Thuyết minh Nợ (Note 6 Debt), thỏa thuận tín dụng tuần hoàn (Revolving Credit Agreement) được sửa đổi vào tháng 3 năm 2023 có quy mô hạn mức bao nhiêu và chuyển sang lãi suất tham chiếu nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p13_000",
+            "score": 2.5044559962750803,
+            "hit": true
+          },
+          {
+            "id": "stre_p13_001",
+            "score": 1.9384904575594737,
+            "hit": false
+          },
+          {
+            "id": "stre_p10_001",
+            "score": -0.19514983353289939,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "question": "Khi xảy ra sự kiện thay đổi quyền kiểm soát (change of control), chủ sở hữu trái phiếu Senior Notes có quyền yêu cầu Netflix mua lại với mức giá nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p13_000",
+            "score": 1.446580672227467,
+            "hit": true
+          },
+          {
+            "id": "stre_p12_001",
+            "score": 1.3865939105192684,
+            "hit": false
+          },
+          {
+            "id": "stre_p12_002",
+            "score": 0.7765095195849345,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q11",
+        "question": "Theo thuyết minh về content obligations, nghĩa vụ mua lại và cấp phép nội dung phát sinh ở thời điểm nào, và khoản content liability được ghi nhận trên Bảng cân đối kế toán khi nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p14_000",
+            "score": 2.1870259713012916,
+            "hit": true
+          },
+          {
+            "id": "stre_p26_000",
+            "score": 1.2198095100595063,
+            "hit": false
+          },
+          {
+            "id": "stre_p13_002",
+            "score": 1.1247406779846734,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q12",
+        "question": "Trong thông báo tháng 4 năm 2023 về dịch vụ DVD-by-mail, Netflix đã lên kế hoạch gì và dự kiến tác động thế nào đến kết quả hoạt động hoặc tài chính?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p18_000",
+            "score": 2.8077741366411004,
+            "hit": true
+          },
+          {
+            "id": "stre_p07_002",
+            "score": 1.2029593440110204,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 0.5151187506930196,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q13",
+        "question": "Số lượng thành viên đăng ký xem trực tuyến trả phí tăng thêm ròng (Paid net membership additions) toàn cầu của Netflix trong quý 2 năm 2023 là bao nhiêu so với quý 2 năm 2022?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p07_001",
+            "score": 2.49463977739532,
+            "hit": false
+          },
+          {
+            "id": "stre_p20_001",
+            "score": 0.3072508120100649,
+            "hit": false
+          },
+          {
+            "id": "stre_p19_002",
+            "score": 0.1980730311211818,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q14",
+        "question": "Theo phần Thảo luận của Ban giám đốc (Management’s Discussion and Analysis - MD&A), công ty định nghĩa Dòng tiền tự do (Free cash flow) như thế nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p26_001",
+            "score": 1.920075572996089,
+            "hit": true
+          },
+          {
+            "id": "stre_p26_002",
+            "score": 1.1085632604406048,
+            "hit": false
+          },
+          {
+            "id": "stre_p27_002",
+            "score": 1.1051950644302997,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q15",
+        "question": "Dòng tiền tự do (Free Cash Flow) của Netflix trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 đạt bao nhiêu và cải thiện như thế nào so với cùng kỳ năm 2022?",
+        "h1": false,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p28_000",
+            "score": 1.1237657926333728,
+            "hit": false
+          },
+          {
+            "id": "stre_p27_002",
+            "score": 1.073765118208429,
+            "hit": false
+          },
+          {
+            "id": "stre_p27_000",
+            "score": 0.7804994804976638,
+            "hit": true
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cải thiện 2 (Dense + Reranker v2-m3)",
+    "split": "dev",
+    "n": 15,
+    "h1": "10/15 (66.7%)",
+    "h3": "11/15 (73.3%)",
+    "ctx": "11/15 (73.3%)",
+    "time_str": "11.463s (764.2ms/q)",
+    "traces": [
+      {
+        "id": "q01",
+        "question": "Tổng doanh thu (Revenues) của Netflix trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p02_000",
+            "score": 5.75,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 5.2265625,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_002",
+            "score": 3.46484375,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q02",
+        "question": "Tính đến ngày 30 tháng 6 năm 2023, khoản mục tiền và các khoản tương đương tiền (Cash and cash equivalents) trên Bảng cân đối kế toán là bao nhiêu?",
+        "h1": false,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p09_000",
+            "score": 3.17578125,
+            "hit": false
+          },
+          {
+            "id": "stre_p04_001",
+            "score": 2.791015625,
+            "hit": true
+          },
+          {
+            "id": "stre_p27_000",
+            "score": 1.478515625,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q03",
+        "question": "Mô hình ghi nhận doanh thu từ phí thành viên hàng tháng của Netflix được thực hiện theo nguyên tắc nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p06_001",
+            "score": -0.021728515625,
+            "hit": true
+          },
+          {
+            "id": "stre_p07_001",
+            "score": -1.0302734375,
+            "hit": false
+          },
+          {
+            "id": "stre_p17_001",
+            "score": -3.482421875,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q04",
+        "question": "Theo Thuyết minh báo cáo tài chính (Notes to Consolidated Financial Statements), các khoản thanh toán cho đối tác (partners) sẽ được ghi nhận giảm trừ doanh thu (reduction of revenues) trong trường hợp nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p06_001",
+            "score": -2.353515625,
+            "hit": true
+          },
+          {
+            "id": "stre_p06_000",
+            "score": -2.779296875,
+            "hit": false
+          },
+          {
+            "id": "stre_p16_001",
+            "score": -4.95703125,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q05",
+        "question": "Doanh thu của khu vực Châu Âu, Trung Đông và Châu Phi (EMEA) trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p07_000",
+            "score": 4.04296875,
+            "hit": true
+          },
+          {
+            "id": "stre_p19_001",
+            "score": 3.962890625,
+            "hit": false
+          },
+          {
+            "id": "stre_p20_002",
+            "score": 2.087890625,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q06",
+        "question": "Những quyền chọn cổ phiếu nào của nhân viên bị loại trừ khỏi phép tính lãi suy giảm trên mỗi cổ phiếu (diluted EPS) và vì sao?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p08_002",
+            "score": 3.609375,
+            "hit": true
+          },
+          {
+            "id": "stre_p08_001",
+            "score": -2.33203125,
+            "hit": false
+          },
+          {
+            "id": "stre_p08_000",
+            "score": -4.0390625,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q07",
+        "question": "Chính sách đầu tư đối với các chứng khoán khả dụng để bán (available-for-sale securities) của Netflix tập trung vào mục tiêu gì và có nhằm kiếm lời chênh lệch giá ngắn hạn không?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p09_000",
+            "score": 2.830078125,
+            "hit": true
+          },
+          {
+            "id": "stre_p06_000",
+            "score": -3.345703125,
+            "hit": false
+          },
+          {
+            "id": "stre_p17_001",
+            "score": -4.21484375,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q08",
+        "question": "Giá trị ròng của tài sản nội dung tự sản xuất (Produced content, net) so với nội dung được cấp phép (Licensed content, net) tính đến ngày 30 tháng 6 năm 2023 là bao nhiêu?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p10_000",
+            "score": 5.8671875,
+            "hit": true
+          },
+          {
+            "id": "stre_p10_001",
+            "score": 4.04296875,
+            "hit": false
+          },
+          {
+            "id": "stre_p28_000",
+            "score": 1.8935546875,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q09",
+        "question": "Theo Thuyết minh Nợ (Note 6 Debt), thỏa thuận tín dụng tuần hoàn (Revolving Credit Agreement) được sửa đổi vào tháng 3 năm 2023 có quy mô hạn mức bao nhiêu và chuyển sang lãi suất tham chiếu nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p13_000",
+            "score": 1.3857421875,
+            "hit": true
+          },
+          {
+            "id": "stre_p13_001",
+            "score": 0.94091796875,
+            "hit": false
+          },
+          {
+            "id": "stre_p12_000",
+            "score": -2.248046875,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q10",
+        "question": "Khi xảy ra sự kiện thay đổi quyền kiểm soát (change of control), chủ sở hữu trái phiếu Senior Notes có quyền yêu cầu Netflix mua lại với mức giá nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p13_000",
+            "score": -2.265625,
+            "hit": true
+          },
+          {
+            "id": "stre_p12_001",
+            "score": -2.4296875,
+            "hit": false
+          },
+          {
+            "id": "stre_p12_002",
+            "score": -3.576171875,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q11",
+        "question": "Theo thuyết minh về content obligations, nghĩa vụ mua lại và cấp phép nội dung phát sinh ở thời điểm nào, và khoản content liability được ghi nhận trên Bảng cân đối kế toán khi nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p14_000",
+            "score": 0.0648193359375,
+            "hit": true
+          },
+          {
+            "id": "stre_p13_002",
+            "score": -2.099609375,
+            "hit": false
+          },
+          {
+            "id": "stre_p26_000",
+            "score": -2.384765625,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q12",
+        "question": "Trong thông báo tháng 4 năm 2023 về dịch vụ DVD-by-mail, Netflix đã lên kế hoạch gì và dự kiến tác động thế nào đến kết quả hoạt động hoặc tài chính?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p06_000",
+            "score": -1.65625,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_001",
+            "score": -2.12109375,
+            "hit": false
+          },
+          {
+            "id": "stre_p06_001",
+            "score": -2.466796875,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q13",
+        "question": "Số lượng thành viên đăng ký xem trực tuyến trả phí tăng thêm ròng (Paid net membership additions) toàn cầu của Netflix trong quý 2 năm 2023 là bao nhiêu so với quý 2 năm 2022?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p07_001",
+            "score": 3.107421875,
+            "hit": false
+          },
+          {
+            "id": "stre_p19_002",
+            "score": 0.88525390625,
+            "hit": false
+          },
+          {
+            "id": "stre_p20_001",
+            "score": 0.880859375,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q14",
+        "question": "Theo phần Thảo luận của Ban giám đốc (Management’s Discussion and Analysis - MD&A), công ty định nghĩa Dòng tiền tự do (Free cash flow) như thế nào?",
+        "h1": true,
+        "h3": true,
+        "ctx": true,
+        "results": [
+          {
+            "id": "stre_p26_001",
+            "score": -0.8564453125,
+            "hit": true
+          },
+          {
+            "id": "stre_p26_002",
+            "score": -2.384765625,
+            "hit": false
+          },
+          {
+            "id": "stre_p17_000",
+            "score": -2.75390625,
+            "hit": false
+          }
+        ]
+      },
+      {
+        "id": "q15",
+        "question": "Dòng tiền tự do (Free Cash Flow) của Netflix trong 3 tháng kết thúc ngày 30 tháng 6 năm 2023 đạt bao nhiêu và cải thiện như thế nào so với cùng kỳ năm 2022?",
+        "h1": false,
+        "h3": false,
+        "ctx": false,
+        "results": [
+          {
+            "id": "stre_p27_002",
+            "score": 4.3984375,
+            "hit": false
+          },
+          {
+            "id": "stre_p07_001",
+            "score": 3.3203125,
+            "hit": false
+          },
+          {
+            "id": "stre_p02_000",
+            "score": 2.599609375,
+            "hit": false
+          }
+        ]
+      }
+    ]
+  }
+]
