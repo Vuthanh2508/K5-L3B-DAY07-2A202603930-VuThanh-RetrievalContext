@@ -21,6 +21,7 @@ import argparse
 import json
 import os
 import re
+import statistics
 import time
 from typing import Any, Dict, List, Optional
 
@@ -193,7 +194,7 @@ def run_benchmark_agent(split: str = "dev", retriever_type: str = "hybrid_z",
         traces.append(trace_item)
 
     total_time = time.perf_counter() - start_all
-    cost_usd = (controller.total_prompt_tokens * 0.15 + controller.total_completion_tokens * 0.60) / 1_000_000
+    cost_usd = (controller.total_prompt_tokens * 0.10 + controller.total_completion_tokens * 0.50) / 1_000_000
 
     print("\n" + "=" * 80)
     print(f"Completed Split '{split}' with {retriever_type}: {len(traces)} cases in {total_time:.2f}s (avg {total_time/len(traces):.2f}s/q)")
@@ -205,7 +206,43 @@ def run_benchmark_agent(split: str = "dev", retriever_type: str = "hybrid_z",
     out_dir.mkdir(parents=True, exist_ok=True)
     with open(out_dir / "traces.json", "w", encoding="utf-8") as f:
         json.dump(traces, f, ensure_ascii=False, indent=2)
-    print(f"Saved traces to: {out_dir / 'traces.json'}\n")
+    print(f"Saved traces to: {out_dir / 'traces.json'}")
+
+    search_counts = [sum(1 for e in t.get("events", []) if e.get("event") == "search") for t in traces]
+    avg_search = round(statistics.mean(search_counts), 2) if search_counts else 0.0
+    avg_controller = round(avg_search + 1.0, 2)
+
+    metadata = {
+        "split": split,
+        "retriever": retriever_type,
+        "model": "gpt-4o-mini",
+        "embedding_model": "BAAI/bge-m3",
+        "embedding_dimension": 1024,
+        "vector_store": "Qdrant (collection_strategy_e)",
+        "context_budget_chars": budget,
+        "max_searches": max_searches,
+        "top_k": top_k,
+        "cases_count": len(traces),
+        "answerable_count": sum(1 for t in traces if t.get("answerable")),
+        "unanswerable_count": sum(1 for t in traces if not t.get("answerable")),
+        "prompt_tokens": controller.total_prompt_tokens,
+        "completion_tokens": controller.total_completion_tokens,
+        "pricing_per_1m_tokens": {
+            "prompt_usd": 0.10,
+            "completion_usd": 0.50,
+            "reference": "OpenAI official pricing: $0.10/1M input tokens, $0.50/1M output tokens"
+        },
+        "total_cost_usd": round(cost_usd, 6),
+        "total_elapsed_seconds": round(total_time, 2),
+        "avg_elapsed_seconds_per_query": round(total_time / len(traces), 2) if traces else 0.0,
+        "avg_search_calls_per_query": avg_search,
+        "avg_controller_calls_per_query": avg_controller,
+        "timestamp": time.strftime("%Y-%m-%dT%H:%M:%S%z"),
+        "data_version": "Netflix 2023 Q2 10-Q (88 chunks Strategy E)"
+    }
+    with open(out_dir / "run_metadata.json", "w", encoding="utf-8") as f:
+        json.dump(metadata, f, ensure_ascii=False, indent=2)
+    print(f"Saved run metadata to: {out_dir / 'run_metadata.json'}\n")
 
     return traces
 

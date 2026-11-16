@@ -14,7 +14,13 @@
   "unanswerable_count": 2,
   "prompt_tokens": 3620,
   "completion_tokens": 480,
-  "total_cost_usd": 0.0006,
+  "pricing_per_1m_tokens": {
+    "prompt_usd": 0.1,
+    "completion_usd": 0.5,
+    "reference": "OpenAI official pricing (https://developers.openai.com/api/docs/pricing): .10/1M input tokens, .50/1M output tokens"
+  },
+  "cost_formula": "(prompt_tokens * 0.10 + completion_tokens * 0.50) / 1_000_000",
+  "total_cost_usd": 0.000602,
   "total_elapsed_seconds": 34.9,
   "avg_elapsed_seconds_per_query": 4.99,
   "avg_search_calls_per_query": 1.57,

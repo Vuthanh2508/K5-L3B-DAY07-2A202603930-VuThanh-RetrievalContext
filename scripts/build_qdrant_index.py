@@ -20,11 +20,13 @@ from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams, PointStruct
 
 
-def build_index(chunks_path: Path, qdrant_url: str, collection_name: str, model_name: str = "BAAI/bge-m3"):
+def build_index(chunks_path: Path, qdrant_url: str, collection_name: str,
+                model_name: str = "BAAI/bge-m3", recreate: bool = False):
     print(f"=== Building Qdrant Index for Collection: '{collection_name}' ===")
     print(f"Chunks source: {chunks_path}")
     print(f"Qdrant URL   : {qdrant_url}")
     print(f"Model        : {model_name}")
+    print(f"Recreate     : {recreate}")
 
     if not chunks_path.exists():
         raise FileNotFoundError(f"Chunks file not found at {chunks_path}")
@@ -43,14 +45,22 @@ def build_index(chunks_path: Path, qdrant_url: str, collection_name: str, model_
 
     collections = [c.name for c in client.get_collections().collections]
     if collection_name in collections:
-        print(f"Collection '{collection_name}' already exists. Recreating for clean indexing...")
-        client.delete_collection(collection_name)
-
-    client.create_collection(
-        collection_name=collection_name,
-        vectors_config=VectorParams(size=1024, distance=Distance.COSINE)
-    )
-    print(f"Created collection '{collection_name}' with 1024-dim Cosine vectors.")
+        if recreate:
+            print(f"Collection '{collection_name}' exists. --recreate flag is set: deleting and recreating...")
+            client.delete_collection(collection_name)
+            client.create_collection(
+                collection_name=collection_name,
+                vectors_config=VectorParams(size=1024, distance=Distance.COSINE)
+            )
+            print(f"Created fresh collection '{collection_name}'.")
+        else:
+            print(f"Collection '{collection_name}' already exists. Overwriting/updating points without deleting collection.")
+    else:
+        client.create_collection(
+            collection_name=collection_name,
+            vectors_config=VectorParams(size=1024, distance=Distance.COSINE)
+        )
+        print(f"Created collection '{collection_name}' with 1024-dim Cosine vectors.")
 
     print("Generating dense embeddings for chunks...")
     texts = [c["text"] for c in chunks]
@@ -64,6 +74,7 @@ def build_index(chunks_path: Path, qdrant_url: str, collection_name: str, model_
     for idx, (chunk, vector) in enumerate(zip(chunks, embeddings)):
         meta = chunk.get("metadata", {})
         payload = {
+            "chunk_id": chunk["id"],
             "id": chunk["id"],
             "source_id": chunk.get("source_id", "netflix-2023q2-10q"),
             "source": chunk.get("source", "NETFLIX_2023Q2_10Q-3-33.pdf"),
@@ -85,9 +96,10 @@ def main():
     parser.add_argument("--qdrant_url", default=os.environ.get("QDRANT_URL", "http://localhost:6333"))
     parser.add_argument("--collection", default=os.environ.get("QDRANT_COLLECTION", "collection_strategy_e"))
     parser.add_argument("--model", default="BAAI/bge-m3")
+    parser.add_argument("--recreate", action="store_true", help="Force drop existing collection before rebuilding.")
     args = parser.parse_args()
 
-    build_index(args.chunks, args.qdrant_url, args.collection, args.model)
+    build_index(args.chunks, args.qdrant_url, args.collection, args.model, recreate=args.recreate)
 
 
 if __name__ == "__main__":

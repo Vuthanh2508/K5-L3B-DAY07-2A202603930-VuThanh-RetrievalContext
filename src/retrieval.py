@@ -107,7 +107,7 @@ class DenseRetriever:
 
         results = []
         for point in response.points:
-            cid = point.payload.get('chunk_id') or str(point.id)
+            cid = point.payload.get('chunk_id') or point.payload.get('id') or str(point.id)
             chunk_data = self.chunks.get(cid, {})
             results.append({
                 'id': cid,
